@@ -1,4 +1,4 @@
-<svg height="2000" width="1200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="2500" width="1200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <style type="text/css"><![CDATA[
 	polyline { fill: none; stroke: black; stroke-width: 2 }
 	path { fill: none; stroke: black; stroke-width: 2 }
@@ -12,280 +12,280 @@
 	line.scale_major    {}
 	line.scale_minor    {}
 ]]></style>
-    <polyline points="700,210 700,223 1000,223" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed60" points="1000,223 1000,228 1000,219 1000,223 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text60" style="font-style: italic;" transform="rotate()" x="1006" y="227">Oreonastes</text>
-    <polyline points="700,210 700,196 1000,196" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed40" points="1000,196 1000,200 1000,192 1000,196 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text40" style="font-style: italic;" transform="rotate()" x="1006" y="200">Megaclinium</text>
-    <polyline points="700,264 700,278 1000,278" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed67" points="1000,278 1000,282 1000,273 1000,278 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text67" style="font-style: italic;" transform="rotate()" x="1006" y="282">Genyorchis</text>
-    <polyline points="700,264 700,250 1000,250" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed64" points="1000,250 1000,255 1000,246 1000,250 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text64" style="font-style: italic;" transform="rotate()" x="1006" y="254">Saltatoria</text>
-    <polyline points="650,237 650,264 700,264" style="stroke: black; stroke-width: 2" />
-    <polyline points="650,237 650,210 700,210" style="stroke: black; stroke-width: 2" />
-    <polyline points="600,203 600,237 650,237" style="stroke: black; stroke-width: 2" />
-    <polyline points="600,203 600,169 1000,169" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed31" points="1000,169 1000,173 1000,165 1000,169 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text31" style="font-style: italic;" transform="rotate()" x="1006" y="173">Bulbophyllaria</text>
-    <polyline points="550,254 550,305 1000,305" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed70" points="1000,305 1000,309 1000,300 1000,305 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text70" style="font-style: italic;" transform="rotate()" x="1006" y="309">Chaseella</text>
-    <polyline points="550,254 550,203 600,203" style="stroke: black; stroke-width: 2" />
-    <polyline points="550,345 550,359 1000,359" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed77" points="1000,359 1000,363 1000,355 1000,359 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text77" style="font-style: italic;" transform="rotate()" x="1006" y="363">Trichopus</text>
-    <polyline points="550,345 550,332 1000,332" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed72" points="1000,332 1000,336 1000,328 1000,332 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text72" style="font-style: italic;" transform="rotate()" x="1006" y="336">Bulbophyllum</text>
-    <polyline points="500,300 500,345 550,345" style="stroke: black; stroke-width: 2" />
-    <polyline points="500,300 500,254 550,254" style="stroke: black; stroke-width: 2" />
-    <polyline points="450,221 450,300 500,300" style="stroke: black; stroke-width: 2" />
-    <polyline points="450,221 450,142 1000,142" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed23" points="1000,142 1000,146 1000,138 1000,142 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text23" style="font-style: italic;" transform="rotate()" x="1006" y="146">Adelopetalum</text>
-    <polyline points="950,400 950,413 1000,413" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed98" points="1000,413 1000,418 1000,409 1000,413 " style="fill: silver; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text98" style="font-style: italic;" transform="rotate()" x="1006" y="417">Polymeres</text>
-    <polyline points="950,400 950,386 1000,386" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed91" points="1000,386 1000,390 1000,382 1000,386 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text91" style="font-style: italic;" transform="rotate()" x="1006" y="390">Brachyantha</text>
-    <polyline points="900,420 900,440 1000,440" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed101" points="1000,440 1000,445 1000,436 1000,440 " style="fill: silver; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text101" style="font-style: italic;" transform="rotate()" x="1006" y="444">Polymeres</text>
-    <polyline points="900,420 900,400 950,400" style="stroke: black; stroke-width: 2" />
-    <polyline points="850,444 850,468 1000,468" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed102" points="1000,468 1000,472 1000,463 1000,468 " style="fill: silver; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text102" style="font-style: italic;" transform="rotate()" x="1006" y="472">Polymeres</text>
-    <polyline points="850,444 850,420 900,420" style="stroke: black; stroke-width: 2" />
-    <polyline points="800,469 800,495 1000,495" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed105" points="1000,495 1000,499 1000,490 1000,495 " style="fill: silver; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text105" style="font-style: italic;" transform="rotate()" x="1006" y="499">Polymeres</text>
-    <polyline points="800,469 800,444 850,444" style="stroke: black; stroke-width: 2" />
-    <polyline points="850,563 850,576 1000,576" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed118" points="1000,576 1000,580 1000,572 1000,576 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text118" style="font-style: italic;" transform="rotate()" x="1006" y="580">Hyalosema</text>
-    <polyline points="850,563 850,549 1000,549" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed117" points="1000,549 1000,553 1000,545 1000,549 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text117" style="font-style: italic;" transform="rotate()" x="1006" y="553">Hoplandra</text>
-    <polyline points="800,542 800,563 850,563" style="stroke: black; stroke-width: 2" />
-    <polyline points="800,542 800,522 1000,522" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed109" points="1000,522 1000,526 1000,518 1000,522 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text109" style="font-style: italic;" transform="rotate()" x="1006" y="526">Epicrianthes</text>
-    <polyline points="750,506 750,542 800,542" style="stroke: black; stroke-width: 2" />
-    <polyline points="750,506 750,469 800,469" style="stroke: black; stroke-width: 2" />
-    <polyline points="900,617 900,630 1000,630" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed161" points="1000,630 1000,635 1000,626 1000,630 " style="fill: silver; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text161" style="font-style: italic;" transform="rotate()" x="1006" y="634">Polymeres</text>
-    <polyline points="900,617 900,603 1000,603" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed148" points="1000,603 1000,608 1000,599 1000,603 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text148" style="font-style: italic;" transform="rotate()" x="1006" y="607">Brachypus</text>
-    <polyline points="900,671 900,685 1000,685" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed166" points="1000,685 1000,689 1000,680 1000,685 " style="fill: silver; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text166" style="font-style: italic;" transform="rotate()" x="1006" y="689">Polymeres</text>
-    <polyline points="900,671 900,658 1000,658" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed165" points="1000,658 1000,662 1000,653 1000,658 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text165" style="font-style: italic;" transform="rotate()" x="1006" y="662">Elliptifolia</text>
-    <polyline points="850,644 850,671 900,671" style="stroke: black; stroke-width: 2" />
-    <polyline points="850,644 850,617 900,617" style="stroke: black; stroke-width: 2" />
-    <polyline points="900,753 900,766 1000,766" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed200" points="1000,766 1000,770 1000,762 1000,766 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text200" style="font-style: italic;" transform="rotate()" x="1006" y="770">Epibulbon</text>
-    <polyline points="900,753 900,739 1000,739" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed189" points="1000,739 1000,743 1000,735 1000,739 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text189" style="font-style: italic;" transform="rotate()" x="1006" y="743">Papulipetalum</text>
-    <polyline points="850,732 850,753 900,753" style="stroke: black; stroke-width: 2" />
-    <polyline points="850,732 850,712 1000,712" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed179" points="1000,712 1000,716 1000,708 1000,712 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text179" style="font-style: italic;" transform="rotate()" x="1006" y="716">Peltopus</text>
-    <polyline points="800,688 800,732 850,732" style="stroke: black; stroke-width: 2" />
-    <polyline points="800,688 800,644 850,644" style="stroke: black; stroke-width: 2" />
-    <polyline points="800,807 800,820 1000,820" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed251" points="1000,820 1000,825 1000,816 1000,820 " style="fill: silver; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text251" style="font-style: italic;" transform="rotate()" x="1006" y="824">Polymeres</text>
-    <polyline points="800,807 800,793 1000,793" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed218" points="1000,793 1000,798 1000,789 1000,793 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text218" style="font-style: italic;" transform="rotate()" x="1006" y="797">Codonosiphon</text>
-    <polyline points="750,747 750,807 800,807" style="stroke: black; stroke-width: 2" />
-    <polyline points="750,747 750,688 800,688" style="stroke: black; stroke-width: 2" />
-    <polyline points="700,627 700,747 750,747" style="stroke: black; stroke-width: 2" />
-    <polyline points="700,627 700,506 750,506" style="stroke: black; stroke-width: 2" />
-    <polyline points="800,861 800,875 1000,875" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed268" points="1000,875 1000,879 1000,870 1000,875 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text268" style="font-style: italic;" transform="rotate()" x="1006" y="879">Minutissima</text>
-    <polyline points="800,861 800,848 1000,848" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed261" points="1000,848 1000,852 1000,843 1000,848 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text261" style="font-style: italic;" transform="rotate()" x="1006" y="852">Monanthaparva</text>
-    <polyline points="750,881 750,902 1000,902" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed273" points="1000,902 1000,906 1000,898 1000,902 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text273" style="font-style: italic;" transform="rotate()" x="1006" y="906">Monanthes</text>
-    <polyline points="750,881 750,861 800,861" style="stroke: black; stroke-width: 2" />
-    <polyline points="700,905 700,929 1000,929" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed300" points="1000,929 1000,933 1000,925 1000,929 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text300" style="font-style: italic;" transform="rotate()" x="1006" y="933">Pelma</text>
-    <polyline points="700,905 700,881 750,881" style="stroke: black; stroke-width: 2" />
-    <polyline points="650,766 650,905 700,905" style="stroke: black; stroke-width: 2" />
-    <polyline points="650,766 650,627 700,627" style="stroke: black; stroke-width: 2" />
-    <polyline points="750,970 750,983 1000,983" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed316" points="1000,983 1000,988 1000,979 1000,983 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text316" style="font-style: italic;" transform="rotate()" x="1006" y="987">Macrouris</text>
-    <polyline points="750,970 750,956 1000,956" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed313" points="1000,956 1000,960 1000,952 1000,956 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text313" style="font-style: italic;" transform="rotate()" x="1006" y="960">Lepanthanthe</text>
-    <polyline points="700,990 700,1010 1000,1010" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed327" points="1000,1010 1000,1015 1000,1006 1000,1010 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text327" style="font-style: italic;" transform="rotate()" x="1006" y="1014">Macrouris</text>
-    <polyline points="700,990 700,970 750,970" style="stroke: black; stroke-width: 2" />
-    <polyline points="650,1014 650,1038 1000,1038" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed328" points="1000,1038 1000,1042 1000,1033 1000,1038 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text328" style="font-style: italic;" transform="rotate()" x="1006" y="1042">Imitatores</text>
-    <polyline points="650,1014 650,990 700,990" style="stroke: black; stroke-width: 2" />
-    <polyline points="600,890 600,1014 650,1014" style="stroke: black; stroke-width: 2" />
-    <polyline points="600,890 600,766 650,766" style="stroke: black; stroke-width: 2" />
-    <polyline points="550,977 550,1065 1000,1065" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed331" points="1000,1065 1000,1069 1000,1060 1000,1065 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text331" style="font-style: italic;" transform="rotate()" x="1006" y="1069">Saurocephalum</text>
-    <polyline points="550,977 550,890 600,890" style="stroke: black; stroke-width: 2" />
-    <polyline points="550,1105 550,1119 1000,1119" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed350" points="1000,1119 1000,1123 1000,1115 1000,1119 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text350" style="font-style: italic;" transform="rotate()" x="1006" y="1123">Pseudopelma</text>
-    <polyline points="550,1105 550,1092 1000,1092" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed343" points="1000,1092 1000,1096 1000,1088 1000,1092 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text343" style="font-style: italic;" transform="rotate()" x="1006" y="1096">Monanthaparva</text>
-    <polyline points="500,1041 500,1105 550,1105" style="stroke: black; stroke-width: 2" />
-    <polyline points="500,1041 500,977 550,977" style="stroke: black; stroke-width: 2" />
-    <polyline points="450,1094 450,1146 1000,1146" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed353" points="1000,1146 1000,1150 1000,1142 1000,1146 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text353" style="font-style: italic;" transform="rotate()" x="1006" y="1150">Uncifera</text>
-    <polyline points="450,1094 450,1041 500,1041" style="stroke: black; stroke-width: 2" />
-    <polyline points="400,657 400,1094 450,1094" style="stroke: black; stroke-width: 2" />
-    <polyline points="400,657 400,221 450,221" style="stroke: black; stroke-width: 2" />
-    <polyline points="850,1241 850,1255 1000,1255" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed389" points="1000,1255 1000,1259 1000,1250 1000,1255 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text389" style="font-style: italic;" transform="rotate()" x="1006" y="1259">Stenochilus</text>
-    <polyline points="850,1241 850,1228 1000,1228" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed388" points="1000,1228 1000,1232 1000,1223 1000,1228 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text388" style="font-style: italic;" transform="rotate()" x="1006" y="1232">Sestochilus</text>
-    <polyline points="800,1261 800,1282 1000,1282" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed390" points="1000,1282 1000,1286 1000,1278 1000,1282 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text390" style="font-style: italic;" transform="rotate()" x="1006" y="1286">Stenochilus</text>
-    <polyline points="800,1261 800,1241 850,1241" style="stroke: black; stroke-width: 2" />
-    <polyline points="750,1231 750,1261 800,1261" style="stroke: black; stroke-width: 2" />
-    <polyline points="750,1231 750,1200 1000,1200" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed385" points="1000,1200 1000,1205 1000,1196 1000,1200 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text385" style="font-style: italic;" transform="rotate()" x="1006" y="1204">Stenochilus</text>
-    <polyline points="700,1292 700,1336 1000,1336" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed395" points="1000,1336 1000,1340 1000,1332 1000,1336 " style="fill: red; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text395" style="" transform="rotate()" x="1006" y="1340">SestochilusStenochilus</text>
-    <polyline points="700,1292 700,1309 1000,1309" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed391" points="1000,1309 1000,1313 1000,1305 1000,1309 " style="fill: red; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text391" style="" transform="rotate()" x="1006" y="1313">SestochilusStenochilus</text>
-    <polyline points="700,1292 700,1231 750,1231" style="stroke: black; stroke-width: 2" />
-    <polyline points="650,1349 650,1390 1000,1390" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed397" points="1000,1390 1000,1395 1000,1386 1000,1390 " style="fill: red; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text397" style="" transform="rotate()" x="1006" y="1394">SestochilusStenochilus</text>
-    <polyline points="650,1349 650,1363 1000,1363" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed396" points="1000,1363 1000,1368 1000,1359 1000,1363 " style="fill: red; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text396" style="" transform="rotate()" x="1006" y="1367">SestochilusStenochilus</text>
-    <polyline points="650,1349 650,1292 700,1292" style="stroke: black; stroke-width: 2" />
-    <polyline points="650,1431 650,1445 1000,1445" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed400" points="1000,1445 1000,1449 1000,1440 1000,1445 " style="fill: red; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text400" style="" transform="rotate()" x="1006" y="1449">SestochilusStenochilus</text>
-    <polyline points="650,1431 650,1418 1000,1418" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed399" points="1000,1418 1000,1422 1000,1413 1000,1418 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text399" style="font-style: italic;" transform="rotate()" x="1006" y="1422">Sestochilus</text>
-    <polyline points="600,1390 600,1431 650,1431" style="stroke: black; stroke-width: 2" />
-    <polyline points="600,1390 600,1349 650,1349" style="stroke: black; stroke-width: 2" />
-    <polyline points="550,1431 550,1472 1000,1472" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed401" points="1000,1472 1000,1476 1000,1468 1000,1472 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text401" style="font-style: italic;" transform="rotate()" x="1006" y="1476">Sestochilus</text>
-    <polyline points="550,1431 550,1390 600,1390" style="stroke: black; stroke-width: 2" />
-    <polyline points="500,1302 500,1431 550,1431" style="stroke: black; stroke-width: 2" />
-    <polyline points="500,1302 500,1173 1000,1173" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed367" points="1000,1173 1000,1178 1000,1169 1000,1173 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text367" style="font-style: italic;" transform="rotate()" x="1006" y="1177">Drymoda</text>
-    <polyline points="600,1513 600,1526 1000,1526" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed440" points="1000,1526 1000,1530 1000,1522 1000,1526 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text440" style="font-style: italic;" transform="rotate()" x="1006" y="1530">Intervallatae</text>
-    <polyline points="600,1513 600,1499 1000,1499" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed429" points="1000,1499 1000,1503 1000,1495 1000,1499 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text429" style="font-style: italic;" transform="rotate()" x="1006" y="1503">Hymenobractea</text>
-    <polyline points="550,1533 550,1553 1000,1553" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed447" points="1000,1553 1000,1558 1000,1549 1000,1553 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text447" style="font-style: italic;" transform="rotate()" x="1006" y="1557">Lepidorhiza</text>
-    <polyline points="550,1533 550,1513 600,1513" style="stroke: black; stroke-width: 2" />
-    <polyline points="500,1557 500,1580 1000,1580" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed468" points="1000,1580 1000,1585 1000,1576 1000,1580 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text468" style="font-style: italic;" transform="rotate()" x="1006" y="1584">Leopardinae</text>
-    <polyline points="500,1557 500,1533 550,1533" style="stroke: black; stroke-width: 2" />
-    <polyline points="450,1429 450,1557 500,1557" style="stroke: black; stroke-width: 2" />
-    <polyline points="450,1429 450,1302 500,1302" style="stroke: black; stroke-width: 2" />
-    <polyline points="400,1518 400,1608 1000,1608" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed471" points="1000,1608 1000,1612 1000,1603 1000,1608 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text471" style="font-style: italic;" transform="rotate()" x="1006" y="1612">Brachystachyae</text>
-    <polyline points="400,1518 400,1429 450,1429" style="stroke: black; stroke-width: 2" />
-    <polyline points="350,1088 350,1518 400,1518" style="stroke: black; stroke-width: 2" />
-    <polyline points="350,1088 350,657 400,657" style="stroke: black; stroke-width: 2" />
-    <polyline points="600,1675 600,1689 1000,1689" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed506" points="1000,1689 1000,1693 1000,1685 1000,1689 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text506" style="font-style: italic;" transform="rotate()" x="1006" y="1693">Cirrhopetalum</text>
-    <polyline points="600,1675 600,1662 1000,1662" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed492" points="1000,1662 1000,1666 1000,1658 1000,1662 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text492" style="font-style: italic;" transform="rotate()" x="1006" y="1666">Recurvae</text>
-    <polyline points="550,1655 550,1675 600,1675" style="stroke: black; stroke-width: 2" />
-    <polyline points="550,1655 550,1635 1000,1635" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed479" points="1000,1635 1000,1639 1000,1630 1000,1635 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text479" style="font-style: italic;" transform="rotate()" x="1006" y="1639">Racemosae</text>
-    <polyline points="500,1686 500,1716 1000,1716" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed509" points="1000,1716 1000,1720 1000,1712 1000,1716 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text509" style="font-style: italic;" transform="rotate()" x="1006" y="1720">Sunipia</text>
-    <polyline points="500,1686 500,1655 550,1655" style="stroke: black; stroke-width: 2" />
-    <polyline points="500,1757 500,1770 1000,1770" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed554" points="1000,1770 1000,1775 1000,1766 1000,1770 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text554" style="font-style: italic;" transform="rotate()" x="1006" y="1774">Hirtula</text>
-    <polyline points="500,1757 500,1743 1000,1743" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed513" points="1000,1743 1000,1748 1000,1739 1000,1743 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text513" style="font-style: italic;" transform="rotate()" x="1006" y="1747">Stachysanthes</text>
-    <polyline points="450,1721 450,1757 500,1757" style="stroke: black; stroke-width: 2" />
-    <polyline points="450,1721 450,1686 500,1686" style="stroke: black; stroke-width: 2" />
-    <polyline points="500,1838 500,1852 1000,1852" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed581" points="1000,1852 1000,1856 1000,1848 1000,1852 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text581" style="font-style: italic;" transform="rotate()" x="1006" y="1856">Reptantia</text>
-    <polyline points="500,1838 500,1825 1000,1825" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed572" points="1000,1825 1000,1829 1000,1820 1000,1825 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text572" style="font-style: italic;" transform="rotate()" x="1006" y="1829">Lemniscatae</text>
-    <polyline points="450,1818 450,1838 500,1838" style="stroke: black; stroke-width: 2" />
-    <polyline points="450,1818 450,1798 1000,1798" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed568" points="1000,1798 1000,1802 1000,1793 1000,1798 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text568" style="font-style: italic;" transform="rotate()" x="1006" y="1802">Trias</text>
-    <polyline points="400,1770 400,1818 450,1818" style="stroke: black; stroke-width: 2" />
-    <polyline points="400,1770 400,1721 450,1721" style="stroke: black; stroke-width: 2" />
-    <polyline points="350,1824 350,1879 1000,1879" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed582" points="1000,1879 1000,1883 1000,1875 1000,1879 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text582" style="font-style: italic;" transform="rotate()" x="1006" y="1883">Drymoda</text>
-    <polyline points="350,1824 350,1770 400,1770" style="stroke: black; stroke-width: 2" />
-    <polyline points="300,1456 300,1824 350,1824" style="stroke: black; stroke-width: 2" />
-    <polyline points="300,1456 300,1088 350,1088" style="stroke: black; stroke-width: 2" />
-    <polyline points="250,1681 250,1906 1000,1906" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed585" points="1000,1906 1000,1910 1000,1902 1000,1906 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text585" style="font-style: italic;" transform="rotate()" x="1006" y="1910">Rhinanthera</text>
-    <polyline points="250,1681 250,1456 300,1456" style="stroke: black; stroke-width: 2" />
-    <polyline points="200,1807 200,1933 1000,1933" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed586" points="1000,1933 1000,1938 1000,1929 1000,1933 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text586" style="font-style: italic;" transform="rotate()" x="1006" y="1937">Macrocaulia</text>
-    <polyline points="200,1807 200,1681 250,1681" style="stroke: black; stroke-width: 2" />
-    <polyline points="150,961 150,1807 200,1807" style="stroke: black; stroke-width: 2" />
-    <polyline points="150,961 150,115 1000,115" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed10" points="1000,115 1000,119 1000,110 1000,115 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text10" style="" transform="rotate()" x="1006" y="119">OUTGROUP</text>
-    <polyline points="100,524 100,961 150,961" style="stroke: black; stroke-width: 2" />
-    <polyline points="100,524 100,88 1000,88" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed8" points="1000,88 1000,92 1000,83 1000,88 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text8" style="" transform="rotate()" x="1006" y="92">OUTGROUP</text>
-    <polyline points="50,292 50,524 100,524" style="stroke: black; stroke-width: 2" />
-    <polyline points="50,292 50,60 1000,60" style="stroke: black; stroke-width: 2" />
-    <polygon class="collapsed" id="collapsed6" points="1000,60 1000,65 1000,56 1000,60 " style="fill: white; stroke: black; stroke-width: 2" />
-    <text class="collapsed_text" id="collapsed_text6" style="" transform="rotate()" x="1006" y="64">OUTGROUP</text>
+    <polyline points="700,252 700,269 1000,269" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed60" points="950,269 1000,282 1000,255 950,269 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text60" style="font-style: italic;" transform="rotate()" x="1006" y="273">Oreonastes</text>
+    <polyline points="700,252 700,235 1000,235" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed40" points="950,235 1000,248 1000,221 950,235 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text40" style="font-style: italic;" transform="rotate()" x="1006" y="239">Megaclinium</text>
+    <polyline points="700,320 700,338 1000,338" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed67" points="950,338 1000,351 1000,324 950,338 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text67" style="font-style: italic;" transform="rotate()" x="1006" y="342">Genyorchis</text>
+    <polyline points="700,320 700,303 1000,303" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed64" points="950,303 1000,317 1000,290 950,303 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text64" style="font-style: italic;" transform="rotate()" x="1006" y="307">Saltatoria</text>
+    <polyline points="650,286 650,320 700,320" style="stroke: black; stroke-width: 2" />
+    <polyline points="650,286 650,252 700,252" style="stroke: black; stroke-width: 2" />
+    <polyline points="600,243 600,286 650,286" style="stroke: black; stroke-width: 2" />
+    <polyline points="600,243 600,200 1000,200" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed31" points="950,200 1000,214 1000,187 950,200 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text31" style="font-style: italic;" transform="rotate()" x="1006" y="204">Bulbophyllaria</text>
+    <polyline points="550,308 550,372 1000,372" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed70" points="950,372 1000,385 1000,358 950,372 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text70" style="font-style: italic;" transform="rotate()" x="1006" y="376">Chaseella</text>
+    <polyline points="550,308 550,243 600,243" style="stroke: black; stroke-width: 2" />
+    <polyline points="550,423 550,440 1000,440" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed77" points="950,440 1000,454 1000,427 950,440 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text77" style="font-style: italic;" transform="rotate()" x="1006" y="444">Trichopus</text>
+    <polyline points="550,423 550,406 1000,406" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed72" points="950,406 1000,420 1000,393 950,406 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text72" style="font-style: italic;" transform="rotate()" x="1006" y="410">Bulbophyllum</text>
+    <polyline points="500,365 500,423 550,423" style="stroke: black; stroke-width: 2" />
+    <polyline points="500,365 500,308 550,308" style="stroke: black; stroke-width: 2" />
+    <polyline points="450,266 450,365 500,365" style="stroke: black; stroke-width: 2" />
+    <polyline points="450,266 450,166 1000,166" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed23" points="950,166 1000,180 1000,153 950,166 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text23" style="font-style: italic;" transform="rotate()" x="1006" y="170">Adelopetalum</text>
+    <polyline points="950,492 950,509 1000,509" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed98" points="950,509 1000,522 1000,495 950,509 " style="fill: silver; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text98" style="font-style: italic;" transform="rotate()" x="1006" y="513">Polymeres</text>
+    <polyline points="950,492 950,475 1000,475" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed91" points="950,475 1000,488 1000,461 950,475 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text91" style="font-style: italic;" transform="rotate()" x="1006" y="479">Brachyantha</text>
+    <polyline points="900,518 900,543 1000,543" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed101" points="950,543 1000,557 1000,530 950,543 " style="fill: silver; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text101" style="font-style: italic;" transform="rotate()" x="1006" y="547">Polymeres</text>
+    <polyline points="900,518 900,492 950,492" style="stroke: black; stroke-width: 2" />
+    <polyline points="850,548 850,578 1000,578" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed102" points="950,578 1000,591 1000,564 950,578 " style="fill: silver; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text102" style="font-style: italic;" transform="rotate()" x="1006" y="582">Polymeres</text>
+    <polyline points="850,548 850,518 900,518" style="stroke: black; stroke-width: 2" />
+    <polyline points="800,580 800,612 1000,612" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed105" points="950,612 1000,625 1000,598 950,612 " style="fill: silver; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text105" style="font-style: italic;" transform="rotate()" x="1006" y="616">Polymeres</text>
+    <polyline points="800,580 800,548 850,548" style="stroke: black; stroke-width: 2" />
+    <polyline points="850,698 850,715 1000,715" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed118" points="950,715 1000,728 1000,701 950,715 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text118" style="font-style: italic;" transform="rotate()" x="1006" y="719">Hyalosema</text>
+    <polyline points="850,698 850,680 1000,680" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed117" points="950,680 1000,694 1000,667 950,680 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text117" style="font-style: italic;" transform="rotate()" x="1006" y="684">Hoplandra</text>
+    <polyline points="800,672 800,698 850,698" style="stroke: black; stroke-width: 2" />
+    <polyline points="800,672 800,646 1000,646" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed109" points="950,646 1000,660 1000,633 950,646 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text109" style="font-style: italic;" transform="rotate()" x="1006" y="650">Epicrianthes</text>
+    <polyline points="750,626 750,672 800,672" style="stroke: black; stroke-width: 2" />
+    <polyline points="750,626 750,580 800,580" style="stroke: black; stroke-width: 2" />
+    <polyline points="900,766 900,783 1000,783" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed161" points="950,783 1000,797 1000,770 950,783 " style="fill: silver; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text161" style="font-style: italic;" transform="rotate()" x="1006" y="787">Polymeres</text>
+    <polyline points="900,766 900,749 1000,749" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed148" points="950,749 1000,762 1000,735 950,749 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text148" style="font-style: italic;" transform="rotate()" x="1006" y="753">Brachypus</text>
+    <polyline points="900,835 900,852 1000,852" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed166" points="950,852 1000,865 1000,838 950,852 " style="fill: silver; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text166" style="font-style: italic;" transform="rotate()" x="1006" y="856">Polymeres</text>
+    <polyline points="900,835 900,818 1000,818" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed165" points="950,818 1000,831 1000,804 950,818 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text165" style="font-style: italic;" transform="rotate()" x="1006" y="822">Elliptifolia</text>
+    <polyline points="850,800 850,835 900,835" style="stroke: black; stroke-width: 2" />
+    <polyline points="850,800 850,766 900,766" style="stroke: black; stroke-width: 2" />
+    <polyline points="900,938 900,955 1000,955" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed200" points="950,955 1000,968 1000,941 950,955 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text200" style="font-style: italic;" transform="rotate()" x="1006" y="959">Epibulbon</text>
+    <polyline points="900,938 900,920 1000,920" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed189" points="950,920 1000,934 1000,907 950,920 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text189" style="font-style: italic;" transform="rotate()" x="1006" y="924">Papulipetalum</text>
+    <polyline points="850,912 850,938 900,938" style="stroke: black; stroke-width: 2" />
+    <polyline points="850,912 850,886 1000,886" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed179" points="950,886 1000,900 1000,873 950,886 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text179" style="font-style: italic;" transform="rotate()" x="1006" y="890">Peltopus</text>
+    <polyline points="800,856 800,912 850,912" style="stroke: black; stroke-width: 2" />
+    <polyline points="800,856 800,800 850,800" style="stroke: black; stroke-width: 2" />
+    <polyline points="800,1006 800,1023 1000,1023" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed251" points="950,1023 1000,1037 1000,1010 950,1023 " style="fill: silver; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text251" style="font-style: italic;" transform="rotate()" x="1006" y="1027">Polymeres</text>
+    <polyline points="800,1006 800,989 1000,989" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed218" points="950,989 1000,1002 1000,975 950,989 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text218" style="font-style: italic;" transform="rotate()" x="1006" y="993">Codonosiphon</text>
+    <polyline points="750,931 750,1006 800,1006" style="stroke: black; stroke-width: 2" />
+    <polyline points="750,931 750,856 800,856" style="stroke: black; stroke-width: 2" />
+    <polyline points="700,778 700,931 750,931" style="stroke: black; stroke-width: 2" />
+    <polyline points="700,778 700,626 750,626" style="stroke: black; stroke-width: 2" />
+    <polyline points="800,1075 800,1092 1000,1092" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed268" points="950,1092 1000,1105 1000,1078 950,1092 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text268" style="font-style: italic;" transform="rotate()" x="1006" y="1096">Minutissima</text>
+    <polyline points="800,1075 800,1058 1000,1058" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed261" points="950,1058 1000,1071 1000,1044 950,1058 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text261" style="font-style: italic;" transform="rotate()" x="1006" y="1062">Monanthaparva</text>
+    <polyline points="750,1100 750,1126 1000,1126" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed273" points="950,1126 1000,1140 1000,1113 950,1126 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text273" style="font-style: italic;" transform="rotate()" x="1006" y="1130">Monanthes</text>
+    <polyline points="750,1100 750,1075 800,1075" style="stroke: black; stroke-width: 2" />
+    <polyline points="700,1130 700,1160 1000,1160" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed300" points="950,1160 1000,1174 1000,1147 950,1160 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text300" style="font-style: italic;" transform="rotate()" x="1006" y="1164">Pelma</text>
+    <polyline points="700,1130 700,1100 750,1100" style="stroke: black; stroke-width: 2" />
+    <polyline points="650,954 650,1130 700,1130" style="stroke: black; stroke-width: 2" />
+    <polyline points="650,954 650,778 700,778" style="stroke: black; stroke-width: 2" />
+    <polyline points="750,1212 750,1229 1000,1229" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed316" points="950,1229 1000,1242 1000,1215 950,1229 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text316" style="font-style: italic;" transform="rotate()" x="1006" y="1233">Macrouris</text>
+    <polyline points="750,1212 750,1195 1000,1195" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed313" points="950,1195 1000,1208 1000,1181 950,1195 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text313" style="font-style: italic;" transform="rotate()" x="1006" y="1199">Lepanthanthe</text>
+    <polyline points="700,1238 700,1263 1000,1263" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed327" points="950,1263 1000,1277 1000,1250 950,1263 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text327" style="font-style: italic;" transform="rotate()" x="1006" y="1267">Macrouris</text>
+    <polyline points="700,1238 700,1212 750,1212" style="stroke: black; stroke-width: 2" />
+    <polyline points="650,1268 650,1298 1000,1298" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed328" points="950,1298 1000,1311 1000,1284 950,1298 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text328" style="font-style: italic;" transform="rotate()" x="1006" y="1302">Imitatores</text>
+    <polyline points="650,1268 650,1238 700,1238" style="stroke: black; stroke-width: 2" />
+    <polyline points="600,1111 600,1268 650,1268" style="stroke: black; stroke-width: 2" />
+    <polyline points="600,1111 600,954 650,954" style="stroke: black; stroke-width: 2" />
+    <polyline points="550,1221 550,1332 1000,1332" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed331" points="950,1332 1000,1345 1000,1318 950,1332 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text331" style="font-style: italic;" transform="rotate()" x="1006" y="1336">Saurocephalum</text>
+    <polyline points="550,1221 550,1111 600,1111" style="stroke: black; stroke-width: 2" />
+    <polyline points="550,1383 550,1400 1000,1400" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed350" points="950,1400 1000,1414 1000,1387 950,1400 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text350" style="font-style: italic;" transform="rotate()" x="1006" y="1404">Pseudopelma</text>
+    <polyline points="550,1383 550,1366 1000,1366" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed343" points="950,1366 1000,1380 1000,1353 950,1366 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text343" style="font-style: italic;" transform="rotate()" x="1006" y="1370">Monanthaparva</text>
+    <polyline points="500,1302 500,1383 550,1383" style="stroke: black; stroke-width: 2" />
+    <polyline points="500,1302 500,1221 550,1221" style="stroke: black; stroke-width: 2" />
+    <polyline points="450,1368 450,1435 1000,1435" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed353" points="950,1435 1000,1448 1000,1421 950,1435 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text353" style="font-style: italic;" transform="rotate()" x="1006" y="1439">Uncifera</text>
+    <polyline points="450,1368 450,1302 500,1302" style="stroke: black; stroke-width: 2" />
+    <polyline points="400,817 400,1368 450,1368" style="stroke: black; stroke-width: 2" />
+    <polyline points="400,817 400,266 450,266" style="stroke: black; stroke-width: 2" />
+    <polyline points="850,1555 850,1572 1000,1572" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed389" points="950,1572 1000,1585 1000,1558 950,1572 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text389" style="font-style: italic;" transform="rotate()" x="1006" y="1576">Stenochilus</text>
+    <polyline points="850,1555 850,1538 1000,1538" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed388" points="950,1538 1000,1551 1000,1524 950,1538 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text388" style="font-style: italic;" transform="rotate()" x="1006" y="1542">Sestochilus</text>
+    <polyline points="800,1580 800,1606 1000,1606" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed390" points="950,1606 1000,1620 1000,1593 950,1606 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text390" style="font-style: italic;" transform="rotate()" x="1006" y="1610">Stenochilus</text>
+    <polyline points="800,1580 800,1555 850,1555" style="stroke: black; stroke-width: 2" />
+    <polyline points="750,1542 750,1580 800,1580" style="stroke: black; stroke-width: 2" />
+    <polyline points="750,1542 750,1503 1000,1503" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed385" points="950,1503 1000,1517 1000,1490 950,1503 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text385" style="font-style: italic;" transform="rotate()" x="1006" y="1507">Stenochilus</text>
+    <polyline points="700,1619 700,1675 1000,1675" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed395" points="950,1675 1000,1688 1000,1661 950,1675 " style="fill: red; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text395" style="" transform="rotate()" x="1006" y="1679">SestochilusStenochilus</text>
+    <polyline points="700,1619 700,1640 1000,1640" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed391" points="950,1640 1000,1654 1000,1627 950,1640 " style="fill: red; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text391" style="" transform="rotate()" x="1006" y="1644">SestochilusStenochilus</text>
+    <polyline points="700,1619 700,1542 750,1542" style="stroke: black; stroke-width: 2" />
+    <polyline points="650,1690 650,1743 1000,1743" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed397" points="950,1743 1000,1757 1000,1730 950,1743 " style="fill: red; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text397" style="" transform="rotate()" x="1006" y="1747">SestochilusStenochilus</text>
+    <polyline points="650,1690 650,1709 1000,1709" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed396" points="950,1709 1000,1722 1000,1695 950,1709 " style="fill: red; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text396" style="" transform="rotate()" x="1006" y="1713">SestochilusStenochilus</text>
+    <polyline points="650,1690 650,1619 700,1619" style="stroke: black; stroke-width: 2" />
+    <polyline points="650,1795 650,1812 1000,1812" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed400" points="950,1812 1000,1825 1000,1798 950,1812 " style="fill: red; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text400" style="" transform="rotate()" x="1006" y="1816">SestochilusStenochilus</text>
+    <polyline points="650,1795 650,1778 1000,1778" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed399" points="950,1778 1000,1791 1000,1764 950,1778 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text399" style="font-style: italic;" transform="rotate()" x="1006" y="1782">Sestochilus</text>
+    <polyline points="600,1742 600,1795 650,1795" style="stroke: black; stroke-width: 2" />
+    <polyline points="600,1742 600,1690 650,1690" style="stroke: black; stroke-width: 2" />
+    <polyline points="550,1794 550,1846 1000,1846" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed401" points="950,1846 1000,1860 1000,1833 950,1846 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text401" style="font-style: italic;" transform="rotate()" x="1006" y="1850">Sestochilus</text>
+    <polyline points="550,1794 550,1742 600,1742" style="stroke: black; stroke-width: 2" />
+    <polyline points="500,1632 500,1794 550,1794" style="stroke: black; stroke-width: 2" />
+    <polyline points="500,1632 500,1469 1000,1469" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed367" points="950,1469 1000,1482 1000,1455 950,1469 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text367" style="font-style: italic;" transform="rotate()" x="1006" y="1473">Drymoda</text>
+    <polyline points="600,1898 600,1915 1000,1915" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed440" points="950,1915 1000,1928 1000,1901 950,1915 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text440" style="font-style: italic;" transform="rotate()" x="1006" y="1919">Intervallatae</text>
+    <polyline points="600,1898 600,1880 1000,1880" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed429" points="950,1880 1000,1894 1000,1867 950,1880 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text429" style="font-style: italic;" transform="rotate()" x="1006" y="1884">Hymenobractea</text>
+    <polyline points="550,1923 550,1949 1000,1949" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed447" points="950,1949 1000,1962 1000,1935 950,1949 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text447" style="font-style: italic;" transform="rotate()" x="1006" y="1953">Lepidorhiza</text>
+    <polyline points="550,1923 550,1898 600,1898" style="stroke: black; stroke-width: 2" />
+    <polyline points="500,1953 500,1983 1000,1983" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed468" points="950,1983 1000,1997 1000,1970 950,1983 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text468" style="font-style: italic;" transform="rotate()" x="1006" y="1987">Leopardinae</text>
+    <polyline points="500,1953 500,1923 550,1923" style="stroke: black; stroke-width: 2" />
+    <polyline points="450,1792 450,1953 500,1953" style="stroke: black; stroke-width: 2" />
+    <polyline points="450,1792 450,1632 500,1632" style="stroke: black; stroke-width: 2" />
+    <polyline points="400,1905 400,2018 1000,2018" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed471" points="950,2018 1000,2031 1000,2004 950,2018 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text471" style="font-style: italic;" transform="rotate()" x="1006" y="2022">Brachystachyae</text>
+    <polyline points="400,1905 400,1792 450,1792" style="stroke: black; stroke-width: 2" />
+    <polyline points="350,1361 350,1905 400,1905" style="stroke: black; stroke-width: 2" />
+    <polyline points="350,1361 350,817 400,817" style="stroke: black; stroke-width: 2" />
+    <polyline points="600,2103 600,2120 1000,2120" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed506" points="950,2120 1000,2134 1000,2107 950,2120 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text506" style="font-style: italic;" transform="rotate()" x="1006" y="2124">Cirrhopetalum</text>
+    <polyline points="600,2103 600,2086 1000,2086" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed492" points="950,2086 1000,2100 1000,2073 950,2086 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text492" style="font-style: italic;" transform="rotate()" x="1006" y="2090">Recurvae</text>
+    <polyline points="550,2078 550,2103 600,2103" style="stroke: black; stroke-width: 2" />
+    <polyline points="550,2078 550,2052 1000,2052" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed479" points="950,2052 1000,2065 1000,2038 950,2052 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text479" style="font-style: italic;" transform="rotate()" x="1006" y="2056">Racemosae</text>
+    <polyline points="500,2116 500,2155 1000,2155" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed509" points="950,2155 1000,2168 1000,2141 950,2155 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text509" style="font-style: italic;" transform="rotate()" x="1006" y="2159">Sunipia</text>
+    <polyline points="500,2116 500,2078 550,2078" style="stroke: black; stroke-width: 2" />
+    <polyline points="500,2206 500,2223 1000,2223" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed554" points="950,2223 1000,2237 1000,2210 950,2223 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text554" style="font-style: italic;" transform="rotate()" x="1006" y="2227">Hirtula</text>
+    <polyline points="500,2206 500,2189 1000,2189" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed513" points="950,2189 1000,2202 1000,2175 950,2189 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text513" style="font-style: italic;" transform="rotate()" x="1006" y="2193">Stachysanthes</text>
+    <polyline points="450,2161 450,2206 500,2206" style="stroke: black; stroke-width: 2" />
+    <polyline points="450,2161 450,2116 500,2116" style="stroke: black; stroke-width: 2" />
+    <polyline points="500,2309 500,2326 1000,2326" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed581" points="950,2326 1000,2340 1000,2313 950,2326 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text581" style="font-style: italic;" transform="rotate()" x="1006" y="2330">Reptantia</text>
+    <polyline points="500,2309 500,2292 1000,2292" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed572" points="950,2292 1000,2305 1000,2278 950,2292 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text572" style="font-style: italic;" transform="rotate()" x="1006" y="2296">Lemniscatae</text>
+    <polyline points="450,2283 450,2309 500,2309" style="stroke: black; stroke-width: 2" />
+    <polyline points="450,2283 450,2258 1000,2258" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed568" points="950,2258 1000,2271 1000,2244 950,2258 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text568" style="font-style: italic;" transform="rotate()" x="1006" y="2262">Trias</text>
+    <polyline points="400,2222 400,2283 450,2283" style="stroke: black; stroke-width: 2" />
+    <polyline points="400,2222 400,2161 450,2161" style="stroke: black; stroke-width: 2" />
+    <polyline points="350,2291 350,2360 1000,2360" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed582" points="950,2360 1000,2374 1000,2347 950,2360 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text582" style="font-style: italic;" transform="rotate()" x="1006" y="2364">Drymoda</text>
+    <polyline points="350,2291 350,2222 400,2222" style="stroke: black; stroke-width: 2" />
+    <polyline points="300,1826 300,2291 350,2291" style="stroke: black; stroke-width: 2" />
+    <polyline points="300,1826 300,1361 350,1361" style="stroke: black; stroke-width: 2" />
+    <polyline points="250,2110 250,2395 1000,2395" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed585" points="950,2395 1000,2408 1000,2381 950,2395 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text585" style="font-style: italic;" transform="rotate()" x="1006" y="2399">Rhinanthera</text>
+    <polyline points="250,2110 250,1826 300,1826" style="stroke: black; stroke-width: 2" />
+    <polyline points="200,2270 200,2429 1000,2429" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed586" points="950,2429 1000,2442 1000,2415 950,2429 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text586" style="font-style: italic;" transform="rotate()" x="1006" y="2433">Macrocaulia</text>
+    <polyline points="200,2270 200,2110 250,2110" style="stroke: black; stroke-width: 2" />
+    <polyline points="150,1201 150,2270 200,2270" style="stroke: black; stroke-width: 2" />
+    <polyline points="150,1201 150,132 1000,132" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed10" points="950,132 1000,145 1000,118 950,132 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text10" style="" transform="rotate()" x="1006" y="136">OUTGROUP</text>
+    <polyline points="100,649 100,1201 150,1201" style="stroke: black; stroke-width: 2" />
+    <polyline points="100,649 100,98 1000,98" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed8" points="950,98 1000,111 1000,84 950,98 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text8" style="" transform="rotate()" x="1006" y="102">OUTGROUP</text>
+    <polyline points="50,356 50,649 100,649" style="stroke: black; stroke-width: 2" />
+    <polyline points="50,356 50,63 1000,63" style="stroke: black; stroke-width: 2" />
+    <polygon class="collapsed" id="collapsed6" points="950,63 1000,77 1000,50 950,63 " style="fill: white; stroke: black; stroke-width: 2" />
+    <text class="collapsed_text" id="collapsed_text6" style="" transform="rotate()" x="1006" y="67">OUTGROUP</text>
 </svg>
