@@ -77,7 +77,7 @@ $tree->visit_depth_first(
 		if ( scalar(@names) == 1 ) {
 			$node->set_collapsed(1);
 			$node->set_name($names[0]);
-			$node->set_collapsed_clade_width(25);
+			$node->set_collapsed_clade_width(23);
 			for my $taxon ( @taxon ) {
 				if ( $taxon =~ /^(\S+):(\S+)$/ ) {
 					my ( $focal, $color ) = ( $1, $2 );
