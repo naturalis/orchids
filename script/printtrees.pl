@@ -5,7 +5,6 @@ use Getopt::Long;
 use Bio::Phylo::Factory;
 use Bio::Phylo::Treedrawer;
 use Bio::Phylo::IO 'parse_tree';
-use Bio::Phylo::Util::CONSTANT ':objecttypes';
 
 # process command line arguments
 my ( $infile, $format, @taxon );
