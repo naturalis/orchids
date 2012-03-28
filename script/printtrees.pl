@@ -40,22 +40,27 @@ $tree->visit(sub {
 # collapse on monophyletic sections
 $tree->visit_depth_first(
 	'-post' => sub {
-		my $node = shift;		
+		my $node = shift;
+		my @sections;
 		
-		# build a growing hash of section names
+		# build a growing list of section names
 		if ( $node->is_terminal ) {
-			$node->set_generic( 'sections' => { $node->get_name => 1 } );
+			push @sections, $node->get_name;			
 		}
 		else {
-			my %sections = map { %{ $_->get_generic('sections') } } @{ $node->get_children };
-			$node->set_generic( 'sections' => \%sections );
+			for my $c ( @{ $node->get_children } ) {
+				push @sections, @{ $c->get_generic('sections') };
+			}
 		}
-
+		$node->set_generic( 'sections' => \@sections );
+		
+		# also see: http://www.perlmonks.org/?node_id=280658
+		my @names = keys %{ { map { $_ => 1 } @sections } };
+		
 		# if all the names are identical, (i.e. the clade is monophyletic) the
-		# list of keys will have length one, and consequently the focal node
+		# list of @names will have length one, and consequently the focal node
 		# must be collapsed. the way it is implemented, nested monophyletic
-		# clades are collapsed recursively, i.e. not so efficient
-		my @names = keys %{ $node->get_generic('sections') };
+		# clades are collapsed recursively, i.e. not so efficient		
 		if ( scalar(@names) == 1 ) {
 			
 			# this collapses the node and specifies how wide the triangle's
