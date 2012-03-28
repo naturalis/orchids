@@ -1,44 +1,34 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-use Bio::Phylo::IO 'parse';
-use Bio::Phylo::Treedrawer;
-use Bio::Phylo::Util::CONSTANT ':objecttypes';
 use Getopt::Long;
 use Bio::Phylo::Factory;
+use Bio::Phylo::Treedrawer;
+use Bio::Phylo::IO 'parse_tree';
+use Bio::Phylo::Util::CONSTANT ':objecttypes';
 
-my $factory = Bio::Phylo::Factory->new(
-	'node' => 'Bio::Phylo::Forest::DrawNode',
-	'tree' => 'Bio::Phylo::Forest::DrawTree',
-);
-
-my ( $infile, $format, $outfile, @taxon, $sections, %section );
+# process command line arguments
+my ( $infile, $format, @taxon );
 GetOptions(
-	'infile=s'   => \$infile,
-	'format=s'   => \$format,
-	'outfile=s'  => \$outfile,
-	'taxon=s'    => \@taxon,
-	'sections=s' => \$sections,
+	'infile=s' => \$infile,
+	'format=s' => \$format,
+	'taxon=s'  => \@taxon,
 );
 
-my $project = parse(
-	'-file'       => $infile,
-	'-format'     => $format,
-	'-as_project' => 1,
-	'-factory'    => $factory,
+# build hash of command line section:color arguments
+my %colour_for_section = map { split /:/ } @taxon;
+
+# parse tree file, create DrawTree with DrawNodes
+my $tree = parse_tree(
+	'-file'    => $infile,
+	'-format'  => $format,
+	'-factory' => Bio::Phylo::Factory->new(
+		'node' => 'Bio::Phylo::Forest::DrawNode',
+		'tree' => 'Bio::Phylo::Forest::DrawTree',
+	),
 );
 
-{
-	open my $fh, '<', $sections or die $!;
-	while(<$fh>) {
-		chomp;
-		s/\s//g;
-		$section{$_}++;	
-	}
-}
-
-my ($tree) = @{ $project->get_items(_TREE_) };
-
+# change names to just section part, i.e. last "word"
 $tree->visit(sub {
 	my $node = shift;
 	if ( my $name = $node->get_name ) {
@@ -48,66 +38,55 @@ $tree->visit(sub {
 	}
 });
 
+# collapse on monophyletic sections
 $tree->visit_depth_first(
-	'-pre' => sub {
-		my $node = shift;
-
-		# first check to see if we haven't 
-		# already collapsed an ancestor
-		my $anc = $node->get_ancestors;
-		for my $a ( @{ $anc } ) {
-			return if $a->get_collapsed;
+	'-post' => sub {
+		my $node = shift;		
+		
+		# build a growing hash of section names
+		if ( $node->is_terminal ) {
+			$node->set_generic( 'sections' => { $node->get_name => 1 } );
+		}
+		else {
+			my %sections = map { %{ $_->get_generic('sections') } } @{ $node->get_children };
+			$node->set_generic( 'sections' => \%sections );
 		}
 
-		# if not, get all the tips subtended
-		# by this focal node
-		my $tips = $node->get_terminals;
-
-		# build a hash keyed on the tip names
-		my %seen;
-		for my $tip ( @{ $tips } ) {
-			$seen{$tip->get_name}++;
-		}
-
-		# if all the names are identical, the
-		# list of keys should have length one,
-		# and consequently the focal node must
-		# be collapsed
-		my @names = keys %seen;
+		# if all the names are identical, (i.e. the clade is monophyletic) the
+		# list of keys will have length one, and consequently the focal node
+		# must be collapsed. the way it is implemented, nested monophyletic
+		# clades are collapsed recursively, i.e. not so efficient
+		my @names = keys %{ $node->get_generic('sections') };
 		if ( scalar(@names) == 1 ) {
-			$node->set_collapsed(1);
-			$node->set_name($names[0]);
+			
+			# this collapses the node and specifies how wide the triangle's
+			# base needs to be
+			$node->set_collapsed(1);			
 			$node->set_collapsed_clade_width(23);
-			for my $taxon ( @taxon ) {
-				if ( $taxon =~ /^(\S+):(\S+)$/ ) {
-					my ( $focal, $color ) = ( $1, $2 );
-					if ( $node->get_name eq $focal ) {
-						$node->set_node_colour($color);
-						#$node->set_branch_colour($color);
-					}
-				}
+			
+			# name the collapsed clade after the section
+			$node->set_name($names[0]);
+		}
+		
+		# set command-line specified node colour
+		if ( my $name = $node->get_name ) {
+			if ( my $colour = $colour_for_section{$name} ) {
+				$node->set_node_colour($colour);
 			}
 		}
+		
+		# some text markup
+		$node->set_font_style('italic');
+		$node->set_font_face('Verdana');		
 	},
 );
 
-my $treedrawer = Bio::Phylo::Treedrawer->new(
+# default is SVG
+print Bio::Phylo::Treedrawer->new(
 	'-width'  => 1200,
 	'-height' => 2500,
 	'-shape'  => 'rect',
 	'-mode'   => 'clado',
-);
-$treedrawer->set_tree($tree);
-my $svg = $treedrawer->draw;
-open my $fh, '<', \$svg or die $!;
-open my $outfh, '>', $outfile or die $!;
-while(<$fh>) {
-	if ( m|<text [^>]+>([^<]+)</text>| ) {
-		my $taxon = $1;
-		if ( $section{$taxon} ) {
-			s/<text([^>]+) style="/<text$1 style="font-style: italic;/;
-		}
-	}
-	s/stroke-width: 1/stroke-width: 2/;
-	print $outfh $_;
-}
+	'-tree'   => $tree,
+	'-text_horiz_offset' => 15,
+)->draw;
