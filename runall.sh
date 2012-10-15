@@ -1,6 +1,6 @@
 #!/bin/bash
-DATA=data
-RESULTS=results
+DATA=data/viz
+RESULTS=results/viz
 SCRIPT=script
 PERL=perl
 INFILE=$DATA/Bulbophyllinae.tre
