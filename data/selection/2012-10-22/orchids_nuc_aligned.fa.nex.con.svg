@@ -1,0 +1,1053 @@
+<svg height="2000" width="2000" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css"><![CDATA[
+	polyline { fill: none; stroke: black; stroke-width: 3 }
+	path { fill: none; stroke: black; stroke-width: 3 }
+	line { fill: none; stroke: black; stroke-width: 3 }
+	circle.node_circle  {}
+	circle.taxon_circle {}
+	text.node_text      {}
+	text.taxon_text     {}
+	line.scale_bar      {}
+	text.scale_label    {}
+	line.scale_major    {}
+	line.scale_minor    {}
+	text {
+		font-family: verdana
+	}
+]]></style>
+    <polyline points="647,69 647,88 652,88" style="stroke: rgb(5,250,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 652.183595203361 88)" x="672" y="92">AP33 Cymbidium goeringii </text>
+    <circle cx="652" cy="88" r="10" style="fill: white; stroke: rgb(5,250,0); stroke-width: 3" />
+    <polyline points="647,69 647,50 650,50" style="stroke: rgb(8,247,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 650.005293563119 50)" x="670" y="54">AP33 Cymbidium faberi </text>
+    <circle cx="650" cy="50" r="10" style="fill: white; stroke: rgb(8,247,0); stroke-width: 3" />
+    <polyline points="668,145 668,164 688,164" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 688.356189114636 164)" x="708" y="168">AP33 Oncidium Gower Ramsey </text>
+    <circle cx="688" cy="164" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="668,145 668,126 749,126" style="stroke: rgb(2,253,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 749.161041815064 126)" x="769" y="130">AP33 Erycina pusilla </text>
+    <circle cx="749" cy="126" r="10" style="fill: white; stroke: rgb(2,253,0); stroke-width: 3" />
+    <polyline points="630,173 630,202 657,202" style="stroke: rgb(9,246,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 657.484123473277 202)" x="677" y="206">AP33 Gongora galeata </text>
+    <circle cx="657" cy="202" r="10" style="fill: white; stroke: rgb(9,246,0); stroke-width: 3" />
+    <polyline points="630,173 630,145 668,145" style="stroke: rgb(8,247,0); stroke-width: 3" />
+    <circle cx="668" cy="145" r="10" style="fill: white; stroke: rgb(8,247,0); stroke-width: 3" />
+    <polyline points="615,121 615,173 630,173" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <circle cx="630" cy="173" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="615,121 615,69 647,69" style="stroke: rgb(3,252,0); stroke-width: 3" />
+    <circle cx="647" cy="69" r="10" style="fill: white; stroke: rgb(3,252,0); stroke-width: 3" />
+    <polyline points="582,180 582,240 669,240" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 669.71182331447 240)" x="689" y="244">AP33 Phalaenopsis equestris </text>
+    <circle cx="669" cy="240" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="582,180 582,121 615,121" style="stroke: rgb(1,254,0); stroke-width: 3" />
+    <circle cx="615" cy="121" r="10" style="fill: white; stroke: rgb(1,254,0); stroke-width: 3" />
+    <polyline points="603,297 603,316 620,316" style="stroke: rgb(7,248,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 620.490638791797 316)" x="640" y="320">AP33 Dendrobium hybrid </text>
+    <circle cx="620" cy="316" r="10" style="fill: white; stroke: rgb(7,248,0); stroke-width: 3" />
+    <polyline points="603,297 603,278 618,278" style="stroke: rgb(1,254,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 618.200895845362 278)" x="638" y="282">AP33 Dendrobium crumenatum </text>
+    <circle cx="618" cy="278" r="10" style="fill: white; stroke: rgb(1,254,0); stroke-width: 3" />
+    <polyline points="587,325 587,354 621,354" style="stroke: rgb(1,254,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 621.610995638484 354)" x="641" y="358">AP33 Dendrobium monoliforme </text>
+    <circle cx="621" cy="354" r="10" style="fill: white; stroke: rgb(1,254,0); stroke-width: 3" />
+    <polyline points="587,325 587,297 603,297" style="stroke: rgb(1,254,0); stroke-width: 3" />
+    <circle cx="603" cy="297" r="10" style="fill: white; stroke: rgb(1,254,0); stroke-width: 3" />
+    <polyline points="563,253 563,325 587,325" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <circle cx="587" cy="325" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="563,253 563,180 582,180" style="stroke: rgb(2,253,0); stroke-width: 3" />
+    <circle cx="582" cy="180" r="10" style="fill: white; stroke: rgb(2,253,0); stroke-width: 3" />
+    <polyline points="530,411 530,430 653,430" style="stroke: rgb(1,254,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 653.735115277094 430)" x="673" y="434">AP33 Spiranthes odorata </text>
+    <circle cx="653" cy="430" r="10" style="fill: white; stroke: rgb(1,254,0); stroke-width: 3" />
+    <polyline points="530,411 530,392 663,392" style="stroke: rgb(193,62,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 663.792868706763 392)" x="683" y="396">AP33 Habenaria radiata </text>
+    <circle cx="663" cy="392" r="10" style="fill: white; stroke: rgb(193,62,0); stroke-width: 3" />
+    <polyline points="507,332 507,411 530,411" style="stroke: rgb(22958,-22703,0); stroke-width: 3" />
+    <circle cx="530" cy="411" r="10" style="fill: white; stroke: rgb(22958,-22703,0); stroke-width: 3" />
+    <polyline points="507,332 507,253 563,253" style="stroke: rgb(22,233,0); stroke-width: 3" />
+    <circle cx="563" cy="253" r="10" style="fill: white; stroke: rgb(22,233,0); stroke-width: 3" />
+    <polyline points="465,400 465,468 635,468" style="stroke: rgb(10,245,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 635.867535124897 468)" x="655" y="472">AP33 Phragmipedium longifolium </text>
+    <circle cx="635" cy="468" r="10" style="fill: white; stroke: rgb(10,245,0); stroke-width: 3" />
+    <polyline points="465,400 465,332 507,332" style="stroke: rgb(2,253,0); stroke-width: 3" />
+    <circle cx="507" cy="332" r="10" style="fill: white; stroke: rgb(2,253,0); stroke-width: 3" />
+    <polyline points="433,453 433,506 661,506" style="stroke: rgb(18343,-18088,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 661.308205006601 506)" x="681" y="510">AP33 Vanilla planifolia </text>
+    <circle cx="661" cy="506" r="10" style="fill: white; stroke: rgb(18343,-18088,0); stroke-width: 3" />
+    <polyline points="433,453 433,400 465,400" style="stroke: rgb(4,251,0); stroke-width: 3" />
+    <circle cx="465" cy="400" r="10" style="fill: white; stroke: rgb(4,251,0); stroke-width: 3" />
+    <polyline points="561,563 561,582 568,582" style="stroke: rgb(8,247,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 568.392458238709 582)" x="588" y="586">AP34 Phalaenopsis equestris </text>
+    <circle cx="568" cy="582" r="10" style="fill: white; stroke: rgb(8,247,0); stroke-width: 3" />
+    <polyline points="561,563 561,544 630,544" style="stroke: rgb(2,253,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 630.028031842721 544)" x="650" y="548">AP34 Erycina pusilla </text>
+    <circle cx="630" cy="544" r="10" style="fill: white; stroke: rgb(2,253,0); stroke-width: 3" />
+    <polyline points="412,639 412,658 526,658" style="stroke: rgb(292,-37,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 526.982107097886 658)" x="546" y="662">AP34 Vanilla planifolia </text>
+    <circle cx="526" cy="658" r="10" style="fill: white; stroke: rgb(292,-37,0); stroke-width: 3" />
+    <polyline points="412,639 412,620 513,620" style="stroke: rgb(3,252,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 513.251464093639 620)" x="533" y="624">AP34 Phragmipedium longfolium </text>
+    <circle cx="513" cy="620" r="10" style="fill: white; stroke: rgb(3,252,0); stroke-width: 3" />
+    <polyline points="386,601 386,639 412,639" style="stroke: rgb(2,253,0); stroke-width: 3" />
+    <circle cx="412" cy="639" r="10" style="fill: white; stroke: rgb(2,253,0); stroke-width: 3" />
+    <polyline points="386,601 386,563 561,563" style="stroke: rgb(2,253,0); stroke-width: 3" />
+    <circle cx="561" cy="563" r="10" style="fill: white; stroke: rgb(2,253,0); stroke-width: 3" />
+    <polyline points="359,527 359,601 386,601" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <circle cx="386" cy="601" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="359,527 359,453 433,453" style="stroke: rgb(111,144,0); stroke-width: 3" />
+    <circle cx="433" cy="453" r="10" style="fill: white; stroke: rgb(111,144,0); stroke-width: 3" />
+    <polyline points="1666,715 1666,734 1669,734" style="stroke: rgb(1709,-1454,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1669.31612680081 734)" x="1689" y="738">PI Cymbidium goeringii </text>
+    <circle cx="1669" cy="734" r="10" style="fill: white; stroke: rgb(1709,-1454,0); stroke-width: 3" />
+    <polyline points="1666,715 1666,696 1671,696" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1671.0677697765 696)" x="1691" y="700">PI Cymbidium faberi </text>
+    <circle cx="1671" cy="696" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="1734,791 1734,810 1743,810" style="stroke: rgb(8,247,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1743.04037850727 810)" x="1763" y="814">PI Oncidium Gower Ramsey </text>
+    <circle cx="1743" cy="810" r="10" style="fill: white; stroke: rgb(8,247,0); stroke-width: 3" />
+    <polyline points="1734,791 1734,772 1800,772" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1800 772)" x="1820" y="776">PI Erycina pusilla </text>
+    <circle cx="1800" cy="772" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="1669,819 1669,848 1689,848" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1689.50799758061 848)" x="1709" y="852">PI Gongora galeata </text>
+    <circle cx="1689" cy="848" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="1669,819 1669,791 1734,791" style="stroke: rgb(3,252,0); stroke-width: 3" />
+    <circle cx="1734" cy="791" r="10" style="fill: white; stroke: rgb(3,252,0); stroke-width: 3" />
+    <polyline points="1639,767 1639,819 1669,819" style="stroke: rgb(9,246,0); stroke-width: 3" />
+    <circle cx="1669" cy="819" r="10" style="fill: white; stroke: rgb(9,246,0); stroke-width: 3" />
+    <polyline points="1639,767 1639,715 1666,715" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <circle cx="1666" cy="715" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="1622,826 1622,886 1666,886" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1666.24769311191 886)" x="1686" y="890">PI Dendrobium monoliforme </text>
+    <circle cx="1666" cy="886" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="1622,826 1622,767 1639,767" style="stroke: rgb(9,246,0); stroke-width: 3" />
+    <circle cx="1639" cy="767" r="10" style="fill: white; stroke: rgb(9,246,0); stroke-width: 3" />
+    <polyline points="1678,1000 1678,1038 1682,1038" style="stroke: rgb(8,247,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1682.51656291785 1038)" x="1702" y="1042">PI Phalaenopsis hybrid </text>
+    <circle cx="1682" cy="1038" r="10" style="fill: white; stroke: rgb(8,247,0); stroke-width: 3" />
+    <polyline points="1678,1000 1678,1000 1693,1000" style="stroke: rgb(422,-167,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1693.12307074188 1000)" x="1713" y="1004">PI Phalaenopsis hybrid </text>
+    <circle cx="1693" cy="1000" r="10" style="fill: white; stroke: rgb(422,-167,0); stroke-width: 3" />
+    <polyline points="1678,1000 1678,962 1685,962" style="stroke: rgb(9,246,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1685.08374184812 962)" x="1705" y="966">PI Phalaenopsis hybrid </text>
+    <circle cx="1685" cy="962" r="10" style="fill: white; stroke: rgb(9,246,0); stroke-width: 3" />
+    <polyline points="1670,962 1670,1000 1678,1000" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <circle cx="1678" cy="1000" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="1670,962 1670,924 1678,924" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1678.94124817933 924)" x="1698" y="928">PI Phalaenopsis equestris </text>
+    <circle cx="1678" cy="924" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="1606,894 1606,962 1670,962" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <circle cx="1670" cy="962" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="1606,894 1606,826 1622,826" style="stroke: rgb(8,247,0); stroke-width: 3" />
+    <circle cx="1622" cy="826" r="10" style="fill: white; stroke: rgb(8,247,0); stroke-width: 3" />
+    <polyline points="1576,985 1576,1076 1773,1076" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1773.66929346312 1076)" x="1793" y="1080">PI Vanilla planifolia </text>
+    <circle cx="1773" cy="1076" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="1576,985 1576,894 1606,894" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <circle cx="1606" cy="894" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="1545,1049 1545,1114 1634,1114" style="stroke: rgb(1,254,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1634.70806177428 1114)" x="1654" y="1118">PI Spiranthes odorata </text>
+    <circle cx="1634" cy="1114" r="10" style="fill: white; stroke: rgb(1,254,0); stroke-width: 3" />
+    <polyline points="1545,1049 1545,985 1576,985" style="stroke: rgb(398,-143,0); stroke-width: 3" />
+    <circle cx="1576" cy="985" r="10" style="fill: white; stroke: rgb(398,-143,0); stroke-width: 3" />
+    <polyline points="1544,1171 1544,1190 1578,1190" style="stroke: rgb(2,253,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1578.78867123558 1190)" x="1598" y="1194">PI Orchis italica </text>
+    <circle cx="1578" cy="1190" r="10" style="fill: white; stroke: rgb(2,253,0); stroke-width: 3" />
+    <polyline points="1544,1171 1544,1152 1575,1152" style="stroke: rgb(68,187,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 1575.47628593583 1152)" x="1595" y="1156">PI Habenaria radiata </text>
+    <circle cx="1575" cy="1152" r="10" style="fill: white; stroke: rgb(68,187,0); stroke-width: 3" />
+    <polyline points="1506,1110 1506,1171 1544,1171" style="stroke: rgb(56525,-56270,0); stroke-width: 3" />
+    <circle cx="1544" cy="1171" r="10" style="fill: white; stroke: rgb(56525,-56270,0); stroke-width: 3" />
+    <polyline points="1506,1110 1506,1049 1545,1049" style="stroke: rgb(1,254,0); stroke-width: 3" />
+    <circle cx="1545" cy="1049" r="10" style="fill: white; stroke: rgb(1,254,0); stroke-width: 3" />
+    <polyline points="221,818 221,1110 1506,1110" style="stroke: rgb(6869,-6614,0); stroke-width: 3" />
+    <circle cx="1506" cy="1110" r="10" style="fill: white; stroke: rgb(6869,-6614,0); stroke-width: 3" />
+    <polyline points="221,818 221,527 359,527" style="stroke: rgb(3,252,0); stroke-width: 3" />
+    <circle cx="359" cy="527" r="10" style="fill: white; stroke: rgb(3,252,0); stroke-width: 3" />
+    <polyline points="360,1247 360,1266 476,1266" style="stroke: rgb(5,250,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 476.257684263958 1266)" x="496" y="1270">AP32 Oncidium Gower Ramsey </text>
+    <circle cx="476" cy="1266" r="10" style="fill: white; stroke: rgb(5,250,0); stroke-width: 3" />
+    <polyline points="360,1247 360,1228 438,1228" style="stroke: rgb(241,14,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 438.481186053956 1228)" x="458" y="1232">AP32 Gongoro galeata </text>
+    <circle cx="438" cy="1228" r="10" style="fill: white; stroke: rgb(241,14,0); stroke-width: 3" />
+    <polyline points="279,1275 279,1304 421,1304" style="stroke: rgb(9,246,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 421.920278534952 1304)" x="441" y="1308">AP32 Phalaenopsis equestris </text>
+    <circle cx="421" cy="1304" r="10" style="fill: white; stroke: rgb(9,246,0); stroke-width: 3" />
+    <polyline points="279,1275 279,1247 360,1247" style="stroke: rgb(11231,-10976,0); stroke-width: 3" />
+    <circle cx="360" cy="1247" r="10" style="fill: white; stroke: rgb(11231,-10976,0); stroke-width: 3" />
+    <polyline points="175,1308 175,1342 482,1342" style="stroke: rgb(275,-20,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 482.451455596072 1342)" x="502" y="1346">AP32 Spiranthes odorata </text>
+    <circle cx="482" cy="1342" r="10" style="fill: white; stroke: rgb(275,-20,0); stroke-width: 3" />
+    <polyline points="175,1308 175,1275 279,1275" style="stroke: rgb(4,251,0); stroke-width: 3" />
+    <circle cx="279" cy="1275" r="10" style="fill: white; stroke: rgb(4,251,0); stroke-width: 3" />
+    <polyline points="135,1344 135,1380 435,1380" style="stroke: rgb(1562,-1307,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 435.747402524756 1380)" x="455" y="1384">AP32 Phragmipedium longifolium </text>
+    <circle cx="435" cy="1380" r="10" style="fill: white; stroke: rgb(1562,-1307,0); stroke-width: 3" />
+    <polyline points="135,1344 135,1308 175,1308" style="stroke: rgb(40,215,0); stroke-width: 3" />
+    <circle cx="175" cy="1308" r="10" style="fill: white; stroke: rgb(40,215,0); stroke-width: 3" />
+    <polyline points="327,1475 327,1494 336,1494" style="stroke: rgb(9,246,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 336.241400150655 1494)" x="356" y="1498">AP31 Spiranthes odorata </text>
+    <circle cx="336" cy="1494" r="10" style="fill: white; stroke: rgb(9,246,0); stroke-width: 3" />
+    <polyline points="327,1475 327,1456 357,1456" style="stroke: rgb(6,249,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 357.71058583983 1456)" x="377" y="1460">AP31 Phragmipedium longifolium </text>
+    <circle cx="357" cy="1456" r="10" style="fill: white; stroke: rgb(6,249,0); stroke-width: 3" />
+    <polyline points="321,1551 321,1570 333,1570" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 333.094668055597 1570)" x="353" y="1574">AP31 Phalaenopsis hybrid </text>
+    <circle cx="333" cy="1570" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="321,1551 321,1532 325,1532" style="stroke: rgb(9,246,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 325.244046161352 1532)" x="345" y="1536">AP31 Phalaenopsis equestris </text>
+    <circle cx="325" cy="1532" r="10" style="fill: white; stroke: rgb(9,246,0); stroke-width: 3" />
+    <polyline points="278,1579 278,1608 387,1608" style="stroke: rgb(17,238,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 387.849916970812 1608)" x="407" y="1612">AP32 Erycina pusilla </text>
+    <circle cx="387" cy="1608" r="10" style="fill: white; stroke: rgb(17,238,0); stroke-width: 3" />
+    <polyline points="278,1579 278,1551 321,1551" style="stroke: rgb(221,34,0); stroke-width: 3" />
+    <circle cx="321" cy="1551" r="10" style="fill: white; stroke: rgb(221,34,0); stroke-width: 3" />
+    <polyline points="357,1665 357,1684 617,1684" style="stroke: rgb(3846,-3591,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 617.19974369747 1684)" x="637" y="1688">AP31 Dendrobium devonianum </text>
+    <circle cx="617" cy="1684" r="10" style="fill: white; stroke: rgb(3846,-3591,0); stroke-width: 3" />
+    <polyline points="357,1665 357,1646 407,1646" style="stroke: rgb(1,254,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 407.946195203908 1646)" x="427" y="1650">AP31 Dendrobium crumenatum </text>
+    <circle cx="407" cy="1646" r="10" style="fill: white; stroke: rgb(1,254,0); stroke-width: 3" />
+    <polyline points="345,1693 345,1722 414,1722" style="stroke: rgb(3,252,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 414.076309147143 1722)" x="434" y="1726">AP31 Dendrobium hybrid </text>
+    <circle cx="414" cy="1722" r="10" style="fill: white; stroke: rgb(3,252,0); stroke-width: 3" />
+    <polyline points="345,1693 345,1665 357,1665" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <circle cx="357" cy="1665" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="388,1855 388,1874 395,1874" style="stroke: rgb(2,253,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 395.998887638087 1874)" x="415" y="1878">AP31 Oncidium Gower Ramsey </text>
+    <circle cx="395" cy="1874" r="10" style="fill: white; stroke: rgb(2,253,0); stroke-width: 3" />
+    <polyline points="388,1855 388,1836 492,1836" style="stroke: rgb(8,247,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 492.8140589813 1836)" x="512" y="1840">AP31 Erycina pusilla </text>
+    <circle cx="492" cy="1836" r="10" style="fill: white; stroke: rgb(8,247,0); stroke-width: 3" />
+    <polyline points="381,1883 381,1912 407,1912" style="stroke: rgb(4,251,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 407.264180063668 1912)" x="427" y="1916">AP31 Gongora galeata </text>
+    <circle cx="407" cy="1912" r="10" style="fill: white; stroke: rgb(4,251,0); stroke-width: 3" />
+    <polyline points="381,1883 381,1855 388,1855" style="stroke: rgb(4,251,0); stroke-width: 3" />
+    <circle cx="388" cy="1855" r="10" style="fill: white; stroke: rgb(4,251,0); stroke-width: 3" />
+    <polyline points="312,1813 312,1883 381,1883" style="stroke: rgb(36,219,0); stroke-width: 3" />
+    <circle cx="381" cy="1883" r="10" style="fill: white; stroke: rgb(36,219,0); stroke-width: 3" />
+    <polyline points="312,1813 312,1798 327,1798" style="stroke: rgb(4,251,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 327.054256042092 1798)" x="347" y="1802">AP31 Cymbidium hybrid </text>
+    <circle cx="327" cy="1798" r="10" style="fill: white; stroke: rgb(4,251,0); stroke-width: 3" />
+    <polyline points="312,1813 312,1760 322,1760" style="stroke: rgb(6,249,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 322.687023414037 1760)" x="342" y="1764">AP31 Cymbidium faberi </text>
+    <circle cx="322" cy="1760" r="10" style="fill: white; stroke: rgb(6,249,0); stroke-width: 3" />
+    <polyline points="312,1753 312,1813 312,1813" style="stroke: black; stroke-width: 3" />
+    <circle cx="312" cy="1813" r="10" style="fill: white; stroke: black; stroke-width: 3" />
+    <polyline points="312,1753 312,1693 345,1693" style="stroke: rgb(25,230,0); stroke-width: 3" />
+    <circle cx="345" cy="1693" r="10" style="fill: white; stroke: rgb(25,230,0); stroke-width: 3" />
+    <polyline points="236,1666 236,1753 312,1753" style="stroke: rgb(56,199,0); stroke-width: 3" />
+    <circle cx="312" cy="1753" r="10" style="fill: white; stroke: rgb(56,199,0); stroke-width: 3" />
+    <polyline points="236,1666 236,1579 278,1579" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <circle cx="278" cy="1579" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="214,1570 214,1666 236,1666" style="stroke: rgb(762,-507,0); stroke-width: 3" />
+    <circle cx="236" cy="1666" r="10" style="fill: white; stroke: rgb(762,-507,0); stroke-width: 3" />
+    <polyline points="214,1570 214,1475 327,1475" style="stroke: rgb(20,235,0); stroke-width: 3" />
+    <circle cx="327" cy="1475" r="10" style="fill: white; stroke: rgb(20,235,0); stroke-width: 3" />
+    <polyline points="120,1494 120,1570 214,1570" style="stroke: rgb(1,254,0); stroke-width: 3" />
+    <circle cx="214" cy="1570" r="10" style="fill: white; stroke: rgb(1,254,0); stroke-width: 3" />
+    <polyline points="120,1494 120,1418 271,1418" style="stroke: rgb(1,254,0); stroke-width: 3" />
+    <text class="taxon_text" style="" transform="rotate( 271.081297476617 1418)" x="291" y="1422">AP31 Vanilla planifolia </text>
+    <circle cx="271" cy="1418" r="10" style="fill: white; stroke: rgb(1,254,0); stroke-width: 3" />
+    <polyline points="77,1419 77,1494 120,1494" style="stroke: rgb(16,239,0); stroke-width: 3" />
+    <circle cx="120" cy="1494" r="10" style="fill: white; stroke: rgb(16,239,0); stroke-width: 3" />
+    <polyline points="77,1419 77,1344 135,1344" style="stroke: rgb(104,151,0); stroke-width: 3" />
+    <circle cx="135" cy="1344" r="10" style="fill: white; stroke: rgb(104,151,0); stroke-width: 3" />
+    <polyline points="50,1119 50,1419 77,1419" style="stroke: rgb(0,255,0); stroke-width: 3" />
+    <circle cx="77" cy="1419" r="10" style="fill: white; stroke: rgb(0,255,0); stroke-width: 3" />
+    <polyline points="50,1119 50,818 221,818" style="stroke: rgb(9564,-9309,0); stroke-width: 3" />
+    <circle cx="221" cy="818" r="10" style="fill: white; stroke: rgb(9564,-9309,0); stroke-width: 3" />
+    <text class="node_text" style="" transform="rotate( 50 1119.01595052083)" x="70" y="1123">root</text>
+    <circle cx="50" cy="1119" r="10" style="fill: white; stroke: black; stroke-width: 3" />
+    <g id="pie_252" transform="translate(221,818)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 3.24646776566637,7.31166513500784 L 0,0 z" style="fill: ; stroke: none" />
+        </g>
+        <g transform="rotate(-23.9418)">
+            <path d="M 8,0 A 8,8 0 1,1 1.62992686388273,-7.83219882398253 L 0,0 z" style="fill: ; stroke: none" />
+        </g>
+        <g transform="rotate(257.814)">
+            <path d="M 8,0 A 8,8 0 0,1 7.81974001196893,1.68868769913566 L 0,0 z" style="fill: ; stroke: none" />
+        </g>
+    </g>
+    <g id="pie_238" transform="translate(77,1419)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_273" transform="translate(359,527)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_280" transform="translate(1506,1110)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -1.91362053431519,7.76775749175058 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(13.83948)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.91559974046957,1.15899989157814 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(185.50944)">
+            <path d="M 8,0 A 8,8 0 0,1 0.768078014254795,7.96304314719055 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_245" transform="translate(135,1344)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.55892060969196,2.61967922012872 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(70.8853257714187)">
+            <path d="M 8,0 A 8,8 0 0,1 7.99970632937698,0.0685466536452252 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(71.3762610228547)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.58108941109682,-2.55481571565459 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_196" transform="translate(120,1494)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 3.5017627097198,7.19288940029081 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-25.95852)">
+            <path d="M 8,0 A 8,8 0 1,1 -3.23727709538725,-7.31573899258859 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(220.17168)">
+            <path d="M 8,0 A 8,8 0 0,1 5.16064065517844,6.11291976293812 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_301" transform="translate(433,453)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 7.57735733897368,2.56586355005516 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-71.292744)">
+            <path d="M 8,0 A 8,8 0 1,1 6.38226459554183,-4.82355663722251 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(251.626176)">
+            <path d="M 8,0 A 8,8 0 0,1 7.59216095367208,2.52172402406311 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_308" transform="translate(386,601)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_315" transform="translate(1545,1049)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.95671293604013,0.831095213228739 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(84.03696)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.95671293604013,-0.831095213228737 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_322" transform="translate(1544,1171)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 7.97931450746578,-0.574926074331482 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(265.878842681389)">
+            <path d="M 8,0 A 8,8 0 0,1 7.97931450746577,0.574926074331487 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_259" transform="translate(175,1308)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -1.20816801512325,7.90824443522285 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(8.68609973721993)">
+            <path d="M 8,0 A 8,8 0 1,1 -3.73512286841014,-7.07452169110249 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(250.853468170694)">
+            <path d="M 8,0 A 8,8 0 0,1 7.55746284721164,2.62388172618655 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_266" transform="translate(435,1380)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 0.0158838820204182,7.99998423137771 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-0.113759999999999)">
+            <path d="M 8,0 A 8,8 0 1,1 -3.06629648700109,-7.38903416244673 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(247.3488)">
+            <path d="M 8,0 A 8,8 0 0,1 7.38293151163073,3.08096126145234 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_231" transform="translate(271,1418)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_140" transform="translate(214,1570)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_343" transform="translate(465,400)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_350" transform="translate(661,506)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 7.28869428907535,3.29771671924688 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-65.655972)">
+            <path d="M 8,0 A 8,8 0 1,1 5.96940352879082,-5.32599488456943 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(252.604188)">
+            <path d="M 8,0 A 8,8 0 0,1 7.63409747336898,2.3917683347476 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_357" transform="translate(561,563)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_364" transform="translate(412,639)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_371" transform="translate(1576,985)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.5304927082302,-2.7003110138078 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(109.7269998908)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.23106891278318,3.42222769239288 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(264.400341760137)">
+            <path d="M 8,0 A 8,8 0 0,1 7.9618238562438,0.780615707084558 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_378" transform="translate(1634,1114)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_385" transform="translate(1575,1152)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 7.55453034528502,2.63231291114255 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-70.789536)">
+            <path d="M 8,0 A 8,8 0 1,1 7.09580554578797,-3.6945288815172 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(261.706104)">
+            <path d="M 8,0 A 8,8 0 0,1 7.91632929941297,1.15400624922736 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_392" transform="translate(1578,1190)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_287" transform="translate(279,1275)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -3.26611855714132,7.30290829537775 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(24.09588)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.6100504244347,-2.46721149023775 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(222.0588)">
+            <path d="M 8,0 A 8,8 0 0,1 5.35914327131699,5.93966189252367 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_294" transform="translate(482,1342)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -4.07557869335084,6.88401469451545 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(30.6270241254048)">
+            <path d="M 8,0 A 8,8 0 1,1 -6.04165742301023,-5.2438893564782 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(251.58354831671)">
+            <path d="M 8,0 A 8,8 0 0,1 7.59028270651932,2.52737184345987 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_189" transform="translate(327,1475)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 0.413450382239253,7.98930903028705 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-2.96244)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.78304753528664,-1.85045158365966 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(190.41156)">
+            <path d="M 8,0 A 8,8 0 0,1 1.44574069612382,7.86828023392478 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_98" transform="translate(236,1666)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 7.93257881190283,1.03643301421283 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-82.5561722233148)">
+            <path d="M 8,0 A 8,8 0 1,1 7.89014256706915,-1.32123058976223 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(267.93765726187)">
+            <path d="M 8,0 A 8,8 0 0,1 7.99481809413035,0.287895192328648 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_413" transform="translate(507,332)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 2.48695090367898,7.60362250527275 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-18.1116)">
+            <path d="M 8,0 A 8,8 0 1,1 2.48695090367898,-7.60362250527275 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_420" transform="translate(635,468)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -2.78058130151332,7.50122440843323 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(20.33892)">
+            <path d="M 8,0 A 8,8 0 0,1 -4.35177111787505,6.71283011386617 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(143.29332)">
+            <path d="M 8,0 A 8,8 0 0,1 -4.78174896262119,6.41364770302136 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_427" transform="translate(630,544)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_434" transform="translate(568,582)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.95582066990842,-0.839593632811737 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(96.02424)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.95582066990842,0.839593632811739 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_441" transform="translate(513,620)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_448" transform="translate(526,658)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -0.856282389989145,7.95404176935189 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(6.14444154222339)">
+            <path d="M 8,0 A 8,8 0 1,1 -1.96839571731517,-7.75405818265863 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(261.900579239768)">
+            <path d="M 8,0 A 8,8 0 0,1 7.92020065701482,1.12712978517206 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_455" transform="translate(1606,894)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.96202276059994,-0.778584330492493 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(95.58504)">
+            <path d="M 8,0 A 8,8 0 0,1 -2.62127889085885,7.55836602555988 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(204.71184)">
+            <path d="M 8,0 A 8,8 0 0,1 3.34443844281576,7.26737445727245 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_462" transform="translate(1773,1076)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_329" transform="translate(360,1247)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 7.85063181102216,1.53869430614628 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-78.910812)">
+            <path d="M 8,0 A 8,8 0 1,1 7.43454234821483,-2.95424780148861 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(259.417908)">
+            <path d="M 8,0 A 8,8 0 0,1 7.8639423662978,1.46915297350089 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_336" transform="translate(421,1304)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -2.10521422084799,7.7180355715907 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(15.25716)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.83821743614959,1.60073340180072 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(183.71484)">
+            <path d="M 8,0 A 8,8 0 0,1 0.518326184618681,7.98319096391528 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_217" transform="translate(357,1456)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_224" transform="translate(336,1494)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 0.868281162277406,7.9527409000441 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-6.23088)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.93863202993782,0.989000249365696 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(166.66776)">
+            <path d="M 8,0 A 8,8 0 0,1 -1.84477842239143,7.78439416860933 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_133" transform="translate(278,1579)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 7.93025927162172,-1.05403410042449 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(262.429023785488)">
+            <path d="M 8,0 A 8,8 0 0,1 7.93025927162173,1.05403410042448 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_77" transform="translate(312,1753)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -1.87542968785112,7.77706650903325 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(13.557949644205)">
+            <path d="M 8,0 A 8,8 0 1,1 -3.66721907848697,-7.10995810327889 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(256.273885372611)">
+            <path d="M 8,0 A 8,8 0 0,1 7.77152857216104,1.89824752129024 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_469" transform="translate(563,253)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 4.42703470336561,6.66343483011551 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-33.59916)">
+            <path d="M 8,0 A 8,8 0 1,1 2.74794006573286,-7.51324333394973 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(256.49064)">
+            <path d="M 8,0 A 8,8 0 0,1 7.77865416904275,1.86883367864396 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_476" transform="translate(530,411)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 7.71628556697275,2.11161953223778 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-74.695284)">
+            <path d="M 8,0 A 8,8 0 1,1 7.46753201654447,-2.86983720477021 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(264.282516)">
+            <path d="M 8,0 A 8,8 0 0,1 7.96020172701305,0.796987117372936 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_483" transform="translate(1622,826)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_490" transform="translate(1670,962)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_399" transform="translate(438,1228)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 7.61947826643741,2.43793989821078 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-72.257328)">
+            <path d="M 8,0 A 8,8 0 1,1 7.13901875306422,-3.61032010262213 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(260.916192)">
+            <path d="M 8,0 A 8,8 0 0,1 7.8996677070196,1.26303211308014 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_406" transform="translate(476,1266)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 6.81510948825141,4.18978312841436 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-58.4176913670765)">
+            <path d="M 8,0 A 8,8 0 1,1 6.81510948825141,-4.18978312841436 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_175" transform="translate(321,1551)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 2.47084814042874,7.60887044619238 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-17.9903023230063)">
+            <path d="M 8,0 A 8,8 0 1,1 2.22477208272713,-7.68442510406068 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(268.156328971538)">
+            <path d="M 8,0 A 8,8 0 0,1 7.99585862921878,0.257380616106987 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_182" transform="translate(387,1608)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 2.15550570460381,7.70414142896017 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-15.63084)">
+            <path d="M 8,0 A 8,8 0 1,1 -5.39153143777266,-5.91027822995746 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(211.99716)">
+            <path d="M 8,0 A 8,8 0 0,1 4.23901782467837,6.78459489446931 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_91" transform="translate(345,1693)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -2.05531897726004,7.73147229845097 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(14.88708)">
+            <path d="M 8,0 A 8,8 0 1,1 -6.49140389018145,-4.6756470712124 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(230.65164)">
+            <path d="M 8,0 A 8,8 0 0,1 6.18644267662021,5.0722703998202 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_497" transform="translate(582,180)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 6.51389049652425,4.64426857527545 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-54.51192)">
+            <path d="M 8,0 A 8,8 0 1,1 6.51389049652425,-4.64426857527545 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_504" transform="translate(587,325)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 1.78618058269988,7.79804840495274 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-12.90132)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.99756984286877,0.197171520346976 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(165.6864)">
+            <path d="M 8,0 A 8,8 0 0,1 -1.97783212773277,7.75165660194697 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_511" transform="translate(663,392)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 5.52084501462264,5.78966927591865 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-43.6384707276941)">
+            <path d="M 8,0 A 8,8 0 1,1 5.09381934530661,-6.16871173563656 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(265.90975118195)">
+            <path d="M 8,0 A 8,8 0 0,1 7.97962349321726,0.570621508966443 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_518" transform="translate(653,430)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_525" transform="translate(1639,767)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 0.984909966797541,7.93914053013945 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-7.07183999999999)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.74478802759792,2.00455940485084 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(158.41692)">
+            <path d="M 8,0 A 8,8 0 0,1 -2.94279971690487,7.43908124879576 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_532" transform="translate(1666,886)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 5.7690231391161,5.54241572063509 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(-46.14768)">
+            <path d="M 8,0 A 8,8 0 1,1 5.7690231391161,-5.5424157206351 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_539" transform="translate(1678,924)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 2.10138294769032,7.71907958937828 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-15.22872)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.99407069778411,0.307950773386656 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(162.5652)">
+            <path d="M 8,0 A 8,8 0 0,1 -2.39696254704207,7.6324681819237 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_546" transform="translate(1678,1000)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 0.849290658406852,7.95479134720345 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-6.09408000000001)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.98201496311564,0.536131633647885 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(170.06328)">
+            <path d="M 8,0 A 8,8 0 0,1 -1.38048325296775,7.87999149671341 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_203" transform="translate(325,1532)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_210" transform="translate(333,1570)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 0.874077282333274,7.95210594147921 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-6.27264)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.98767407308283,0.443917675025801 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(170.5464)">
+            <path d="M 8,0 A 8,8 0 0,1 -1.31399060338306,7.89135151252439 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_119" transform="translate(357,1665)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 5.40744290717066,-5.89572397638236 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(222.52644)">
+            <path d="M 8,0 A 8,8 0 0,1 5.40744290717066,5.89572397638236 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_126" transform="translate(414,1722)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_56" transform="translate(322,1760)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 5.89041687126818,5.41322353895341 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-47.4173574173574)">
+            <path d="M 8,0 A 8,8 0 0,1 -6.32368532143169,4.90010244336885 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(94.8112248112248)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.97181157445994,0.670984516443248 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_63" transform="translate(327,1798)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_84" transform="translate(381,1883)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 6.52541805102664,4.62805782800255 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-54.6543826036852)">
+            <path d="M 8,0 A 8,8 0 1,1 1.61313057647421,-7.83567544907546 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(226.978572906428)">
+            <path d="M 8,0 A 8,8 0 0,1 5.84878881027112,5.45817455316769 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_553" transform="translate(615,121)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_560" transform="translate(669,240)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 7.42769163278182,2.97143012845715 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-68.19624)">
+            <path d="M 8,0 A 8,8 0 1,1 7.42769163278182,-2.97143012845716 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_567" transform="translate(603,297)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 3.90914535647201,6.97986981124815 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(-29.25144)">
+            <path d="M 8,0 A 8,8 0 1,1 3.90914535647201,-6.97986981124815 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_574" transform="translate(621,354)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 7.38101724968539,3.08554441871231 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-67.3132274626455)">
+            <path d="M 8,0 A 8,8 0 0,1 5.92988622517849,5.36995804047279 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(-25.1500190300038)">
+            <path d="M 8,0 A 8,8 0 1,1 3.39991855702677,-7.24158503406437 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_581" transform="translate(1666,715)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 3.12668700191252,7.3636830724897 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(-23.00652)">
+            <path d="M 8,0 A 8,8 0 1,1 3.12668700191252,-7.36368307248969 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_588" transform="translate(1669,819)" />
+    <g id="pie_593" transform="translate(1685,962)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_600" transform="translate(1693,1000)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -1.01972282431469,7.93474419005249 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(7.32314919694477)">
+            <path d="M 8,0 A 8,8 0 1,1 -1.61706996821338,-7.83486341411913 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(265.661386698416)">
+            <path d="M 8,0 A 8,8 0 0,1 7.97707501376719,0.605205935803002 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_607" transform="translate(1682,1038)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.85712768816471,-1.50517257876811 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(100.84464)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.85712768816471,1.50517257876811 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_161" transform="translate(407,1646)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_168" transform="translate(617,1684)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -3.62022974566971,7.13399863951264 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(26.90604)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.81208556655968,1.72375146142066 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(194.463)">
+            <path d="M 8,0 A 8,8 0 0,1 1.99803799539293,7.74647301479623 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_105" transform="translate(388,1855)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 1.97364320103193,7.75272419959723 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-14.28264)">
+            <path d="M 8,0 A 8,8 0 1,1 1.97364320103193,-7.75272419959722 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_112" transform="translate(407,1912)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 4.58819058060079,6.55351105866818 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-34.99632)">
+            <path d="M 8,0 A 8,8 0 1,1 4.58819058060079,-6.55351105866819 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_614" transform="translate(647,69)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 6.18515230142838,5.07384380998619 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-50.6370663315881)">
+            <path d="M 8,0 A 8,8 0 1,1 6.18515230142838,-5.07384380998619 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_621" transform="translate(630,173)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 6.91247562439693,4.02711816838273 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-59.77548)">
+            <path d="M 8,0 A 8,8 0 1,1 6.91247562439693,-4.02711816838274 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_628" transform="translate(618,278)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 6.45611458207706,4.72425491512597 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-53.80524)">
+            <path d="M 8,0 A 8,8 0 1,1 6.45611458207707,-4.72425491512597 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_635" transform="translate(620,316)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_642" transform="translate(1671,696)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 1.28795251913937,7.89564299525014 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-9.2646)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.95382573481349,0.858286770385421 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(164.57652)">
+            <path d="M 8,0 A 8,8 0 0,1 -2.12760947730726,7.71189198005731 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_649" transform="translate(1669,734)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.83865967560763,1.59856638586044 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(78.47352)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.83865967560763,-1.59856638586043 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_656" transform="translate(1734,791)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_663" transform="translate(1689,848)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_147" transform="translate(492,1836)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 0.0589106130132054,7.99978309328912 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-0.42192)">
+            <path d="M 8,0 A 8,8 0 1,1 -5.7339102093789,-5.5787340598724 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(223.7922)">
+            <path d="M 8,0 A 8,8 0 0,1 5.53635928109078,5.77483557434148 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_154" transform="translate(395,1874)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 2.95606950445667,7.43381820364349 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-21.68532)">
+            <path d="M 8,0 A 8,8 0 1,1 2.95606950445667,-7.43381820364349 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_670" transform="translate(650,50)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.84360346983805,-1.57412979386849 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(101.34792)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.84360346983805,1.57412979386849 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_677" transform="translate(652,88)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 5.99423558868929,5.29803168236004 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-48.528)">
+            <path d="M 8,0 A 8,8 0 1,1 5.99423558868929,-5.29803168236004 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_684" transform="translate(668,145)" />
+    <g id="pie_689" transform="translate(657,202)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 1.88681456593857,7.77431223927635 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(-13.64184)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.86001645338011,1.49001387664476 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(155.62404)">
+            <path d="M 8,0 A 8,8 0 0,1 -3.30177833133067,7.28685527856532 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_696" transform="translate(1800,772)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -4.12495214511383,6.8545437339418 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(31.03884)">
+            <path d="M 8,0 A 8,8 0 0,1 -6.17293982622132,5.08869471493925 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(171.5382)">
+            <path d="M 8,0 A 8,8 0 0,1 -1.17719988679991,7.91291352325541 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_703" transform="translate(1743,810)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.95871539671224,-0.811695284041711 L 0,0 z" style="fill: rgb(0,0,0); stroke: none" />
+        </g>
+        <g transform="rotate(95.82336)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.95871539671224,0.811695284041717 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_710" transform="translate(749,126)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 1,1 8,-1.95943487863577e-15 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+    </g>
+    <g id="pie_717" transform="translate(688,164)">
+        <g transform="rotate(-90)">
+            <path d="M 8,0 A 8,8 0 0,1 -7.97994063571371,0.566169100609638 L 0,0 z" style="fill: rgb(128,128,128); stroke: none" />
+        </g>
+        <g transform="rotate(85.94172)">
+            <path d="M 8,0 A 8,8 0 1,1 -7.97994063571371,-0.566169100609632 L 0,0 z" style="fill: rgb(256,256,256); stroke: none" />
+        </g>
+    </g>
+</svg>

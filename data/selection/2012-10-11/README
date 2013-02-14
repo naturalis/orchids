@@ -1,0 +1,12 @@
+Wat we tot nu toe hebben gedaan:
+1. uit Orchid_MADSbox_totaal de accession numbers gehaald
+2. bij genbank de bijbehorende AA sequenties gedownload (nuc2aa.pl)
+3. niet in genbank voorkomende sequenties (i.e. Erycina_pusilla_*) naar AA vertaald m.b.v. expasy web server
+4. resultaat: Orchid_MADSbox_totaal_AA (dus niet aligned, amino sequenties)
+5. alignment van Orchid_MADSbox_totaal_AA m.b.v. muscle
+6. resultaat: Orchid_MADSbox_totaal_AA_aligned
+7. oude alignment ongedaan gemaakt: unalign.pl 
+8. resultaat: Orchid_MADSbox_totaal_unaligned
+9. codons uit sequenties tegen AA alignment geplakt
+10. resultaat: Orchid_MADSbox_totaal_aligned
+11. geconverteerd naar NEXUS met start op pos 1, universal code, data block voor mrbayes
