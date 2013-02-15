@@ -16,7 +16,6 @@ my $matrix = parse_matrix(
 	'-format' => $format,
 	'-file'   => $infile,
 	'-type'   => $type,
-	'-as_project' => 1,
 );
 
 $matrix->visit(sub{
