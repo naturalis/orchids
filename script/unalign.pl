@@ -1,13 +1,21 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
+use Getopt::Long;
 use Bio::Phylo::IO 'parse_matrix';
 use Bio::DB::GenBank;
 
-my $infile = shift;
+my ( $format, $type, $infile ) = ( 'fasta', 'dna' );
+GetOptions(
+	'format=s' => \$format,
+	'type=s'   => \$type,
+	'infile=s' => \$infile,
+);
+
 my $matrix = parse_matrix(
-	'-format' => 'nexus',
+	'-format' => $format,
 	'-file'   => $infile,
+	'-type'   => $type,
 	'-as_project' => 1,
 );
 
