@@ -8,12 +8,13 @@ use Bio::DB::GenBank;
 use Bio::Phylo::IO 'parse_matrix';
 use Bio::Phylo::Util::Logger ':levels';
 
-my ( $format, $type, $verbosity, $infile ) = ( 'fasta', 'dna', WARN );
+my ( $format, $type, $verbosity, $infile, $no_fetch ) = ( 'fasta', 'dna', WARN );
 GetOptions(
 	'format=s' => \$format,
 	'type=s'   => \$type,
 	'infile=s' => \$infile,
 	'verbose+' => \$verbosity,
+	'no_fetch' => \$no_fetch,
 );
 
 my $log = Bio::Phylo::Util::Logger->new(
@@ -33,7 +34,7 @@ my $gb = Bio::DB::GenBank->new;
 $matrix->visit(sub{
 	my $row = shift;
 	my $name = $row->get_name;
-	if ( $name =~ m/^.+_([A-Z][A-Z]?[0-9]+)$/ ) {
+	if ( not $no_fetch and $name =~ m/^.+_([A-Z][A-Z]?[0-9]+)$/ ) {
 		my $accession = $1;
 		$log->info("trying to fetch AA for $accession from GenBank");
 		if ( my $seq = $gb->get_Seq_by_gi($accession) ) {
@@ -52,7 +53,12 @@ $matrix->visit(sub{
 		}
 	}
 	else {
-		$log->warn("Couldn't find accession number in $name");
+		if ( $no_fetch ) {
+			$log->info("Going to translate locally");
+		}
+		else {
+			$log->warn("Couldn't find accession number in $name");
+		}
 		my $seq_data = $row->get_char;
 		my $seq_obj = Bio::Seq->new( '-display_id' => $name, '-seq' => $seq_data );
 		my $translated = $seq_obj->translate();
