@@ -22,7 +22,7 @@ done
 # align amino acids
 # http://mafft.cbrc.jp/alignment/software/algorithms/algorithms.html#GLE
 unset MAFFT_BINARIES
-mafft --genafpair --maxiterate 1000 ${DATA}/aa.fasta > ${DATA}/aa.aln.fasta
+mafft --oldgenafpair --maxiterate 1000 ${DATA}/aa.fasta > ${DATA}/aa.aln.fasta
 
 # reconcile codons with amino acids
 $SCRIPT/protalign.pl ${DATA}/codon.fasta ${DATA}/aa.aln.fasta > ${DATA}/codon.aln.fasta

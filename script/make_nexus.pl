@@ -12,6 +12,8 @@ if ( @ARGV == 2 ) {
 	$dataformat = $phyloformat = 'nexus';
 }
 else {
+	$phyloformat = 'newick';
+	$dataformat  = 'phylip';
 	GetOptions(
 		'treefile=s'    => \$treefile,
 		'matrixfile=s'  => \$matrixfile,
