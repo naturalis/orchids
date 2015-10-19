@@ -1,7 +1,16 @@
 #!/bin/bash
 
-DATA=data/selection/2015-10-15
+# first argument needs to be a folder containing FASTA files to merge and protalign
+DATA=$1
+if [ ! -d "$DATA" ]; then
+	echo "Need data directory as command line argument"
+	exit 1
+fi
+
+# list all alignments in data folder
 FASTAS=`ls $DATA/*.fasta`
+
+# shorthand
 SCRIPT="perl script"
 
 # iterate over alignments
