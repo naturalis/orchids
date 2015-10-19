@@ -11,7 +11,7 @@ The basic outline of the workflow contained in these scripts is as follows:
 
 The raw data files are FASTA files for each gene class. These should be merged in various
 combinations and then be aligned as codon alignments (i.e. exactly in-frame).  To this end
-they set of files to be merged should be placed in a single folder, which is provided as
+the set of files to be merged should be placed in a single folder, which is provided as
 the argument for the shell script `protalign.sh`. This shell script unaligns any
 previous alignment that's been applied to these files (`script/unalign.pl`) and translates
 them to amino acid (`script/nuc2aa.pl`). 
@@ -67,7 +67,7 @@ datamonkey, and paste the resulting tree into the NEXUS file.)
 Merging the files is a two-step approach:
 
 1. a generic merge that makes no assumptions about naming conventions 
-(`script/parse_datamonkey.org`)
+(`script/parse_datamonkey.pl`)
 
 2. a script that applies the original sequence names (remember: we had been working with
 just accession numbers starting from the phylogenetic inference step, 
