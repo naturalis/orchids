@@ -12,151 +12,153 @@
 	line.scale_major    {}
 	line.scale_minor    {}
 ]]></style>
-    <polyline points="695,215 695,226 706,226" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 706.54163348784 226)" x="712" y="230">Dendrobium moniliforme AP3-B</text>
-    <polyline points="695,215 695,204 710,204" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 710.78097946031 204)" x="716" y="208">Phalaenopsis equestris AP3-B</text>
-    <polyline points="865,435 865,446 868,446" style="stroke: rgb(-61,0,316); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 868.236975104359 446)" x="874" y="450">Cymbidium ensifolium AP3-B</text>
-    <polyline points="865,435 865,424 868,424" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 868.883851574134 424)" x="874" y="428">Cymbidium goeringii AP3-B</text>
-    <polyline points="864,418 864,435 865,435" style="stroke: rgb(254,0,1); stroke-width: 2" />
-    <polyline points="864,418 864,402 864,402" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 864.300915903465 402)" x="870" y="406">Cymbidium faberi AP3-B</text>
-    <polyline points="869,501 869,512 870,512" style="stroke: rgb(247,0,8); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 870.417972327867 512)" x="876" y="516">Oncidium Gower AP3-B</text>
-    <polyline points="869,501 869,490 876,490" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 876.422238547544 490)" x="882" y="494">Gongora galeata AP3-B</text>
-    <polyline points="869,484 869,501 869,501" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="869,484 869,468 896,468" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 896.275924121233 468)" x="902" y="472">Erycina pusilla AP3-B</text>
-    <polyline points="972,677 972,688 978,688" style="stroke: rgb(60,0,195); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 978.968831080836 688)" x="984" y="692">Oncidium Gower-Ramsey AP3-B</text>
-    <polyline points="972,677 972,666 999,666" style="stroke: rgb(-3,0,258); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 1000 666)" x="1005" y="670">Erycina pusilla AP3-B</text>
-    <polyline points="957,660 957,677 972,677" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="957,660 957,644 973,644" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 973.382961430359 644)" x="979" y="648">Gongora galeata AP3-B</text>
-    <polyline points="946,641 946,660 957,660" style="stroke: rgb(201,0,54); stroke-width: 2" />
-    <polyline points="946,641 946,622 967,622" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 967.496124601206 622)" x="973" y="626">Phalaenopsis equestris AP3-B</text>
-    <polyline points="881,620 881,641 946,641" style="stroke: rgb(57,0,198); stroke-width: 2" />
-    <polyline points="881,620 881,600 889,600" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 889.66682405308 600)" x="895" y="604">Dendrobium crumenatum AP3-B</text>
-    <polyline points="878,599 878,620 881,620" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="878,599 878,578 884,578" style="stroke: rgb(121,0,134); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 884.72696102504 578)" x="890" y="582">Dendrobium devonianum AP3-B</text>
-    <polyline points="877,577 877,599 878,599" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="877,577 877,556 884,556" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 884.515298172985 556)" x="890" y="560">Dendrobium moniliforme AP3-B</text>
-    <polyline points="872,721 872,732 884,732" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 884.991104666441 732)" x="890" y="736">Phaius tancarvilleae AP3-B</text>
-    <polyline points="872,721 872,710 890,710" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 890.550588947689 710)" x="896" y="714">Brassavola nodosa AP3-B</text>
-    <polyline points="870,649 870,721 872,721" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="870,649 870,577 877,577" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="869,591 869,649 870,649" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="869,591 869,534 888,534" style="stroke: rgb(37,0,218); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 888.184024292242 534)" x="894" y="538">Phalaenopsis equestris AP3-B</text>
-    <polyline points="864,538 864,591 869,591" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="864,538 864,484 869,484" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="860,478 860,538 864,538" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="860,478 860,418 864,418" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="810,429 810,478 860,478" style="stroke: rgb(207,0,48); stroke-width: 2" />
-    <polyline points="810,429 810,380 810,380" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 810.204820053003 380)" x="816" y="384">Cymbidium ensifolium AP3-B</text>
-    <polyline points="770,393 770,429 810,429" style="stroke: rgb(163,0,92); stroke-width: 2" />
-    <polyline points="770,393 770,358 771,358" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 771.839913296059 358)" x="777" y="362">Cymbidium ensifolium AP3-B</text>
-    <polyline points="770,364 770,393 770,393" style="stroke: rgb(63,0,192); stroke-width: 2" />
-    <polyline points="770,364 770,336 771,336" style="stroke: rgb(178,0,77); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 771.203185045218 336)" x="777" y="340">Cymbidium goeringii AP3-B</text>
-    <polyline points="769,339 769,364 770,364" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="769,339 769,314 770,314" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 770.534272442901 314)" x="776" y="318">Cymbidium faberi AP3-B</text>
-    <polyline points="780,787 780,798 780,798" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 780.584778526186 798)" x="786" y="802">Oncidium Gower AP3-B</text>
-    <polyline points="780,787 780,776 799,776" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 799.443648695214 776)" x="805" y="780">Erycina pusilla AP3-B</text>
-    <polyline points="767,770 767,787 780,787" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="767,770 767,754 771,754" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 771.831504771799 754)" x="777" y="758">Gongora galeata AP3-B</text>
-    <polyline points="762,554 762,770 767,770" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="762,554 762,339 769,339" style="stroke: rgb(-56,0,311); stroke-width: 2" />
-    <polyline points="753,423 753,554 762,554" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="753,423 753,292 763,292" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 763.106066132204 292)" x="769" y="296">Brassavola nodosa AP3-B</text>
-    <polyline points="751,346 751,423 753,423" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="751,346 751,270 770,270" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 770.609079313901 270)" x="776" y="274">Phalaenopsis equestris AP3-B</text>
-    <polyline points="748,297 748,346 751,346" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="748,297 748,248 760,248" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 760.568141551325 248)" x="766" y="252">Phaius tancarvilleae AP3-B</text>
-    <polyline points="748,831 748,842 756,842" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 756.13510957177 842)" x="762" y="846">Dendrobium crumenatum AP3-B</text>
-    <polyline points="748,831 748,820 758,820" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 758.029637072222 820)" x="764" y="824">Dendrobium moniliforme AP3-B</text>
-    <polyline points="743,564 743,831 748,831" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="743,564 743,297 748,297" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="695,389 695,564 743,564" style="stroke: rgb(38,0,217); stroke-width: 2" />
-    <polyline points="695,389 695,215 695,215" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="682,285 682,389 695,389" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="682,285 682,182 682,182" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 682.675632096695 182)" x="688" y="186">Phaius tancarvilleae AP3-B</text>
-    <polyline points="78,222 78,285 682,285" style="stroke: rgb(-13,0,268); stroke-width: 2" />
-    <polyline points="78,222 78,160 78,160" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 78.0116938003081 160)" x="84" y="164">Habenaria radiata PI-B</text>
-    <polyline points="70,180 70,222 78,222" style="stroke: rgb(201,0,54); stroke-width: 2" />
-    <polyline points="70,180 70,138 80,138" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 80.5902112569233 138)" x="86" y="142">Orchis italica PI-B</text>
-    <polyline points="69,148 69,180 70,180" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="69,148 69,116 78,116" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 78.0589555056301 116)" x="84" y="120">Habenaria petelotii PI-B</text>
-    <polyline points="79,919 79,930 86,930" style="stroke: rgb(82,0,173); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 86.9954770990561 930)" x="92" y="934">Liparis distans PI-B</text>
-    <polyline points="79,919 79,908 91,908" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 91.6474206584775 908)" x="97" y="912">Dendrobium moniliforme PI-B</text>
-    <polyline points="77,902 77,919 79,919" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="77,902 77,886 87,886" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 87.1491501286306 886)" x="93" y="890">Phaius tancarvilleae PI-B</text>
-    <polyline points="92,963 92,974 95,974" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 95.2897614085056 974)" x="101" y="978">Sedirea japonica PI-B</text>
-    <polyline points="92,963 92,952 97,952" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 97.3968216083508 952)" x="103" y="956">Phalaenopsis equestris PI-B</text>
-    <polyline points="86,1007 86,1018 87,1018" style="stroke: rgb(176,0,79); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 87.4072048386708 1018)" x="93" y="1022">Cymbidium goeringii PI-B</text>
-    <polyline points="86,1007 86,996 87,996" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 87.8400988634911 996)" x="93" y="1000">Cymbidium faberi PI-B</text>
-    <polyline points="102,1073 102,1084 105,1084" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 105.350705659837 1084)" x="111" y="1088">Oncidium Gower-Ramsey PI-B</text>
-    <polyline points="102,1073 102,1062 126,1062" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 126.879717205 1062)" x="132" y="1066">Erycina pusilla PI-B</text>
-    <polyline points="87,1056 87,1073 102,1073" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="87,1056 87,1040 91,1040" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 91.5694243472406 1040)" x="97" y="1044">Gongora galeata PI-B</text>
-    <polyline points="80,1031 80,1056 87,1056" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="80,1031 80,1007 86,1007" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="77,997 77,1031 80,1031" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="77,997 77,963 92,963" style="stroke: rgb(61,0,194); stroke-width: 2" />
-    <polyline points="77,949 77,997 77,997" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="77,949 77,902 77,902" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="75,906 75,949 77,949" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="75,906 75,864 91,864" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 91.2556994076187 864)" x="97" y="868">Brassavola nodosa PI-B</text>
-    <polyline points="90,1117 90,1128 95,1128" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 95.863860651067 1128)" x="101" y="1132">Phragmipedium longifolium PI-B</text>
-    <polyline points="90,1117 90,1106 95,1106" style="stroke: rgb(11,0,244); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 95.1946580996369 1106)" x="101" y="1110">Paphiopedilum concolor PI-B</text>
-    <polyline points="68,1011 68,1117 90,1117" style="stroke: rgb(181,0,74); stroke-width: 2" />
-    <polyline points="68,1011 68,906 75,906" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="62,580 62,1011 68,1011" style="stroke: rgb(255,0,0); stroke-width: 2" />
-    <polyline points="62,580 62,148 69,148" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="59,337 59,580 62,580" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="59,337 59,94 81,94" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 81.4278742426606 94)" x="87" y="98">Spiranthes odorata PI-B</text>
-    <polyline points="50,153 50,337 59,337" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="50,153 50,72 56,72" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 56.3553945947992 72)" x="62" y="76">Ludisia discolor PI-B</text>
-    <polyline points="50,153 50,50 54,50" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 54.347207042284 50)" x="60" y="54">Anoectochilus formosanus PI-B</text>
+    <polyline points="532,83 532,94 550,94" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 550.097514183775 94)" x="556" y="98">Dendrobium moniliforme AP3-B</text>
+    <polyline points="532,83 532,72 556,72" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 556.596876645026 72)" x="562" y="76">Phalaenopsis equestris AP3-B</text>
+    <polyline points="793,303 793,314 797,314" style="stroke: rgb(-61,0,316); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 797.993449143125 314)" x="803" y="318">Cymbidium ensifolium AP3-B</text>
+    <polyline points="793,303 793,292 798,292" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 798.985178686319 292)" x="804" y="296">Cymbidium goeringii AP3-B</text>
+    <polyline points="791,286 791,303 793,303" style="stroke: rgb(254,0,1); stroke-width: 2" />
+    <polyline points="791,286 791,270 791,270" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 791.959057144528 270)" x="797" y="274">Cymbidium faberi AP3-B</text>
+    <polyline points="800,369 800,380 801,380" style="stroke: rgb(247,0,8); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 801.337146867872 380)" x="807" y="384">Oncidium Gower AP3-B</text>
+    <polyline points="800,369 800,358 810,358" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 810.54231736562 358)" x="816" y="362">Gongora galeata AP3-B</text>
+    <polyline points="800,352 800,369 800,369" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="800,352 800,336 840,336" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 840.980101772241 336)" x="846" y="340">Erycina pusilla AP3-B</text>
+    <polyline points="957,545 957,556 967,556" style="stroke: rgb(60,0,195); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 967.757010001755 556)" x="973" y="560">Oncidium Gower-Ramsey AP3-B</text>
+    <polyline points="957,545 957,534 1000,534" style="stroke: rgb(-3,0,258); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 1000 534)" x="1006" y="538">Erycina pusilla AP3-B</text>
+    <polyline points="934,528 934,545 957,545" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="934,528 934,512 959,512" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 959.193285371703 512)" x="965" y="516">Gongora galeata AP3-B</text>
+    <polyline points="917,509 917,528 934,528" style="stroke: rgb(201,0,54); stroke-width: 2" />
+    <polyline points="917,509 917,490 950,490" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 950.168146458443 490)" x="956" y="494">Phalaenopsis equestris AP3-B</text>
+    <polyline points="817,488 817,509 917,509" style="stroke: rgb(57,0,198); stroke-width: 2" />
+    <polyline points="817,488 817,468 830,468" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 830.847657483769 468)" x="836" y="472">Dendrobium crumenatum AP3-B</text>
+    <polyline points="814,467 814,488 817,488" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="814,467 814,446 823,446" style="stroke: rgb(121,0,134); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 823.274328829619 446)" x="829" y="450">Dendrobium devonianum AP3-B</text>
+    <polyline points="811,445 811,467 814,467" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="811,445 811,424 822,424" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 822.949827455109 424)" x="828" y="428">Dendrobium moniliforme AP3-B</text>
+    <polyline points="804,589 804,600 823,600" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 823.679288764111 600)" x="829" y="604">Phaius tancarvilleae AP3-B</text>
+    <polyline points="804,589 804,578 832,578" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 832.202561852957 578)" x="838" y="582">Brassavola nodosa AP3-B</text>
+    <polyline points="801,517 801,589 804,589" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="801,517 801,445 811,445" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="799,459 799,517 801,517" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="799,459 799,402 828,402" style="stroke: rgb(37,0,218); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 828.574369772475 402)" x="834" y="406">Phalaenopsis equestris AP3-B</text>
+    <polyline points="792,406 792,459 799,459" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="792,406 792,352 800,352" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="785,346 785,406 792,406" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="785,346 785,286 791,286" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="709,297 709,346 785,346" style="stroke: rgb(207,0,48); stroke-width: 2" />
+    <polyline points="709,297 709,248 709,248" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 709.024062701059 248)" x="715" y="252">Cymbidium ensifolium AP3-B</text>
+    <polyline points="648,261 648,297 709,297" style="stroke: rgb(163,0,92); stroke-width: 2" />
+    <polyline points="648,261 648,226 650,226" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 650.206632742587 226)" x="656" y="230">Cymbidium ensifolium AP3-B</text>
+    <polyline points="648,232 648,261 648,261" style="stroke: rgb(63,0,192); stroke-width: 2" />
+    <polyline points="648,232 648,204 649,204" style="stroke: rgb(178,0,77); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 649.230461484471 204)" x="655" y="208">Cymbidium goeringii AP3-B</text>
+    <polyline points="647,207 647,232 648,232" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="647,207 647,182 648,182" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 648.204948236533 182)" x="654" y="186">Cymbidium faberi AP3-B</text>
+    <polyline points="663,655 663,666 663,666" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 663.613429256595 666)" x="669" y="670">Oncidium Gower AP3-B</text>
+    <polyline points="663,655 663,644 692,644" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 692.526057203018 644)" x="698" y="648">Erycina pusilla AP3-B</text>
+    <polyline points="643,638 643,655 663,655" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="643,638 643,622 650,622" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 650.193741592092 622)" x="656" y="626">Gongora galeata AP3-B</text>
+    <polyline points="636,422 636,638 643,638" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="636,422 636,207 647,207" style="stroke: rgb(-56,0,311); stroke-width: 2" />
+    <polyline points="622,291 622,422 636,422" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="622,291 622,160 636,160" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 636.81672808095 160)" x="642" y="164">Brassavola nodosa AP3-B</text>
+    <polyline points="619,214 619,291 622,291" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="619,214 619,138 648,138" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 648.319635023689 138)" x="654" y="142">Phalaenopsis equestris AP3-B</text>
+    <polyline points="615,165 615,214 619,214" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="615,165 615,116 632,116" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 632.925823243844 116)" x="638" y="120">Phaius tancarvilleae AP3-B</text>
+    <polyline points="614,699 614,710 626,710" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 626.129519798795 710)" x="632" y="714">Dendrobium crumenatum AP3-B</text>
+    <polyline points="614,699 614,688 629,688" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 629.034029361876 688)" x="635" y="692">Dendrobium moniliforme AP3-B</text>
+    <polyline points="606,432 606,699 614,699" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="606,432 606,165 615,165" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="532,257 532,432 606,432" style="stroke: rgb(38,0,217); stroke-width: 2" />
+    <polyline points="532,257 532,83 532,83" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="513,153 513,257 532,257" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="513,153 513,50 513,50" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 513.508428379248 50)" x="519" y="54">Phaius tancarvilleae AP3-B</text>
+    <polyline points="556,831 556,842 566,842" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 566.193226881909 842)" x="572" y="846">Ludisia discolor PI-B</text>
+    <polyline points="556,831 556,820 563,820" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 563.11446452594 820)" x="569" y="824">Anoectochilus formosanus PI-B</text>
+    <polyline points="541,814 541,831 556,831" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="541,814 541,798 575,798" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 575.58598584547 798)" x="581" y="802">Spiranthes odorata PI-B</text>
+    <polyline points="563,919 563,930 575,930" style="stroke: rgb(82,0,173); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 575.102345440721 930)" x="581" y="934">Liparis distans PI-B</text>
+    <polyline points="563,919 563,908 582,908" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 582.23426332105 908)" x="588" y="912">Dendrobium moniliforme PI-B</text>
+    <polyline points="561,902 561,919 563,919" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="561,902 561,886 575,886" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 575.337942329063 886)" x="581" y="890">Phaius tancarvilleae PI-B</text>
+    <polyline points="583,963 583,974 587,974" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 587.81835409721 974)" x="593" y="978">Sedirea japonica PI-B</text>
+    <polyline points="583,963 583,952 591,952" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 591.048698602094 952)" x="597" y="956">Phalaenopsis equestris PI-B</text>
+    <polyline points="575,1007 575,1018 575,1018" style="stroke: rgb(176,0,79); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 575.733567292507 1018)" x="581" y="1022">Cymbidium goeringii PI-B</text>
+    <polyline points="575,1007 575,996 576,996" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 576.397239281745 996)" x="582" y="1000">Cymbidium faberi PI-B</text>
+    <polyline points="598,1073 598,1084 603,1084" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 603.242837924782 1084)" x="609" y="1088">Oncidium Gower-Ramsey PI-B</text>
+    <polyline points="598,1073 598,1062 636,1062" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 636.249072936772 1062)" x="642" y="1066">Erycina pusilla PI-B</text>
+    <polyline points="575,1056 575,1073 598,1073" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="575,1056 575,1040 582,1040" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 582.114686787156 1040)" x="588" y="1044">Gongora galeata PI-B</text>
+    <polyline points="565,1031 565,1056 575,1056" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="565,1031 565,1007 575,1007" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="560,997 560,1031 565,1031" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="560,997 560,963 583,963" style="stroke: rgb(61,0,194); stroke-width: 2" />
+    <polyline points="560,949 560,997 560,997" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="560,949 560,902 561,902" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="558,906 558,949 560,949" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="558,906 558,864 581,864" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 581.633713516991 864)" x="587" y="868">Brassavola nodosa PI-B</text>
+    <polyline points="580,1117 580,1128 588,1128" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 588.698508510265 1128)" x="594" y="1132">Phragmipedium longifolium PI-B</text>
+    <polyline points="580,1117 580,1106 587,1106" style="stroke: rgb(11,0,244); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 587.672550739896 1106)" x="593" y="1110">Paphiopedilum concolor PI-B</text>
+    <polyline points="546,1011 546,1117 580,1117" style="stroke: rgb(181,0,74); stroke-width: 2" />
+    <polyline points="546,1011 546,906 558,906" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="537,913 537,1011 546,1011" style="stroke: rgb(255,0,0); stroke-width: 2" />
+    <polyline points="537,913 537,814 541,814" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="526,844 526,913 537,913" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="526,844 526,776 539,776" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 539.645902789963 776)" x="545" y="780">Habenaria petelotii PI-B</text>
+    <polyline points="524,799 524,844 526,844" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="524,799 524,754 539,754" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 539.602339591741 754)" x="545" y="758">Orchis italica PI-B</text>
+    <polyline points="513,765 513,799 524,799" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="513,765 513,732 513,732" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 513.505761244663 732)" x="519" y="736">Habenaria radiata PI-B</text>
+    <polyline points="50,459 50,765 513,765" style="stroke: rgb(201,0,54); stroke-width: 2" />
+    <polyline points="50,459 50,153 513,153" style="stroke: rgb(-13,0,268); stroke-width: 2" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 50 459.725656986237)" x="56" y="463">root</text>
 </svg>
