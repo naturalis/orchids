@@ -12,61 +12,62 @@
 	line.scale_major    {}
 	line.scale_minor    {}
 ]]></style>
-    <polyline points="916,132 916,160 953,160" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 953.458942928416 160)" x="959" y="164">Erycina pusilla AG-C</text>
-    <polyline points="916,132 916,105 945,105" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 945.758977481501 105)" x="951" y="109">Oncidium Gower-Ramsey AG-C</text>
-    <polyline points="926,242 926,270 929,270" style="stroke: rgb(215,0,40); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 929.824632557434 270)" x="935" y="274">Cymbidium ensifolium AG-C</text>
-    <polyline points="926,242 926,215 927,215" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 927.894136931349 215)" x="933" y="219">Cymbidium ensifolium AG-C</text>
-    <polyline points="924,283 924,325 924,325" style="stroke: rgb(80,0,175); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 924.099196851456 325)" x="930" y="329">Cymbidium faberi AG-C</text>
-    <polyline points="924,283 924,242 926,242" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="896,208 896,283 924,283" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="896,208 896,132 916,132" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="877,294 877,380 940,380" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 940.771113199279 380)" x="946" y="384">Phalaenopsis equestris AG-C</text>
-    <polyline points="877,294 877,208 896,208" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="863,172 863,294 877,294" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="863,172 863,50 902,50" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 902.234257277217 50)" x="908" y="54">Dendrobium thyrsiflorum AG-C</text>
-    <polyline points="856,462 856,490 900,490" style="stroke: rgb(65,0,190); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 900.050565490738 490)" x="906" y="494">Cymbidium ensifolium AG-C</text>
-    <polyline points="856,462 856,435 995,435" style="stroke: rgb(-101,0,356); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 995.966875389776 435)" x="1001" y="439">Erycina pusilla AG-C</text>
-    <polyline points="840,572 840,600 970,600" style="stroke: rgb(29,0,226); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 970.190905796491 600)" x="976" y="604">Orchis italica AG-C</text>
-    <polyline points="840,572 840,545 891,545" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 891.973307741577 545)" x="897" y="549">Dendrobium crumenatum AG-C</text>
-    <polyline points="823,517 823,572 840,572" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="823,517 823,462 856,462" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="769,344 769,517 823,517" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="769,344 769,172 863,172" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="736,499 736,655 1000,655" style="stroke: rgb(255,0,0); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 1000 655)" x="1006" y="659">Erycina pusilla AG-C</text>
-    <polyline points="736,499 736,344 769,344" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="487,737 487,765 670,765" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 670.567776719648 765)" x="676" y="769">Orchis italica D</text>
-    <polyline points="487,737 487,710 600,710" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 600.781710883379 710)" x="606" y="714">Dendrobium crumenatum D</text>
-    <polyline points="337,618 337,737 487,737" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="337,618 337,499 736,499" style="stroke: rgb(-45,0,300); stroke-width: 2" />
-    <polyline points="198,847 198,875 207,875" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 207.902332754639 875)" x="213" y="879">Dendrobium nobile D</text>
-    <polyline points="198,847 198,820 209,820" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 209.830826830049 820)" x="215" y="824">Dendrobium thyrsiflorum D</text>
-    <polyline points="169,733 169,847 198,847" style="stroke: rgb(139,0,116); stroke-width: 2" />
-    <polyline points="169,733 169,618 337,618" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="146,831 146,930 210,930" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 210.231136965059 930)" x="216" y="934">Phalaenopsis equestris D</text>
-    <polyline points="146,831 146,733 169,733" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <polyline points="122,908 122,985 168,985" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 168.445764297393 985)" x="174" y="989">Cymbidium ensifolium D</text>
-    <polyline points="122,908 122,831 146,831" style="stroke: rgb(15,0,240); stroke-width: 2" />
-    <polyline points="50,1014 50,1095 108,1095" style="stroke: rgb(0,0,255); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 108.959678234927 1095)" x="114" y="1099">Erycina pusilla D</text>
-    <polyline points="50,1014 50,1040 53,1040" style="stroke: rgb(78,0,177); stroke-width: 2" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 53.0913950176136 1040)" x="59" y="1044">Oncidium Gower-Ramsey D</text>
-    <polyline points="50,1014 50,908 122,908" style="stroke: rgb(34,0,221); stroke-width: 2" />
+    <polyline points="710,132 710,160 774,160" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 774.757358083466 160)" x="780" y="164">Erycina pusilla AG-C</text>
+    <polyline points="710,132 710,105 761,105" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 761.358226452345 105)" x="767" y="109">Oncidium Gower-Ramsey AG-C</text>
+    <polyline points="726,242 726,270 733,270" style="stroke: rgb(215,0,40); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 733.630000064161 270)" x="739" y="274">Cymbidium ensifolium AG-C</text>
+    <polyline points="726,242 726,215 730,215" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 730.270638884484 215)" x="736" y="219">Cymbidium ensifolium AG-C</text>
+    <polyline points="723,283 723,325 723,325" style="stroke: rgb(80,0,175); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 723.666855787888 325)" x="729" y="329">Cymbidium faberi AG-C</text>
+    <polyline points="723,283 723,242 726,242" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="676,208 676,283 723,283" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="676,208 676,132 710,132" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="643,294 643,380 752,380" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 752.678570610195 380)" x="758" y="384">Phalaenopsis equestris AG-C</text>
+    <polyline points="643,294 643,208 676,208" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="618,172 618,294 643,294" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="618,172 618,50 685,50" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 685.618476807292 50)" x="691" y="54">Dendrobium thyrsiflorum AG-C</text>
+    <polyline points="606,462 606,490 681,490" style="stroke: rgb(65,0,190); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 681.818515120379 490)" x="687" y="494">Cymbidium ensifolium AG-C</text>
+    <polyline points="606,462 606,435 848,435" style="stroke: rgb(-101,0,356); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 848.727739683651 435)" x="854" y="439">Erycina pusilla AG-C</text>
+    <polyline points="577,572 577,600 803,600" style="stroke: rgb(29,0,226); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 803.873563144643 600)" x="809" y="604">Orchis italica AG-C</text>
+    <polyline points="577,572 577,545 667,545" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 667.762836488358 545)" x="673" y="549">Dendrobium crumenatum AG-C</text>
+    <polyline points="548,517 548,572 577,572" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="548,517 548,462 606,462" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="454,344 454,517 548,517" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="454,344 454,172 618,172" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="397,499 397,655 855,655" style="stroke: rgb(255,0,0); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 855.746000727765 655)" x="861" y="659">Erycina pusilla AG-C</text>
+    <polyline points="397,499 397,344 454,344" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="897,737 897,765 1000,765" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 1000 765)" x="1006" y="769">Erycina pusilla D</text>
+    <polyline points="897,737 897,710 902,710" style="stroke: rgb(78,0,177); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 902.780540251198 710)" x="908" y="714">Oncidium Gower-Ramsey D</text>
+    <polyline points="771,778 771,820 852,820" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 852.087100863328 820)" x="858" y="824">Cymbidium ensifolium D</text>
+    <polyline points="771,778 771,737 897,737" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="729,826 729,875 839,875" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 839.550013702887 875)" x="845" y="879">Phalaenopsis equestris D</text>
+    <polyline points="729,826 729,778 771,778" style="stroke: rgb(34,0,221); stroke-width: 2" />
+    <polyline points="740,957 740,985 757,985" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 757.310971200107 985)" x="763" y="989">Dendrobium nobile D</text>
+    <polyline points="740,957 740,930 760,930" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 760.666849371821 930)" x="766" y="934">Dendrobium thyrsiflorum D</text>
+    <polyline points="689,892 689,957 740,957" style="stroke: rgb(139,0,116); stroke-width: 2" />
+    <polyline points="689,892 689,826 729,826" style="stroke: rgb(15,0,240); stroke-width: 2" />
+    <polyline points="659,1067 659,1095 977,1095" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 977.929920046636 1095)" x="983" y="1099">Orchis italica D</text>
+    <polyline points="659,1067 659,1040 856,1040" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000" transform="rotate( 856.491364431706 1040)" x="862" y="1044">Dendrobium crumenatum D</text>
+    <polyline points="397,979 397,1067 659,1067" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="397,979 397,892 689,892" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="50,739 50,979 397,979" style="stroke: rgb(0,0,255); stroke-width: 2" />
+    <polyline points="50,739 50,499 397,499" style="stroke: rgb(-45,0,300); stroke-width: 2" />
 </svg>

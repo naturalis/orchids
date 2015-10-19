@@ -118,5 +118,4 @@
     <polyline points="141,853 141,732 544,732" style="stroke: rgb(185,0,70); stroke-width: 2" />
     <polyline points="50,595 50,853 141,853" style="stroke: rgb(51,0,204); stroke-width: 2" />
     <polyline points="50,595 50,337 141,337" style="stroke: rgb(30,0,225); stroke-width: 2" />
-    <text class="node_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 50 595.225694444444)" x="56" y="599">root</text>
 </svg>

@@ -160,5 +160,4 @@
     <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #0000FF" transform="rotate( 513.505761244663 732)" x="519" y="736">Habenaria radiata PI-B</text>
     <polyline points="50,459 50,765 513,765" style="stroke: rgb(201,0,54); stroke-width: 2" />
     <polyline points="50,459 50,153 513,153" style="stroke: rgb(-13,0,268); stroke-width: 2" />
-    <text class="node_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 50 459.725656986237)" x="56" y="463">root</text>
 </svg>

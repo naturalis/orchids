@@ -82,10 +82,10 @@ if ( $famroot ) {
 		my $n = shift;
 		push @tips, $n if $n->is_terminal and $n->get_generic('fam') eq $famroot;
 	});
-	$tree->get_mrca(\@tips)->set_root_below(1000);
+	$tree->get_mrca(\@tips)->set_root_below(1000)->set_name('');
 }
 else {
-	$tree->get_midpoint->set_root_below(1000);
+	$tree->get_midpoint->set_root_below(1000)->set_name('');
 }
 
 # apply family colors
