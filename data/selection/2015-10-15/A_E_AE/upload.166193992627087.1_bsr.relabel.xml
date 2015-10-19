@@ -1,4 +1,4 @@
-<nex:nexml xmlns="http://www.nexml.org/2009" xmlns:sswap="http://sswapmeet.sswap.info/sequence/" version="0.9" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xsi:schemaLocation="http://www.nexml.org/2009 http://www.nexml.org/2009/nexml.xsd" xmlns:bp="http://search.cpan.org/dist/Bio-Phylo/terms#" xmlns:map="http://phylomap.org/terms.owl#" generator="Bio::Phylo::Project v.0.58" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hyphy="http://www.hyphy.org/terms#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><meta xsi:type="nex:LiteralMeta" content="rutger.vos" id="ma2337" datatype="xsd:string" property="dc:creator"/><meta xsi:type="nex:LiteralMeta" content="2015-10-19T13:58:58" id="ma2338" datatype="xsd:string" property="dc:date"/><meta xsi:type="nex:LiteralMeta" content="rutger.vos" id="ma2670" datatype="xsd:string" property="dc:creator"/><meta xsi:type="nex:LiteralMeta" content="2015-10-19T14:01:10" id="ma2671" datatype="xsd:date" property="dc:date"/><otus id="os75">
+<nex:nexml xmlns="http://www.nexml.org/2009" xmlns:sswap="http://sswapmeet.sswap.info/sequence/" version="0.9" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xsi:schemaLocation="http://www.nexml.org/2009 http://www.nexml.org/2009/nexml.xsd" xmlns:bp="http://search.cpan.org/dist/Bio-Phylo/terms#" xmlns:map="http://phylomap.org/terms.owl#" generator="Bio::Phylo::Project v.0.58" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hyphy="http://www.hyphy.org/terms#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><meta xsi:type="nex:LiteralMeta" content="rutger.vos" id="ma2337" datatype="xsd:string" property="dc:creator"/><meta xsi:type="nex:LiteralMeta" content="2015-10-19T14:50:18" id="ma2338" datatype="xsd:string" property="dc:date"/><meta xsi:type="nex:LiteralMeta" content="rutger.vos" id="ma2670" datatype="xsd:string" property="dc:creator"/><meta xsi:type="nex:LiteralMeta" content="2015-10-19T14:51:18" id="ma2671" datatype="xsd:date" property="dc:date"/><otus id="os75">
 <otu label="Cymbidium ensifolium" id="ou2659"/>
 <otu label="Cymbidium faberi" id="ou2667"/>
 <otu label="Cymbidium goeringii" id="ou2665"/>
@@ -12,7 +12,7 @@
 <otu label="Phalaenopsis amabilis" id="ou2666"/>
 <otu label="Phalaenopsis equestris" id="ou2664"/>
 <otu label="Sedirea japonica" id="ou2661"/></otus><trees otus="os75" id="ts651">
-<tree xsi:type="nex:IntTree" label="=" id="te653">
+<tree xsi:type="nex:FloatTree" label="=" id="te653">
 <node root="true" id="ne654"/>
 <node label="Node1" id="ne655" about="#ne655"><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma43" datatype="xsd:float" property="hyphy:LRT"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma44" datatype="xsd:float" property="hyphy:p_value"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma45" datatype="xsd:float" property="hyphy:omega3"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma46" datatype="xsd:float" property="hyphy:p1"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma47" datatype="xsd:float" property="hyphy:omega1"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma48" datatype="xsd:float" property="hyphy:p2"/><meta xsi:type="nex:LiteralMeta" content="0.363728" id="ma49" datatype="xsd:float" property="hyphy:Mean_omega"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma50" datatype="xsd:float" property="hyphy:p3"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma51" datatype="xsd:float" property="hyphy:omega2"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma52" datatype="xsd:float" property="hyphy:Corrected_p_value"/></node>
 <node label="Sedirea japonica AP1-A" id="ne722" about="#ne722" otu="ou2661"><meta xsi:type="nex:LiteralMeta" content="0.0300459" id="ma54" datatype="xsd:float" property="hyphy:LRT"/><meta xsi:type="nex:LiteralMeta" content="0.431193" id="ma55" datatype="xsd:float" property="hyphy:p_value"/><meta xsi:type="nex:LiteralMeta" content="38.0671" id="ma56" datatype="xsd:float" property="hyphy:omega3"/><meta xsi:type="nex:LiteralMeta" content="0.718323" id="ma57" datatype="xsd:float" property="hyphy:p1"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma58" datatype="xsd:float" property="hyphy:p2"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma59" datatype="xsd:float" property="hyphy:omega1"/><meta xsi:type="nex:LiteralMeta" content="0.281677" id="ma60" datatype="xsd:float" property="hyphy:p3"/><meta xsi:type="nex:LiteralMeta" content="10.0" id="ma61" datatype="xsd:float" property="hyphy:Mean_omega"/><meta xsi:type="nex:LiteralMeta" content="0.950953" id="ma62" datatype="xsd:float" property="hyphy:omega2"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma63" datatype="xsd:float" property="hyphy:Corrected_p_value"/></node>
@@ -83,75 +83,75 @@
 <node label="Erycina pusilla SEP-E" id="ne671" about="#ne671" otu="ou2662"><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma769" datatype="xsd:float" property="hyphy:LRT"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma770" datatype="xsd:float" property="hyphy:p_value"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma771" datatype="xsd:float" property="hyphy:omega3"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma772" datatype="xsd:float" property="hyphy:p1"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma773" datatype="xsd:float" property="hyphy:p2"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma774" datatype="xsd:float" property="hyphy:omega1"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma775" datatype="xsd:float" property="hyphy:p3"/><meta xsi:type="nex:LiteralMeta" content="0.012358" id="ma776" datatype="xsd:float" property="hyphy:Mean_omega"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma777" datatype="xsd:float" property="hyphy:omega2"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma778" datatype="xsd:float" property="hyphy:Corrected_p_value"/></node>
 <node label="Cymbidium goeringii SEP-E" id="ne673" about="#ne673" otu="ou2665"><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma780" datatype="xsd:float" property="hyphy:LRT"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma781" datatype="xsd:float" property="hyphy:p_value"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma782" datatype="xsd:float" property="hyphy:omega3"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma783" datatype="xsd:float" property="hyphy:p1"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma784" datatype="xsd:float" property="hyphy:p2"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma785" datatype="xsd:float" property="hyphy:omega1"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma786" datatype="xsd:float" property="hyphy:p3"/><meta xsi:type="nex:LiteralMeta" content="10.0" id="ma787" datatype="xsd:float" property="hyphy:Mean_omega"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma788" datatype="xsd:float" property="hyphy:omega2"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma789" datatype="xsd:float" property="hyphy:Corrected_p_value"/></node>
 <node label="Cymbidium ensifolium SEP-E" id="ne674" about="#ne674" otu="ou2659"><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma791" datatype="xsd:float" property="hyphy:LRT"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma792" datatype="xsd:float" property="hyphy:p_value"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma793" datatype="xsd:float" property="hyphy:omega3"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma794" datatype="xsd:float" property="hyphy:p1"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma795" datatype="xsd:float" property="hyphy:p2"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma796" datatype="xsd:float" property="hyphy:omega1"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma797" datatype="xsd:float" property="hyphy:p3"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma798" datatype="xsd:float" property="hyphy:Mean_omega"/><meta xsi:type="nex:LiteralMeta" content="0.0" id="ma799" datatype="xsd:float" property="hyphy:omega2"/><meta xsi:type="nex:LiteralMeta" content="1.0" id="ma800" datatype="xsd:float" property="hyphy:Corrected_p_value"/></node>
-<edge source="ne654" target="ne655" id="edge42"/>
-<edge source="ne654" target="ne722" id="edge53"/>
-<edge source="ne654" target="ne723" id="edge64"/>
-<edge source="ne655" target="ne656" id="edge75"/>
-<edge source="ne655" target="ne717" id="edge86"/>
-<edge source="ne656" target="ne657" id="edge97"/>
-<edge source="ne656" target="ne714" id="edge108"/>
-<edge source="ne717" target="ne718" id="edge119"/>
-<edge source="ne717" target="ne719" id="edge130"/>
-<edge source="ne657" target="ne658" id="edge141"/>
-<edge source="ne657" target="ne707" id="edge152"/>
-<edge source="ne714" target="ne715" id="edge163"/>
-<edge source="ne714" target="ne716" id="edge174"/>
-<edge source="ne719" target="ne720" id="edge185"/>
-<edge source="ne719" target="ne721" id="edge196"/>
-<edge source="ne658" target="ne659" id="edge207"/>
-<edge source="ne658" target="ne690" id="edge218"/>
-<edge source="ne707" target="ne708" id="edge229"/>
-<edge source="ne707" target="ne713" id="edge240"/>
-<edge source="ne659" target="ne660" id="edge251"/>
-<edge source="ne659" target="ne679" id="edge262"/>
-<edge source="ne690" target="ne691" id="edge273"/>
-<edge source="ne690" target="ne696" id="edge284"/>
-<edge source="ne708" target="ne709" id="edge295"/>
-<edge source="ne708" target="ne712" id="edge306"/>
-<edge source="ne660" target="ne661" id="edge317"/>
-<edge source="ne660" target="ne676" id="edge328"/>
-<edge source="ne679" target="ne680" id="edge339"/>
-<edge source="ne679" target="ne687" id="edge350"/>
-<edge source="ne691" target="ne692" id="edge361"/>
-<edge source="ne691" target="ne695" id="edge372"/>
-<edge source="ne696" target="ne697" id="edge383"/>
-<edge source="ne696" target="ne700" id="edge394"/>
-<edge source="ne709" target="ne710" id="edge405"/>
-<edge source="ne709" target="ne711" id="edge416"/>
-<edge source="ne661" target="ne662" id="edge427"/>
-<edge source="ne661" target="ne667" id="edge438"/>
-<edge source="ne676" target="ne677" id="edge449"/>
-<edge source="ne676" target="ne678" id="edge460"/>
-<edge source="ne680" target="ne681" id="edge471"/>
-<edge source="ne680" target="ne682" id="edge482"/>
-<edge source="ne687" target="ne688" id="edge493"/>
-<edge source="ne687" target="ne689" id="edge504"/>
-<edge source="ne692" target="ne693" id="edge515"/>
-<edge source="ne692" target="ne694" id="edge526"/>
-<edge source="ne697" target="ne698" id="edge537"/>
-<edge source="ne697" target="ne699" id="edge548"/>
-<edge source="ne700" target="ne701" id="edge559"/>
-<edge source="ne700" target="ne706" id="edge570"/>
-<edge source="ne662" target="ne663" id="edge581"/>
-<edge source="ne662" target="ne666" id="edge592"/>
-<edge source="ne667" target="ne668" id="edge603"/>
-<edge source="ne667" target="ne675" id="edge614"/>
-<edge source="ne682" target="ne683" id="edge625"/>
-<edge source="ne682" target="ne686" id="edge636"/>
-<edge source="ne701" target="ne702" id="edge647"/>
-<edge source="ne701" target="ne703" id="edge658"/>
-<edge source="ne663" target="ne664" id="edge669"/>
-<edge source="ne663" target="ne665" id="edge680"/>
-<edge source="ne668" target="ne669" id="edge691"/>
-<edge source="ne668" target="ne672" id="edge702"/>
-<edge source="ne683" target="ne684" id="edge713"/>
-<edge source="ne683" target="ne685" id="edge724"/>
-<edge source="ne703" target="ne704" id="edge735"/>
-<edge source="ne703" target="ne705" id="edge746"/>
-<edge source="ne669" target="ne670" id="edge757"/>
-<edge source="ne669" target="ne671" id="edge768"/>
-<edge source="ne672" target="ne673" id="edge779"/>
-<edge source="ne672" target="ne674" id="edge790"/></tree></trees><characters otus="os75" xsi:type="nex:DnaSeqs" id="cs114"><format>
+<edge source="ne654" length="0.0618689598" target="ne655" id="edge42"/>
+<edge source="ne654" length="0.0056265315" target="ne722" id="edge53"/>
+<edge source="ne654" length="0.0320458167" target="ne723" id="edge64"/>
+<edge source="ne655" length="0.1196610507" target="ne656" id="edge75"/>
+<edge source="ne655" length="0.0265909299" target="ne717" id="edge86"/>
+<edge source="ne656" length="0.1887657586" target="ne657" id="edge97"/>
+<edge source="ne656" length="0.1359532319" target="ne714" id="edge108"/>
+<edge source="ne717" length="0.0355379860" target="ne718" id="edge119"/>
+<edge source="ne717" length="0.0510395294" target="ne719" id="edge130"/>
+<edge source="ne657" length="0.4736607599" target="ne658" id="edge141"/>
+<edge source="ne657" length="0.0796290475" target="ne707" id="edge152"/>
+<edge source="ne714" length="0.2108210853" target="ne715" id="edge163"/>
+<edge source="ne714" length="0.0716547097" target="ne716" id="edge174"/>
+<edge source="ne719" length="0.0186333208" target="ne720" id="edge185"/>
+<edge source="ne719" length="0.0663077646" target="ne721" id="edge196"/>
+<edge source="ne658" length="0.2162716587" target="ne659" id="edge207"/>
+<edge source="ne658" length="0.2457182098" target="ne690" id="edge218"/>
+<edge source="ne707" length="0.0900098870" target="ne708" id="edge229"/>
+<edge source="ne707" length="0.2157541853" target="ne713" id="edge240"/>
+<edge source="ne659" length="0.1615372425" target="ne660" id="edge251"/>
+<edge source="ne659" length="0.1824350934" target="ne679" id="edge262"/>
+<edge source="ne690" length="0.1811022485" target="ne691" id="edge273"/>
+<edge source="ne690" length="0.1633675077" target="ne696" id="edge284"/>
+<edge source="ne708" length="0.0260273870" target="ne709" id="edge295"/>
+<edge source="ne708" length="0.1081981736" target="ne712" id="edge306"/>
+<edge source="ne660" length="0.0665398279" target="ne661" id="edge317"/>
+<edge source="ne660" length="0.1768271135" target="ne676" id="edge328"/>
+<edge source="ne679" length="0.0286370802" target="ne680" id="edge339"/>
+<edge source="ne679" length="0.0590738682" target="ne687" id="edge350"/>
+<edge source="ne691" length="0.1091732138" target="ne692" id="edge361"/>
+<edge source="ne691" length="0.2648673002" target="ne695" id="edge372"/>
+<edge source="ne696" length="0.0496518236" target="ne697" id="edge383"/>
+<edge source="ne696" length="0.0536143652" target="ne700" id="edge394"/>
+<edge source="ne709" length="0.0680192193" target="ne710" id="edge405"/>
+<edge source="ne709" length="0.0934356264" target="ne711" id="edge416"/>
+<edge source="ne661" length="0.0735441430" target="ne662" id="edge427"/>
+<edge source="ne661" length="0.0372997039" target="ne667" id="edge438"/>
+<edge source="ne676" length="0.0393549351" target="ne677" id="edge449"/>
+<edge source="ne676" length="0.0562583382" target="ne678" id="edge460"/>
+<edge source="ne680" length="0.1361381706" target="ne681" id="edge471"/>
+<edge source="ne680" length="0.1098189538" target="ne682" id="edge482"/>
+<edge source="ne687" length="0.0563776924" target="ne688" id="edge493"/>
+<edge source="ne687" length="0.0970302047" target="ne689" id="edge504"/>
+<edge source="ne692" length="0.0648247107" target="ne693" id="edge515"/>
+<edge source="ne692" length="0.0337666232" target="ne694" id="edge526"/>
+<edge source="ne697" length="0.0211965225" target="ne698" id="edge537"/>
+<edge source="ne697" length="0.0836440862" target="ne699" id="edge548"/>
+<edge source="ne700" length="0.0032500925" target="ne701" id="edge559"/>
+<edge source="ne700" length="0.0019034202" target="ne706" id="edge570"/>
+<edge source="ne662" length="0.0387483241" target="ne663" id="edge581"/>
+<edge source="ne662" length="0.0509122526" target="ne666" id="edge592"/>
+<edge source="ne667" length="0.0504140914" target="ne668" id="edge603"/>
+<edge source="ne667" length="0.0394334634" target="ne675" id="edge614"/>
+<edge source="ne682" length="0.0072668454" target="ne683" id="edge625"/>
+<edge source="ne682" length="0.0577616227" target="ne686" id="edge636"/>
+<edge source="ne701" length="0.0000001142" target="ne702" id="edge647"/>
+<edge source="ne701" length="0.0025088377" target="ne703" id="edge658"/>
+<edge source="ne663" length="0.2179391988" target="ne664" id="edge669"/>
+<edge source="ne663" length="0.0937422053" target="ne665" id="edge680"/>
+<edge source="ne668" length="0.0393406656" target="ne669" id="edge691"/>
+<edge source="ne668" length="0.0468360820" target="ne672" id="edge702"/>
+<edge source="ne683" length="0.0601263086" target="ne684" id="edge713"/>
+<edge source="ne683" length="0.1625487263" target="ne685" id="edge724"/>
+<edge source="ne703" length="0.0050812922" target="ne704" id="edge735"/>
+<edge source="ne703" length="0.0025461226" target="ne705" id="edge746"/>
+<edge source="ne669" length="0.0162611898" target="ne670" id="edge757"/>
+<edge source="ne669" length="0.0679173484" target="ne671" id="edge768"/>
+<edge source="ne672" length="0.0000000896" target="ne673" id="edge779"/>
+<edge source="ne672" length="0.0047696817" target="ne674" id="edge790"/></tree></trees><characters otus="os75" xsi:type="nex:DnaSeqs" id="cs114"><format>
 <states id="ss805">
 <state symbol="A" id="s1"/>
 <state symbol="C" id="s2"/>
