@@ -12,7 +12,7 @@ The basic outline of the workflow contained in these scripts is as follows:
 The raw data files are FASTA files for each gene class. These should be merged in various
 combinations and then be aligned as codon alignments (i.e. exactly in-frame).  To this end
 the set of files to be merged should be placed in a single folder, which is provided as
-the argument for the shell script [protalign.sh](protalign.sh). This shell script unaligns any
+the argument for the shell script [protaln.sh](protaln.sh). This shell script unaligns any
 previous alignment that's been applied to these files ([script/unalign.pl](script/unalign.pl)) and translates
 them to amino acid ([script/nuc2aa.pl](script/nuc2aa.pl)). 
 
