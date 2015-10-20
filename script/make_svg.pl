@@ -38,10 +38,10 @@ my @omegas;
 $tree->visit(sub{
 	my $node = shift;
 	if ( not $node->is_root ) {
-		my $c1w  = $node->get_meta_object('hyphy:class1weight');
-		my $c2w  = $node->get_meta_object('hyphy:class2weight');
-		my $c3w  = $node->get_meta_object('hyphy:class3weight');
-		my $c3o  = $node->get_meta_object('hyphy:class3omega');
+		my $c1w  = $node->get_meta_object('hyphy:p1');
+		my $c2w  = $node->get_meta_object('hyphy:p2');
+		my $c3w  = $node->get_meta_object('hyphy:p3');
+		my $c3o  = $node->get_meta_object('hyphy:omega3');
 		push @omegas, $c3o;
 		$node->set_generic( 'pie' => {
 			'class 1' => $c1w,
@@ -64,7 +64,7 @@ my $transform = sub {
 $tree->visit(sub{
 	my $node = shift;
 	if ( not $node->is_root ) {
-		my $c3o  = $node->get_meta_object('hyphy:class3omega');
+		my $c3o  = $node->get_meta_object('hyphy:omega3');
 		$node->set_branch_color( $transform->($c3o) );
 	}
 	if ( $node->is_terminal and my $name = $node->get_name ) {
