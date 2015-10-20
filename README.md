@@ -1,9 +1,9 @@
 What is this?
 -------------
 
-This repository contains scripts and data to analyze the evolution of the MADS box gene
-family in orchids (with special attention to the occurrence and expression of these genes
-in *Erycina pusilla*).
+This repository contains scripts and data to analyze the evolution of the [MADS box gene
+family](genes.tsv) in orchids (with special attention to the occurrence and expression of 
+these genes in *Erycina pusilla*).
 
 The basic outline of the workflow contained in these scripts is as follows:
 
