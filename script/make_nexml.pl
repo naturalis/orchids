@@ -7,6 +7,12 @@ use Bio::Phylo::Util::CONSTANT '_TREE_';
 use Bio::Phylo::Util::Logger ':levels';
 use Bio::Phylo::Factory;
 
+# XXX this script is intended to be used on the output log files 
+# produced by standalone HyPhy, which are a little bit different
+# from the ones produced by datamonkey. Because of this we can
+# probably consider this "deprecated", unless we start using
+# standalone HyPhy again.
+
 # process command line arguments
 my ( $treefile, $logfile );
 my $verbosity = WARN;
