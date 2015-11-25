@@ -28,6 +28,8 @@ are then reconciled with this amino acid alignment ([script/protalign.pl](script
 
 ## Phylogenetic inference
 
+### Old approach
+
 To build trees for the codon alignments we now use PhyML. This requires PHYLIP format 
 input, which is created from the FASTA files ([script/fasta2phylip.pl](script/fasta2phylip.pl)). Because PHYLIP
 format requires that sequence names are no longer than 10 characters we need to have some
@@ -38,6 +40,27 @@ preceded by an underscore ('_').
 The PHYLIP files are then analyzed with PhyML using a shell script that has the search
 parameters embedded in it ([script/phyml.sh](script/phyml.sh)). Inference goes very fast, at most a few
 minutes.
+
+### New approach
+
+We have concluded that it would be more persuasive to have support values on every node
+in the gene trees, and ideally these would not be bootstrap values but Bayesian posterior
+probabilities. To this end the following steps need to happen:
+
+- choose a program to do the Bayesian phylogenetic inference. The best option is probably
+  to go with [MrBayes](http://mrbayes.sourceforge.net/) because there are very many online
+  tutorials for it.
+- convert the codon.aln.fasta files to the input that MrBayes accepts, which is NEXUS. This
+  can for example be done using the [AlignIO](http://biopython.org/wiki/AlignIO) module in
+  BioPython.
+- run MrBayes as per the tutorial. This includes building a consensus tree (using the `sumt`
+  command). 
+
+Ideally, all these steps are recorded in a shell script so that everything is reproducible.
+For example, have a script `mrbayes.sh` in the root of the repository, and inside that 
+script have the commands i) to do the conversions from FASTA to NEXUS; ii) actually invoke
+and run mrbayes; iii) produce the summary output. Any "sub" scripts, e.g. to do the file
+conversion should go in the `script` directory.
 
 ## dN/dS analysis
 
