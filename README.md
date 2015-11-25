@@ -60,9 +60,9 @@ after the other. The results aren't stored indefinitely, so you should download 
 the analysis is done (or the next morning or something). What we need to download is the
 NEXUS output and the CSV output.
 
-'''It is crucial that you keep track of which output files belong with which upload. A
+**It is crucial that you keep track of which output files belong with which upload. A
 reasonable way to do this is to take note of the Job ID that DataMonkey assigns to the 
-upload and record this ID, for example as a NEXUS comment inside the file you uploaded.'''
+upload and record this ID, for example as a NEXUS comment inside the file you uploaded.**
 
 ## Post-processing and visualization
 
