@@ -42,17 +42,27 @@ minutes.
 ## dN/dS analysis
 
 We analyze branch specific variation in dN/dS ratios using the BranchSiteREL algorithm
-of HyPhy, as made available on the datamonkey.org cluster. To this end we must create a
-NEXUS file that has both the codon alignment and the maximum likelihood tree embedded in
-it. We create this from the PHYLIP file and the resulting tree file 
+of HyPhy, as made available on the [datamonkey.org](http://datamonkey.org/) cluster. 
+To this end we must create a NEXUS file that has both the codon alignment and the maximum 
+likelihood tree embedded in it. We create this from the PHYLIP file and the resulting tree file 
 ([script/make_nexus.pl](script/make_nexus.pl)).
 
 Subsequently, we upload the produced NEXUS file and click through the datamonkey wizard
-for a BranchSiteREL analysis with the user-provided tree and the universal genetic code.
+for a BranchSiteREL analysis with the user-provided tree and the universal genetic code:
+
+- go to http://datamonkey.org/dataupload.php
+- upload the NEXUS file (datatype: codon, genetic code: universal)
+- click the button "Proceed to the analysis menu"
+- select "Branch-site REL" from the pulldown menu, click "User Tree(s)", and click "Run"
+
 The analysis takes a few hours on the cluster, and multiple uploaded files are queued one
 after the other. The results aren't stored indefinitely, so you should download them when
 the analysis is done (or the next morning or something). What we need to download is the
 NEXUS output and the CSV output.
+
+**It is crucial that you keep track of which output files belong with which upload. A
+reasonable way to do this is to take note of the Job ID that DataMonkey assigns to the 
+upload and record this ID, for example as a NEXUS comment inside the file you uploaded.**
 
 ## Post-processing and visualization
 
