@@ -1,4 +1,5 @@
 #!/bin/bash
+# Usage: ./phyml.sh input.phy
 # nt        = nucleotide
 # -f e      = estimate base frequencies
 # --ts/tv e = estimate transition/transversion ratio
