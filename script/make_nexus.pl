@@ -5,6 +5,10 @@ use Getopt::Long;
 use Bio::Phylo::Factory;
 use Bio::Phylo::IO qw'parse_tree parse_matrix';
 
+# Usage:
+# perl make_nexus.pl --treefile tree.nex --phyloformat <tree format> --matrixfile codon.aln.fasta --dataformat fasta > outfile.nex
+# <tree format> is one of either newick or nexus
+
 # process command line arguments
 my ( $matrixfile, $treefile, $dataformat, $phyloformat );
 if ( @ARGV == 2 ) {
