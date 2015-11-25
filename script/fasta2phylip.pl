@@ -4,6 +4,8 @@ use warnings;
 use Bio::Phylo::IO qw'parse unparse';
 use Bio::Phylo::Util::CONSTANT ':objecttypes';
 
+# Usage: perl fasta2phylip.pl input.fasta > output.phy
+
 my $infile = shift;
 my $project = parse(
 	'-type'   => 'dna',
