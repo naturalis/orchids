@@ -27,7 +27,7 @@ that is recommended for proteins with multiple conserved domains. The nucleotide
 are then reconciled with this amino acid alignment ([script/protalign.pl](script/protalign.pl)).
 
 ## Phylogenetic inference
-
+<!--
 ### Old approach
 
 To build trees for the codon alignments we now use PhyML. This requires PHYLIP format 
@@ -42,33 +42,32 @@ parameters embedded in it ([script/phyml.sh](script/phyml.sh)). Inference goes v
 minutes.
 
 ### New approach
+-->
 
-We have concluded that it would be more persuasive to have support values on every node
-in the gene trees, and ideally these would not be bootstrap values but Bayesian posterior
-probabilities. To this end the following steps need to happen:
+In order to obtain support values in the form of posterior probabilities we infer the gene
+lineage trees using [MrBayes](http://mrbayes.sourceforge.net/). To this end there is a
+shell script [genetrees.sh](genetrees.sh) that does the following:
 
-- choose a program to do the Bayesian phylogenetic inference. The best option is probably
-  to go with [MrBayes](http://mrbayes.sourceforge.net/) because there are very many online
-  tutorials for it.
-- convert the codon.aln.fasta files to the input that MrBayes accepts, which is NEXUS. This
-  can for example be done using the [AlignIO](http://biopython.org/wiki/AlignIO) module in
-  BioPython.
-- run MrBayes as per the tutorial. This includes building a consensus tree (using the `sumt`
-  command). 
-
-Ideally, all these steps are recorded in a shell script so that everything is reproducible.
-For example, have a script `mrbayes.sh` in the root of the repository, and inside that 
-script have the commands i) to do the conversions from FASTA to NEXUS; ii) actually invoke
-and run mrbayes; iii) produce the summary output. Any "sub" scripts, e.g. to do the file
-conversion should go in the `script` directory.
+1. convert the codon.aln.fasta files to the input that MrBayes accepts, which is NEXUS. This
+   is done by invoking [script/fasta2nexus.pl](script/fasta2nexus.pl). This will produce
+   NEXUS files with a taxa block and a characters block, where taxa and character rows are
+   named after the accession numbers that are the last word in the FASTA definition lines.
+   Also a simple mrbayes command block is appended. 
+2. run mrbayes inside the right folders with data files. If there are results from previous
+   runs, these probably need to be removed first so that mrbayes doesn't get confused.
 
 ## dN/dS analysis
 
-We analyze branch specific variation in dN/dS ratios using the BranchSiteREL algorithm
-of HyPhy, as made available on the [datamonkey.org](http://datamonkey.org/) cluster. 
-To this end we must create a NEXUS file that has both the codon alignment and the maximum 
-likelihood tree embedded in it. We create this from the PHYLIP file and the resulting tree file 
-([script/make_nexus.pl](script/make_nexus.pl)).
+The quoted section (and the underlying implementation) needs to be fixed, as we no longer 
+produce PHYLIP files (which we used for PhyML), but NEXUS files, for mrbayes. Also, the tree 
+files that are produced by mrbayes aren't Newick files but NEXUS files with added FigTree
+comments.
+
+> We analyze branch specific variation in dN/dS ratios using the BranchSiteREL algorithm
+> of HyPhy, as made available on the [datamonkey.org](http://datamonkey.org/) cluster. 
+> To this end we must create a NEXUS file that has both the codon alignment and the maximum 
+> likelihood tree embedded in it. We create this from the PHYLIP file and the resulting tree file 
+> ([script/make_nexus.pl](script/make_nexus.pl)).
 
 Subsequently, we upload the produced NEXUS file and click through the datamonkey wizard
 for a BranchSiteREL analysis with the user-provided tree and the universal genetic code:
