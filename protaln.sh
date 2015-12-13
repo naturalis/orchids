@@ -8,7 +8,7 @@ if [ ! -d "$DATA" ]; then
 fi
 
 # list all alignments in data folder
-FASTAS=`ls $DATA/*.fasta`
+FASTAS=`ls $DATA/*.fasta | grep -v 'aa' | grep -v 'codon'`
 
 # shorthand
 SCRIPT="perl script"
