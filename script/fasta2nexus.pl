@@ -4,6 +4,8 @@ use warnings;
 use Bio::Phylo::IO qw'parse unparse';
 use Bio::Phylo::Util::CONSTANT ':objecttypes';
 
+# Usage: perl fasta2nexus.pl infile > outfile
+
 my $file = shift;
 my $proj = parse(
 	'-format'     => 'fasta',
