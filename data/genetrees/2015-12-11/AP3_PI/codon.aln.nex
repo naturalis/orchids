@@ -1,7 +1,7 @@
 #NEXUS
 
 BEGIN TAXA;
-[! Taxa block written by Bio::Phylo::Taxa 0.58 on Fri Dec 11 16:49:53 2015 ]
+[! Taxa block written by Bio::Phylo::Taxa 0.58 on Tue Dec 15 09:50:19 2015 ]
 	
         DIMENSIONS NTAX=71;
         TAXLABELS
@@ -79,7 +79,7 @@ BEGIN TAXA;
         ;
 END;
 BEGIN CHARACTERS;
-[! Characters block written by Bio::Phylo::Matrices::Matrix 0.58 on Fri Dec 11 16:49:53 2015 ]
+[! Characters block written by Bio::Phylo::Matrices::Matrix 0.58 on Tue Dec 15 09:50:19 2015 ]
 	DIMENSIONS NCHAR=633;
 	FORMAT DATATYPE=Dna MISSING=? GAP=-;
 	MATRIX
@@ -157,10 +157,10 @@ BEGIN CHARACTERS;
 	;
 END;
 BEGIN NOTES;
-[! Notes block written by Bio::Phylo::Project 0.58 on Fri Dec 11 16:49:53 2015 ]
+[! Notes block written by Bio::Phylo::Project 0.58 on Tue Dec 15 09:50:19 2015 ]
 END;
 BEGIN MRBAYES;
 	lset nst=6 rates=invgamma;
 	mcmc ngen=10000 samplefreq=10;
-	sumt burnin=250;
+	sumt burnin=250 contype=allcompat;
 END;
