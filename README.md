@@ -5,7 +5,7 @@ This repository contains scripts and data to analyze the evolution of the [MADS 
 family](genes.tsv) in orchids (with special attention to the occurrence and expression of 
 these genes in *Erycina pusilla*).
 
-The basic outline of the workflow contained in these scripts is as follows:
+The basic outline of the workflow enabled by these scripts is as follows:
 
 ## Merging and aligning
 
@@ -58,16 +58,11 @@ shell script [genetrees.sh](genetrees.sh) that does the following:
 
 ## dN/dS analysis
 
-The quoted section (and the underlying implementation) needs to be fixed, as we no longer 
-produce PHYLIP files (which we used for PhyML), but NEXUS files, for mrbayes. Also, the tree 
-files that are produced by mrbayes aren't Newick files but NEXUS files with added FigTree
-comments.
-
-> We analyze branch specific variation in dN/dS ratios using the BranchSiteREL algorithm
-> of HyPhy, as made available on the [datamonkey.org](http://datamonkey.org/) cluster. 
-> To this end we must create a NEXUS file that has both the codon alignment and the maximum 
-> likelihood tree embedded in it. We create this from the PHYLIP file and the resulting tree file 
-> ([script/make_nexus.pl](script/make_nexus.pl)).
+We analyze branch specific variation in dN/dS ratios using the BranchSiteREL algorithm
+of HyPhy, as made available on the [datamonkey.org](http://datamonkey.org/) cluster. 
+To this end we must create a NEXUS file that has both the codon alignment and the gene 
+tree embedded in it. We create this from the NEXUS input file for mrbayes and the resulting 
+tree file ([script/make_nexus.pl](script/make_nexus.pl)).
 
 Subsequently, we upload the produced NEXUS file and click through the datamonkey wizard
 for a BranchSiteREL analysis with the user-provided tree and the universal genetic code:
