@@ -29,6 +29,7 @@ my $log = Bio::Phylo::Util::Logger->new(
 );
 
 # this is optional...
+my %seen;
 if ( $speciestree ) {
 
 	# ... but requires an outfile
@@ -59,6 +60,7 @@ if ( $speciestree ) {
 		if ( my $id = $mts->_do_tnrs_search($name) ) {
 			$log->info("$name => $id");
 			$tip->set_name($name);
+			$seen{$id} = $name;
 			push @staxa, make_taxon($name,$tip,$id);
 		}
 		else {
@@ -81,9 +83,11 @@ my $gp = parse(
 	'-file'       => $genetree,
 	'-as_project' => 1,
 );
+
 my ($gt) = @{ $gp->get_items(_TREE_) };
 $gt->set_namespaces( 'px' => _NS_PHYLOXML_ );
 my @gtaxa;
+my @prune;
 for my $tip ( @{ $gt->get_terminals } ) {
 
 	# pre-process the name
@@ -99,11 +103,34 @@ for my $tip ( @{ $gt->get_terminals } ) {
 		$tip->set_name($name);
 		$log->info("$name => $id");
 		push @gtaxa, make_taxon($name,$tip,$id);
+		
+		# check if seen in species tree
+		if ( %seen ) {
+			if ( $seen{$id} ) {
+				$log->debug("$name in gene tree seen in species tree");
+			}
+			else {
+				push @prune, $tip;
+				$log->error("$name in gene tree not seen in species tree");
+			}
+		}
+		else {
+			$log->debug("No indexing of species nodes done");
+		}
 	}
 	else {
 		$log->error("Couldn't find sequence $name");
 	}
 }
+
+# prune taxa not in species tree
+if ( @prune ) {
+	$log->warn("going to prune ".scalar(@prune)." tips not in species tree");
+	$gt->prune_tips(\@prune);
+}
+
+# midpoint root
+$gt->get_midpoint->set_root_below(100);
 
 # write output
 print unparse(
