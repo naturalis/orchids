@@ -12,11 +12,11 @@ for FAM in $FAMILIES; do
 
 	# generate input files
 	G=$GENETREES/$FAM/codon.aln.nex.con
-	if [ ! -e $SPECIESTREE.xml ]; then
+#	if [ ! -e $SPECIESTREE.xml ]; then
 		perl script/make_phyloxml.pl -g $G.tre -s $SPECIESTREE.dnd -o $SPECIESTREE.xml -v > $G.xml
-	else
-		perl script/make_phyloxml.pl -g $G.tre -v > $G.xml
-	fi
+#	else
+#		perl script/make_phyloxml.pl -g $G.tre -v > $G.xml
+#	fi
 
 	# run GSDI
 	$GSDI $G.xml $SPECIESTREE.xml $G.gsdi.xml
