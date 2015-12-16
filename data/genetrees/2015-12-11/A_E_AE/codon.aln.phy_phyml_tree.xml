@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phyloxml xmlns="http://www.phyloxml.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+  <phylogeny rooted="true">
+    <clade>
+      <name>root</name>
+      <clade>
+        <name>0.9660000000</name>
+        <branch_length>0.09215184815</branch_length>
+        <clade>
+          <name>0.7970000000</name>
+          <branch_length>0.0854835473</branch_length>
+          <clade>
+            <name>Erycina_pusilla_KJ002737</name>
+            <branch_length>0.2109332422</branch_length>
+            <taxonomy>
+              <id provider="uniprot">154679</id>
+            </taxonomy>
+          </clade>
+          <clade>
+            <name>0.9670000000</name>
+            <branch_length>0.0894439851</branch_length>
+            <clade>
+              <name>Phalaenopsis_amabilis_DQ104327</name>
+              <branch_length>0.1074424939</branch_length>
+              <taxonomy>
+                <id provider="uniprot">148545</id>
+              </taxonomy>
+            </clade>
+            <clade>
+              <name>Cymbidium_faberi_KC148540</name>
+              <branch_length>0.1169559224</branch_length>
+              <taxonomy>
+                <id provider="uniprot">112604</id>
+              </taxonomy>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>1.0000000000</name>
+          <branch_length>0.4562404924</branch_length>
+          <clade>
+            <name>0.9850000000</name>
+            <branch_length>0.2261133142</branch_length>
+            <clade>
+              <name>0.9760000000</name>
+              <branch_length>0.1759917143</branch_length>
+              <clade>
+                <name>0.9260000000</name>
+                <branch_length>0.0536877795</branch_length>
+                <clade>
+                  <name>Cymbidium_goeringii_HM208533</name>
+                  <branch_length>0.0019456313</branch_length>
+                  <taxonomy>
+                    <id provider="uniprot">112607</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <name>0.3190000000</name>
+                  <branch_length>0.0031134643</branch_length>
+                  <clade>
+                    <name>Cymbidium_goeringii_GQ265900</name>
+                    <branch_length>0.0000000001</branch_length>
+                    <taxonomy>
+                      <id provider="uniprot">112607</id>
+                    </taxonomy>
+                  </clade>
+                  <clade>
+                    <name>0.7730000000</name>
+                    <branch_length>0.0024670442</branch_length>
+                    <clade>
+                      <name>Cymbidium_faberi_HM208534</name>
+                      <branch_length>0.0025043453</branch_length>
+                      <taxonomy>
+                        <id provider="uniprot">112604</id>
+                      </taxonomy>
+                    </clade>
+                    <clade>
+                      <name>Cymbidium_ensifolium_JN613148</name>
+                      <branch_length>0.0049966707</branch_length>
+                      <taxonomy>
+                        <id provider="uniprot">78740</id>
+                      </taxonomy>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>0.9010000000</name>
+                <branch_length>0.0486473392</branch_length>
+                <clade>
+                  <name>Erycina_pusilla_KJ002728</name>
+                  <branch_length>0.0820732236</branch_length>
+                  <taxonomy>
+                    <id provider="uniprot">154679</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <name>Oncidium_hybrid_HM140845</name>
+                  <branch_length>0.0209563410</branch_length>
+                  <taxonomy>
+                    <id provider="uniprot">141207</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>0.9870000000</name>
+              <branch_length>0.1774553979</branch_length>
+              <clade>
+                <name>Erycina_pusilla_KJ002729</name>
+                <branch_length>0.2650648477</branch_length>
+                <taxonomy>
+                  <id provider="uniprot">154679</id>
+                </taxonomy>
+              </clade>
+              <clade>
+                <name>0.9890000000</name>
+                <branch_length>0.1293972133</branch_length>
+                <clade>
+                  <name>Erycina_pusilla_KJ002730</name>
+                  <branch_length>0.0620472630</branch_length>
+                  <taxonomy>
+                    <id provider="uniprot">154679</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <name>Oncidium_hybrid_HM140843</name>
+                  <branch_length>0.0340447243</branch_length>
+                  <taxonomy>
+                    <id provider="uniprot">141207</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>0.9890000000</name>
+            <branch_length>0.2068567983</branch_length>
+            <clade>
+              <name>0.9800000000</name>
+              <branch_length>0.2028679293</branch_length>
+              <clade>
+                <name>0.9070000000</name>
+                <branch_length>0.0567616805</branch_length>
+                <clade>
+                  <name>Phalaenopsis_equestris_KF673860</name>
+                  <branch_length>0.0944606764</branch_length>
+                  <taxonomy>
+                    <id provider="uniprot">78828</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <name>Oncidium_hybrid_HM140847</name>
+                  <branch_length>0.0568353103</branch_length>
+                  <taxonomy>
+                    <id provider="uniprot">141207</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+              <clade>
+                <name>0.4590000000</name>
+                <branch_length>0.0287214708</branch_length>
+                <clade>
+                  <name>Paphiopedilum_concolor_JQ030893</name>
+                  <branch_length>0.1353798751</branch_length>
+                  <taxonomy>
+                    <id provider="uniprot">53078</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <name>0.0610000000</name>
+                  <branch_length>0.1162616116</branch_length>
+                  <clade>
+                    <name>Erycina_pusilla_KJ002731</name>
+                    <branch_length>0.1603973567</branch_length>
+                    <taxonomy>
+                      <id provider="uniprot">154679</id>
+                    </taxonomy>
+                  </clade>
+                  <clade>
+                    <name>Phalaenopsis_equestris_KF673858</name>
+                    <branch_length>0.0588057726</branch_length>
+                    <taxonomy>
+                      <id provider="uniprot">78828</id>
+                    </taxonomy>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>0.9510000000</name>
+              <branch_length>0.1573367810</branch_length>
+              <clade>
+                <name>0.6210000000</name>
+                <branch_length>0.0570391363</branch_length>
+                <clade>
+                  <name>0.9310000000</name>
+                  <branch_length>0.0431108963</branch_length>
+                  <clade>
+                    <name>Phalaenopsis_equestris_KF673857</name>
+                    <branch_length>0.0434385797</branch_length>
+                    <taxonomy>
+                      <id provider="uniprot">78828</id>
+                    </taxonomy>
+                  </clade>
+                  <clade>
+                    <name>0.9830000000</name>
+                    <branch_length>0.0443276642</branch_length>
+                    <clade>
+                      <name>0.9960000000</name>
+                      <branch_length>0.0459636789</branch_length>
+                      <clade>
+                        <name>Cymbidium_ensifolium_JQ326258</name>
+                        <branch_length>0.0046991309</branch_length>
+                        <taxonomy>
+                          <id provider="uniprot">78740</id>
+                        </taxonomy>
+                      </clade>
+                      <clade>
+                        <name>Cymbidium_goeringii_KF924272</name>
+                        <branch_length>0.0000001340</branch_length>
+                        <taxonomy>
+                          <id provider="uniprot">112607</id>
+                        </taxonomy>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>0.9720000000</name>
+                      <branch_length>0.0397334170</branch_length>
+                      <clade>
+                        <name>Erycina_pusilla_KJ002733</name>
+                        <branch_length>0.0665431627</branch_length>
+                        <taxonomy>
+                          <id provider="uniprot">154679</id>
+                        </taxonomy>
+                      </clade>
+                      <clade>
+                        <name>Oncidium_hybrid_HM140844</name>
+                        <branch_length>0.0163431637</branch_length>
+                        <taxonomy>
+                          <id provider="uniprot">141207</id>
+                        </taxonomy>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>0.3880000000</name>
+                  <branch_length>0.0120455565</branch_length>
+                  <clade>
+                    <name>Vanilla_planifolia_KF914202</name>
+                    <branch_length>0.0814985987</branch_length>
+                    <taxonomy>
+                      <id provider="uniprot">51239</id>
+                    </taxonomy>
+                  </clade>
+                  <clade>
+                    <name>0.9980000000</name>
+                    <branch_length>0.0664532429</branch_length>
+                    <clade>
+                      <name>Dendrobium_crumenatum_DQ119842</name>
+                      <branch_length>0.0544283201</branch_length>
+                      <taxonomy>
+                        <id provider="uniprot">51096</id>
+                      </taxonomy>
+                    </clade>
+                    <clade>
+                      <name>0.9600000000</name>
+                      <branch_length>0.0423001074</branch_length>
+                      <clade>
+                        <name>0.9640000000</name>
+                        <branch_length>0.0434734784</branch_length>
+                        <clade>
+                          <name>Erycina_pusilla_KJ002734</name>
+                          <branch_length>0.1663550394</branch_length>
+                          <taxonomy>
+                            <id provider="uniprot">154679</id>
+                          </taxonomy>
+                        </clade>
+                        <clade>
+                          <name>Gongora_galeata_KF914200</name>
+                          <branch_length>0.0197768367</branch_length>
+                          <taxonomy>
+                            <id provider="uniprot">426901</id>
+                          </taxonomy>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>0.9800000000</name>
+                        <branch_length>0.0377203347</branch_length>
+                        <clade>
+                          <name>Phalaenopsis_equestris_KF673859</name>
+                          <branch_length>0.0436287187</branch_length>
+                          <taxonomy>
+                            <id provider="uniprot">78828</id>
+                          </taxonomy>
+                        </clade>
+                        <clade>
+                          <name>0.7750000000</name>
+                          <branch_length>0.0059569149</branch_length>
+                          <clade>
+                            <name>Arachnis_x_Vanda_x_Aranda_deborah_X69107</name>
+                            <branch_length>0.0334814124</branch_length>
+                            <taxonomy>
+                              <id provider="uniprot">29714</id>
+                            </taxonomy>
+                          </clade>
+                          <clade>
+                            <name>Cleisostoma_racemiferum_AY056827</name>
+                            <branch_length>0.0105159401</branch_length>
+                            <taxonomy>
+                              <id provider="uniprot">173080</id>
+                            </taxonomy>
+                          </clade>
+                        </clade>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>Dendrobium_nobile_HQ388352</name>
+                <branch_length>0.2242000083</branch_length>
+                <taxonomy>
+                  <id provider="uniprot">94219</id>
+                </taxonomy>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <name>0.9790000000</name>
+        <branch_length>0.09215184815</branch_length>
+        <clade>
+          <name>0.9970000000</name>
+          <branch_length>0.1343718385</branch_length>
+          <clade>
+            <name>Cymbidium_faberi_JQ031272</name>
+            <branch_length>0.0720127090</branch_length>
+            <taxonomy>
+              <id provider="uniprot">112604</id>
+            </taxonomy>
+          </clade>
+          <clade>
+            <name>Erycina_pusilla_KJ002735</name>
+            <branch_length>0.2071040475</branch_length>
+            <taxonomy>
+              <id provider="uniprot">154679</id>
+            </taxonomy>
+          </clade>
+        </clade>
+        <clade>
+          <name>0.0560000000</name>
+          <branch_length>0.1182110032</branch_length>
+          <clade>
+            <name>Dendrobium_thyrsiflorum_AY927237</name>
+            <branch_length>0.0396464444</branch_length>
+            <taxonomy>
+              <id provider="uniprot">117978</id>
+            </taxonomy>
+          </clade>
+          <clade>
+            <name>1.0000000000</name>
+            <branch_length>0.0086390246</branch_length>
+            <clade>
+              <name>0.7760000000</name>
+              <branch_length>0.0149252664</branch_length>
+              <clade>
+                <name>Cymbidium_ensifolium_JX255735</name>
+                <branch_length>0.0293848373</branch_length>
+                <taxonomy>
+                  <id provider="uniprot">78740</id>
+                </taxonomy>
+              </clade>
+              <clade>
+                <name>0.9990000000</name>
+                <branch_length>0.0572483769</branch_length>
+                <clade>
+                  <name>Erycina_pusilla_KJ002736</name>
+                  <branch_length>0.0656122612</branch_length>
+                  <taxonomy>
+                    <id provider="uniprot">154679</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <name>Oncidium_hybrid_HM140846</name>
+                  <branch_length>0.0179867928</branch_length>
+                  <taxonomy>
+                    <id provider="uniprot">141207</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <branch_length>0.0749835056</branch_length>
+              <clade>
+                <name>Phalaenopsis_amabilis_DQ104328</name>
+                <branch_length>0.0290297134</branch_length>
+                <taxonomy>
+                  <id provider="uniprot">148545</id>
+                </taxonomy>
+              </clade>
+              <clade>
+                <name>Sedirea_japonica_JQ776636</name>
+                <branch_length>0.0079464136</branch_length>
+                <taxonomy>
+                  <id provider="uniprot">111597</id>
+                </taxonomy>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+    </clade>
+  </phylogeny>
+</phyloxml>
