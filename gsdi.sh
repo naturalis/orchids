@@ -7,16 +7,18 @@ FAMILIES="AP3_PI A_E_AE C_D"
 # https://sites.google.com/site/cmzmasek/home/software/forester/gsdi
 GSDI="java -Xmx1024m -cp $JAR org.forester.application.gsdi -g"
 
+# script to prepare input data. the $SPECIESTREE arguments are optional and a bit
+# redundant because the same species tree is generated each time, but this also 
+# triggers a check to make sure all species in the gene tree are present in the 
+# species tree
+PHYLOXML="perl script/make_phyloxml.pl -f newick -s $SPECIESTREE.dnd -o $SPECIESTREE.xml"
+
 # iterate over families
 for FAM in $FAMILIES; do
 
 	# generate input files
-	G=$GENETREES/$FAM/codon.aln.nex.con
-#	if [ ! -e $SPECIESTREE.xml ]; then
-		perl script/make_phyloxml.pl -g $G.tre -s $SPECIESTREE.dnd -o $SPECIESTREE.xml -v > $G.xml
-#	else
-#		perl script/make_phyloxml.pl -g $G.tre -v > $G.xml
-#	fi
+	G=$GENETREES/$FAM/codon.aln.phy_phyml_tree
+	$PHYLOXML -g $G.txt -v > $G.xml
 
 	# run GSDI
 	$GSDI $G.xml $SPECIESTREE.xml $G.gsdi.xml
