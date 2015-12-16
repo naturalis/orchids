@@ -11,11 +11,13 @@ use Bio::Phylo::Util::CONSTANT qw':namespaces :objecttypes';
 
 # process command line arguments
 my $verbosity = WARN;
+my $format = 'newick';
 my ( $speciestree, $genetree, $outfile );
 GetOptions(
 	'speciestree=s' => \$speciestree,
 	'genetree=s'    => \$genetree,
 	'outfile=s'     => \$outfile,
+	'format=s'      => \$format,
 	'verbose+'      => \$verbosity,
 );
 
@@ -79,7 +81,7 @@ if ( $speciestree ) {
 # annotate the gene tree. we do this by doing a lookup of the accession
 $log->info("going to annotate gene tree $genetree");
 my $gp = parse(
-	'-format'     => 'nexus',
+	'-format'     => $format,
 	'-file'       => $genetree,
 	'-as_project' => 1,
 );
