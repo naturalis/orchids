@@ -22,7 +22,7 @@ for FAM in $FAMILIES; do
 	$PHYLOXML -g $G.txt -a $ALIGNMENTS/$FAM/codon.aln.fasta -v > $G.xml
 
 	# run GSDI
-	rm ${G}.gsdi_gsdi_log.txt ${G}.gsdi_species_tree_used.xml
+	rm $G.gsdi_gsdi_log.txt $G.gsdi_species_tree_used.xml $G.gsdi.xml
 	$GSDI $G.xml $SPECIESTREE.xml $G.gsdi.xml
 
 done
