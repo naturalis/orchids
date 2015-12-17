@@ -27,6 +27,6 @@ print <<'MRBAYES';
 BEGIN MRBAYES;
 	lset nst=6 rates=invgamma;
 	mcmc ngen=5000000 samplefreq=100 printfreq=1000 stoprule=yes stopval=0.01;
-	sumt relburnin=yes burninfrac=0.20 contype=allcompat
+	sumt relburnin=yes burninfrac=0.20 contype=allcompat;
 END;
 MRBAYES
