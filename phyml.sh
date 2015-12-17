@@ -17,6 +17,8 @@ for FAM in $FAMILIES; do
 	# --pinv e  = estimate proportion of invariant sites
 	# --alpha e = estimate gamma distribution shape parameter
 	# --search BEST = best topology search result from among NNI and SPR
-	phyml --input $OUTPUT/$FAM/codon.aln.phy --datatype nt --sequential --model GTR -f e --ts/tv e --pinv e --alpha e --search BEST --quiet
+	rm $OUTPUT/$FAM/codon.aln.phy_phyml_tree.txt
+	rm $OUTPUT/$FAM/codon.aln.phy_phyml_stats.txt
+	phyml --input $OUTPUT/$FAM/codon.aln.phy --pars --datatype nt --sequential --model GTR -f m --ts/tv e --pinv e --alpha e --search BEST --nclasses 6 --quiet
 
 done
