@@ -119,14 +119,17 @@ my ($gt) = @{ $gp->get_items(_TREE_) };
 	
 	# find the first monophyletic family
 	FAM: for my $fam ( keys %grouped ) {
-		my $tips = $grouped{$fam};
-		my $mrca = $gt->get_mrca($tips);
-		my $desc = $mrca->get_terminals;
-		if ( scalar(@$tips) == scalar(@$desc) ) {
+		my $ntips = scalar @{ $grouped{$fam} };
+		my $mrca  = $gt->get_mrca($grouped{$fam});
+		my $ndesc = scalar @{ $mrca->get_terminals };
+		if ( $ntips == $ndesc ) {
 			$log->info("going to root on $fam");
 			$mrca->set_root_below(100);
 			last FAM;
 		}	
+		else {
+			$log->info("$fam not monophyletic:  $ntips != $ndesc");
+		}
 	}
 }
 
