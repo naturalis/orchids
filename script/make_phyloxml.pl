@@ -12,13 +12,14 @@ use Bio::Phylo::Util::CONSTANT qw':namespaces :objecttypes';
 # process command line arguments
 my $verbosity = WARN;
 my $format = 'newick';
-my ( $speciestree, $genetree, $outfile );
+my ( $speciestree, $genetree, $outfile, $alignment );
 GetOptions(
 	'speciestree=s' => \$speciestree,
 	'genetree=s'    => \$genetree,
 	'outfile=s'     => \$outfile,
 	'format=s'      => \$format,
 	'verbose+'      => \$verbosity,
+	'alignment=s'   => \$alignment,
 );
 
 # instantiate helper objects
@@ -79,14 +80,57 @@ if ( $speciestree ) {
 }
 
 # annotate the gene tree. we do this by doing a lookup of the accession
-$log->info("going to annotate gene tree $genetree");
+$log->info("going to read gene tree $genetree");
 my $gp = parse(
 	'-format'     => $format,
 	'-file'       => $genetree,
 	'-as_project' => 1,
 );
-
 my ($gt) = @{ $gp->get_items(_TREE_) };
+
+# outgroup root
+{
+
+	# map accession numbers to gene families
+	$log->info("going to read gene families from $alignment");
+	my %fam;
+	open my $fh, '<', $alignment or die $!;
+	while(<$fh>) {
+		chomp;
+		if ( />/ ) {
+			my @parts = split /_/, $_;
+			my $acc = $parts[-1];
+			my $fam = $parts[-2];
+			$fam{$acc} = $fam;
+		}		
+	}
+	
+	# group tips by gene family
+	my %grouped;
+	for my $acc ( keys %fam ) {
+		my $fam = $fam{$acc};
+		$grouped{$fam} = [] if not $grouped{$fam};
+		my $tip = $gt->get_by_name($acc);
+		if ( $tip ) {
+			push @{ $grouped{$fam} }, $tip;
+		}
+	}
+	$log->info("have ".scalar(keys(%grouped))." families");
+	
+	# find the first monophyletic family
+	FAM: for my $fam ( keys %grouped ) {
+		my $tips = $grouped{$fam};
+		my $mrca = $gt->get_mrca($tips);
+		my $desc = $mrca->get_terminals;
+		if ( scalar(@$tips) == scalar(@$desc) ) {
+			$log->info("going to root on $fam");
+			$mrca->set_root_below(100);
+			last FAM;
+		}	
+	}
+}
+
+# annotate/rename tips
 $gt->set_namespaces( 'px' => _NS_PHYLOXML_ );
 my @gtaxa;
 my @prune;
@@ -130,9 +174,6 @@ if ( @prune ) {
 	$log->warn("going to prune ".scalar(@prune)." tips not in species tree");
 	$gt->prune_tips(\@prune);
 }
-
-# midpoint root
-$gt->get_midpoint->set_root_below(100);
 
 # write output
 print unparse(
