@@ -58,8 +58,9 @@ shell script [genetrees.sh](genetrees.sh) that does the following:
 
 ## dN/dS analysis
 
-We analyze branch specific variation in dN/dS ratios using the BranchSiteREL algorithm
-of HyPhy, as made available on the [datamonkey.org](http://datamonkey.org/) cluster. 
+We analyze branch specific variation in dN/dS ratios using the 
+[BranchSiteREL](http://mbe.oxfordjournals.org/content/early/2011/06/11/molbev.msr125.abstract) 
+algorithm of HyPhy, as made available on the [datamonkey.org](http://datamonkey.org/) cluster. 
 To this end we must create a NEXUS file that has both the codon alignment and the gene 
 tree embedded in it. We create this from the NEXUS input file for mrbayes and the resulting 
 tree file ([script/make_nexus.pl](script/make_nexus.pl)).
