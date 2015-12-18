@@ -29,20 +29,39 @@ are then reconciled with this amino acid alignment ([script/protalign.pl](script
 ## Phylogenetic inference
 <!--
 ### Old approach
+-->
 
-To build trees for the codon alignments we now use PhyML. This requires PHYLIP format 
-input, which is created from the FASTA files ([script/fasta2phylip.pl](script/fasta2phylip.pl)). Because PHYLIP
-format requires that sequence names are no longer than 10 characters we need to have some
-string that is guaranteed to be distinct for each sequence. For this we use the genbank
+To build trees for the codon alignments we use PhyML. This requires PHYLIP format 
+input, which is created from the FASTA files. 
+Because PHYLIP format requires that sequence names are no longer than 10 characters we need to 
+have some string that is guaranteed to be distinct for each sequence. For this we use the genbank
 accession number, which is expected to be the last string in the FASTA definition line,
 preceded by an underscore ('_').
 
-The PHYLIP files are then analyzed with PhyML using a shell script that has the search
-parameters embedded in it ([script/phyml.sh](script/phyml.sh)). Inference goes very fast, at most a few
+The PHYLIP files are created and analyzed with PhyML using a shell script that has the search
+parameters embedded in it ([phyml.sh](phyml.sh), which internally calls 
+([a file conversion script](script/fasta2phylip.pl))). Inference goes very fast, at most a few
 minutes.
 
+## speciation/duplication inference
+
+There have been duplications within [certain MADS classes](genes.tsv). It would be very
+strong if we had an objective, tree-based inference of where these duplications occurred
+so that we can identify which sequences are orthologous with respect to each other, and
+which are paralogous. Given that the [species tree](data/speciestree/cladogram.dnd) is
+relatively uncontroversial we should be able to class nodes in the gene trees as either
+speciations or duplications, using the 
+[(g)SDI algorithm](http://bioinformatics.oxfordjournals.org/content/17/9/821.abstract).
+
+This requires the preparation of the right input files, in [phyloxml](http://phyloxml.org)
+syntax. These files need to have unambiguous tags that identify to which species a sequence
+belongs. This is done by a [conversion script](script/make_phyloxml.pl), which is called
+by a [shell script](gsdi.sh) which invokes the [forester jar](bin/forester_1038.jar) to
+run GSDI and produce annotated output tree files that have the inferred duplications
+embedded in them.
+
+<!--
 ### New approach
--->
 
 In order to obtain support values in the form of posterior probabilities we infer the gene
 lineage trees using [MrBayes](http://mrbayes.sourceforge.net/). To this end there is a
@@ -55,6 +74,7 @@ shell script [genetrees.sh](genetrees.sh) that does the following:
    Also a simple mrbayes command block is appended. 
 2. run mrbayes inside the right folders with data files. If there are results from previous
    runs, these probably need to be removed first so that mrbayes doesn't get confused.
+-->
 
 ## dN/dS analysis
 
@@ -62,7 +82,7 @@ We analyze branch specific variation in dN/dS ratios using the
 [BranchSiteREL](http://mbe.oxfordjournals.org/content/early/2011/06/11/molbev.msr125.abstract) 
 algorithm of HyPhy, as made available on the [datamonkey.org](http://datamonkey.org/) cluster. 
 To this end we must create a NEXUS file that has both the codon alignment and the gene 
-tree embedded in it. We create this from the NEXUS input file for mrbayes and the resulting 
+tree embedded in it. We create this from the phylip input file for phyml and the resulting 
 tree file ([script/make_nexus.pl](script/make_nexus.pl)).
 
 Subsequently, we upload the produced NEXUS file and click through the datamonkey wizard
@@ -103,5 +123,5 @@ just accession numbers starting from the phylogenetic inference step,
 
 Once merged, the result can then be visualized as SVG using [script/draw_tree.pl](script/draw_tree.pl)
 
-
+**TO DO: also include the inferred duplications and the support values in the visualization**
 
