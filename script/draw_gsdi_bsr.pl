@@ -3,10 +3,10 @@ use strict;
 use warnings;
 use Getopt::Long;
 use Data::Dumper;
-use Scalar::Util 'looks_like_number';
+use Scalar::Util qw'looks_like_number';
 use List::Util qw'min max';
 use Bio::Phylo::Treedrawer;
-use Bio::Phylo::Util::Logger ':levels';
+use Bio::Phylo::Util::Logger qw':levels';
 use Bio::Phylo::IO qw'parse parse_tree';
 use Bio::Phylo::Util::CONSTANT qw':objecttypes :namespaces';
 
@@ -32,22 +32,24 @@ my $log = Bio::Phylo::Util::Logger->new(
 	'-class'  => 'main',
 	'-level'  => $verbosity,	
 );
+$log->info("going to read BSR summary tree from $nexml");
 my $bsr_tree = parse_tree(
 	'-format' => 'nexml',
 	'-file'   => $nexml,
 );
+$log->info("going to read SDI tree from $phyloxml");
 my $sdi_tree = parse_tree(
 	'-format' => 'phyloxml',
 	'-file'   => $phyloxml,
 );
 my $drawer = Bio::Phylo::Treedrawer->new(
+	'-height'       => scalar( @{ $sdi_tree->get_terminals } ) * 25,
 	'-format'       => 'svg',
 	'-width'        => $width,
-	'-height'       => $height,
 	'-shape'        => 'rect',
 	'-mode'	        => 'phylo',
 	'-node_radius'  => 5,	
-	'-branch_width' => 2,
+	'-branch_width' => 4,
 );
 
 # read genes spreadsheet
@@ -79,7 +81,17 @@ for my $st ( @{ $sdi_tree->get_entities } ) {
 		my $name = $st->get_name;
 		my @parts = split /_/, $name;
 		my $acc = pop @parts;
+		my $fam = pop @parts;
 		$st->set_name( join ' ', @parts );
+		$st->set_generic( 'fam' => $fam );
+
+		# lookup accession number
+		if ( my $anno = $acc{$acc} ) {
+			if ( my $gene = $anno->{'Target_Gene'} ) {
+				$log->info("seq $acc is target gene $gene");
+				$st->set_generic( 'gene' => $gene );
+			}
+		}
 	
 		# link the equivalent tips
 		if ( my $bt = $bsr_tree->get_by_name($acc) ) {
@@ -164,7 +176,7 @@ $sdi_tree->visit(sub{
 	my $red  = int( $transformed * 255 );
 	my $blue = 255 - $red;
 	$node->set_branch_color("rgb($red,0,$blue)");
-	$log->info($node->get_meta_object('hyphy:Corrected_p_value'));
+	$log->debug($node->get_meta_object('hyphy:Corrected_p_value'));
 	
 	# duplication
 	if ( $node->is_internal ) {
@@ -174,7 +186,7 @@ $sdi_tree->visit(sub{
 			$log->debug($event->get_predicate);
 			if ( $event->get_predicate eq 'px:duplications' ) {
 				$node->set_node_color('red');
-				$node->set_generic('dup'=>1);
+				$node->set_generic( 'dup' => 1 );
 			}
 			else {
 				$node->set_node_color('green');
@@ -185,6 +197,49 @@ $sdi_tree->visit(sub{
 		}
 	}
 });
+
+
+# apply target gene names
+$log->info("going to apply target gene names");
+for my $tip ( @{ $sdi_tree->get_terminals } ) {
+    if ( my $gene = $tip->get_generic('gene') ) {
+        $log->info("going to find members for target gene $gene");
+        $tip->set_name( $tip->get_name . ' ' . $gene );
+        $tip->set_generic( 'fam' => undef );
+        my $anc = $tip->get_ancestors;
+        unshift @$anc, $tip;
+
+        # iterate over all other tips except annotated ones
+        for my $t ( @{ $sdi_tree->get_terminals } ) {
+            if ( not $t->get_generic('gene') ) {
+            	
+            	# count all duplications between tips and mrca
+                my $dups;
+                my $mrca = $tip->get_mrca($t)->get_id;
+                my $ta = $t->get_ancestors;
+                unshift @$ta, $t;
+                for my $array ( $anc, $ta ) {
+					MRCA: for my $i ( 0 .. $#{ $array } ) {					
+						$dups++ if $array->[$i]->get_generic('dup');
+						last MRCA if $array->[$i]->get_id == $mrca;						
+					}
+                }
+                $t->set_name( $t->get_name . ' ' . $gene ) unless $dups;
+                $t->set_generic( 'fam' => undef ) unless $dups;
+            }
+        }
+    }
+}
+
+# append "default" families
+for my $tip ( @{ $sdi_tree->get_terminals } ) {
+	if ( my $fam = $tip->get_generic('fam') ) {
+		$fam =~ s/-.*//;
+		$fam = "($fam)";
+		$log->info($tip->get_name . ' added to default family ' . $fam);
+		$tip->set_name( $tip->get_name . ' ' . $fam );
+	}
+}
 
 # draw the tree
 $log->info("going to draw tree");
