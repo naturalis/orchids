@@ -110,7 +110,7 @@ that in addition reconstructs the other member sequences for any of the Erycina 
 [target genes](genes.tsv).
 
 Hence, this is a two-step approach that is implemented in a 
-[driver shell script](script/draw.sh), which in turn executes the following steps:
+[driver shell script](draw.sh), which in turn executes the following steps:
 
 1. a generic merge of data monkey results done by 
 [script/parse_datamonkey.pl](script/parse_datamonkey.pl)
