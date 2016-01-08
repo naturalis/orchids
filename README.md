@@ -104,24 +104,20 @@ upload and record this ID, for example as a NEXUS comment inside the file you up
 
 ## Post-processing and visualization
 
-The result files from datamonkey (NEXUS and CSV) need to be merged and visualized. 
+The result files from datamonkey (NEXUS and CSV) need to be merged. Subsequently, this 
+merge needs to be combined with the gene duplication (g)SDI analysis in a visualization
+that in addition reconstructs the other member sequences for any of the Erycina pusilla
+[target genes](genes.tsv).
 
-(Depending on the data you feed into datamonkey it may transpire that certain identical
-sequences are pruned out of the alignment and the input tree. The tree that is then 
-inserted by datamonkey into the NEXUS result lacks branch lengths. For now my approach
-has been to take the ML Newick tree from PhyML, remove the taxa that were pruned by
-datamonkey, and paste the resulting tree into the NEXUS file.)
+Hence, this is a two-step approach that is implemented in a 
+[driver shell script](script/draw.sh), which in turn executes the following steps:
 
-Merging the files is a two-step approach:
+1. a generic merge of data monkey results done by 
+[script/parse_datamonkey.pl](script/parse_datamonkey.pl)
 
-1. a generic merge that makes no assumptions about naming conventions 
-([script/parse_datamonkey.pl](script/parse_datamonkey.pl))
+2. the visualization, to SVG format, done by 
+[script/draw_gsdi_bsr.pl](script/draw_gsdi_bsr.pl)
 
-2. a script that applies the original sequence names (remember: we had been working with
-just accession numbers starting from the phylogenetic inference step, 
-[script/relabel_datamonkey.pl](script/relabel_datamonkey.pl))
 
-Once merged, the result can then be visualized as SVG using [script/draw_tree.pl](script/draw_tree.pl)
 
-**TO DO: also include the inferred duplications and the support values in the visualization**
 
