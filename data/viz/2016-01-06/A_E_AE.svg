@@ -13,18 +13,18 @@
 	line.scale_minor    {}
 ]]></style>
     <polyline points="397,83 397,94 450,94" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 450.909567708 94.7368421052632)" x="456" y="98">Oncidium Gower AGL6-2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000; font-weight: bold" transform="rotate( 450.909567708 94.7368421052632)" x="456" y="98">Oncidium Gower AGL6-2</text>
     <polyline points="397,83 397,72 427,72" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: blue" transform="rotate( 427.364107989567 72.3684210526316)" x="433" y="76">Erycina pusilla AGL6-2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #008000; font-weight: bold" transform="rotate( 427.364107989567 72.3684210526316)" x="433" y="76">* Erycina pusilla AGL6-2</text>
     <polyline points="306,66 306,83 397,83" style="stroke: rgb(0,0,255); stroke-width: 4" />
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 397.746227366229 83.5526315789474)" x="403" y="87">0.96</text>
     <circle cx="397" cy="83" r="5" style="fill: green; stroke: black; stroke-width: 1" />
     <polyline points="306,66 306,50 535,50" style="stroke: rgb(70,0,185); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: blue" transform="rotate( 535.409013070148 50)" x="541" y="54">Erycina pusilla AGL6-3</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #598D00; font-weight: bold" transform="rotate( 535.409013070148 50)" x="541" y="54">* Erycina pusilla AGL6-3</text>
     <polyline points="337,128 337,139 355,139" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 355.300451369715 139.473684210526)" x="361" y="143">Oncidium Gower-Ramsey AGL6-1</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #CB4A00; font-weight: bold" transform="rotate( 355.300451369715 139.473684210526)" x="361" y="143">Oncidium Gower-Ramsey AGL6-1</text>
     <polyline points="337,128 337,117 407,117" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: blue" transform="rotate( 407.334274782438 117.105263157895)" x="413" y="121">Erycina pusilla AGL6-1</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #CB4A00; font-weight: bold" transform="rotate( 407.334274782438 117.105263157895)" x="413" y="121">* Erycina pusilla AGL6-1</text>
     <polyline points="340,217 340,228 342,228" style="stroke: rgb(255,0,0); stroke-width: 4" />
     <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 342.847263605424 228.947368421053)" x="348" y="232">Cymbidium faberi (AGL6)</text>
     <polyline points="340,217 340,206 344,206" style="stroke: rgb(0,0,255); stroke-width: 4" />
@@ -59,20 +59,20 @@
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 687.20267405315 284.868421052632)" x="693" y="288">0.96</text>
     <circle cx="687" cy="284" r="5" style="fill: green; stroke: black; stroke-width: 1" />
     <polyline points="617,268 617,251 795,251" style="stroke: rgb(3,0,252); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: blue" transform="rotate( 795.048311663295 251.315789473684)" x="801" y="255">Erycina pusilla FUL-1</text>
-    <polyline points="819,329 819,340 1000,340" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: blue" transform="rotate( 1000 340.789473684211)" x="1006" y="344">Erycina pusilla FUL-3</text>
-    <polyline points="819,329 819,318 879,318" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 879.915316434733 318.421052631579)" x="885" y="322">Cymbidium faberi FUL-3</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #FF0000; font-weight: bold" transform="rotate( 795.048311663295 251.315789473684)" x="801" y="255">* Erycina pusilla FUL-1</text>
+    <polyline points="819,329 819,340 879,340" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #808000; font-weight: bold" transform="rotate( 879.915316434733 340.789473684211)" x="885" y="344">Cymbidium faberi FUL-3</text>
+    <polyline points="819,329 819,318 1000,318" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #808000; font-weight: bold" transform="rotate( 1000 318.421052631579)" x="1006" y="322">* Erycina pusilla FUL-3</text>
     <polyline points="857,396 857,407 872,407" style="stroke: rgb(23,0,232); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 872.852144926553 407.894736842105)" x="878" y="411">Oncidium Gower-Ramsey FUL-2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #359100; font-weight: bold" transform="rotate( 872.852144926553 407.894736842105)" x="878" y="411">Oncidium Gower-Ramsey FUL-2</text>
     <polyline points="857,396 857,385 914,385" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: blue" transform="rotate( 914.151501797245 385.526315789474)" x="920" y="389">Erycina pusilla FUL-2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #359100; font-weight: bold" transform="rotate( 914.151501797245 385.526315789474)" x="920" y="389">* Erycina pusilla FUL-2</text>
     <polyline points="808,379 808,396 857,396" style="stroke: rgb(48,0,207); stroke-width: 4" />
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 857.871343645877 396.710526315789)" x="863" y="400">1.00</text>
     <circle cx="857" cy="396" r="5" style="fill: green; stroke: black; stroke-width: 1" />
     <polyline points="808,379 808,363 833,363" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 833.605183179539 363.157894736842)" x="839" y="367">Cymbidium ensifolium FUL-2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #359100; font-weight: bold" transform="rotate( 833.605183179539 363.157894736842)" x="839" y="367">Cymbidium ensifolium FUL-2</text>
     <polyline points="862,463 862,475 869,475" style="stroke: rgb(-29,0,284); stroke-width: 4" />
     <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 869.476146580687 475)" x="875" y="479">Sedirea japonica (AP1)</text>
     <polyline points="862,463 862,452 887,452" style="stroke: rgb(0,0,255); stroke-width: 4" />
@@ -104,14 +104,14 @@
     <polyline points="547,508 547,497 597,497" style="stroke: rgb(0,0,255); stroke-width: 4" />
     <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 597.97228657692 497.368421052632)" x="603" y="501">Oncidium Gower-Ramsey (SEP)</text>
     <polyline points="609,575 609,586 656,586" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 656.293564961256 586.842105263158)" x="662" y="590">Phalaenopsis equestris SEP-A1</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #EA2600; font-weight: bold" transform="rotate( 656.293564961256 586.842105263158)" x="662" y="590">Phalaenopsis equestris SEP-A1</text>
     <polyline points="609,575 609,564 752,564" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: blue" transform="rotate( 752.425189341772 564.473684210526)" x="758" y="568">Erycina pusilla SEP-A1</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #EA2600; font-weight: bold" transform="rotate( 752.425189341772 564.473684210526)" x="758" y="568">* Erycina pusilla SEP-A1</text>
     <polyline points="518,558 518,575 609,575" style="stroke: rgb(79,0,176); stroke-width: 4" />
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 609.567659971837 575.657894736842)" x="615" y="579">1.00</text>
     <circle cx="609" cy="575" r="5" style="fill: green; stroke: black; stroke-width: 1" />
     <polyline points="518,558 518,542 625,542" style="stroke: rgb(9,0,246); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 625.930294418359 542.105263157895)" x="631" y="546">Paphiopedilum concolor SEP-A1</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #EA2600; font-weight: bold" transform="rotate( 625.930294418359 542.105263157895)" x="631" y="546">Paphiopedilum concolor SEP-A1</text>
     <polyline points="493,533 493,558 518,558" style="stroke: rgb(0,0,255); stroke-width: 4" />
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 518.236837414929 558.881578947368)" x="524" y="562">0.61</text>
     <circle cx="518" cy="558" r="5" style="fill: green; stroke: black; stroke-width: 1" />
@@ -119,13 +119,13 @@
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 547.815245781491 508.552631578947)" x="553" y="512">0.93</text>
     <circle cx="547" cy="508" r="5" style="fill: green; stroke: black; stroke-width: 1" />
     <polyline points="650,665 650,676 650,676" style="stroke: rgb(108,0,147); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 650.532329012091 676.315789473684)" x="656" y="680">Cymbidium goeringii SEP-B1</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #178D00; font-weight: bold" transform="rotate( 650.532329012091 676.315789473684)" x="656" y="680">Cymbidium goeringii SEP-B1</text>
     <polyline points="650,665 650,653 654,653" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 654.503757175356 653.947368421053)" x="660" y="657">Cymbidium ensifolium SEP-B1</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #178D00; font-weight: bold" transform="rotate( 654.503757175356 653.947368421053)" x="660" y="657">Cymbidium ensifolium SEP-B1</text>
     <polyline points="646,709 646,721 660,721" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 660.166094487843 721.052631578947)" x="666" y="725">Oncidium Gower SEP-B1</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #178D00; font-weight: bold" transform="rotate( 660.166094487843 721.052631578947)" x="666" y="725">Oncidium Gower SEP-B1</text>
     <polyline points="646,709 646,698 702,698" style="stroke: rgb(108,0,147); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: blue" transform="rotate( 702.955927018947 698.684210526316)" x="708" y="702">Erycina pusilla SEP-B1</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #178D00; font-weight: bold" transform="rotate( 702.955927018947 698.684210526316)" x="708" y="702">* Erycina pusilla SEP-B1</text>
     <polyline points="612,687 612,709 646,709" style="stroke: rgb(0,0,255); stroke-width: 4" />
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 646.340158361731 709.868421052632)" x="652" y="713">0.98</text>
     <circle cx="646" cy="709" r="5" style="fill: green; stroke: black; stroke-width: 1" />
@@ -136,20 +136,20 @@
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 612.086026455553 687.5)" x="618" y="691">0.98</text>
     <circle cx="612" cy="687" r="5" style="fill: green; stroke: black; stroke-width: 1" />
     <polyline points="574,659 574,631 610,631" style="stroke: rgb(62,0,193); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 610.901007051914 631.578947368421)" x="616" y="635">Phalaenopsis equestris SEP-B1</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #178D00; font-weight: bold" transform="rotate( 610.901007051914 631.578947368421)" x="616" y="635">Phalaenopsis equestris SEP-B1</text>
     <polyline points="683,799 683,810 700,810" style="stroke: rgb(-36,0,291); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 700.915770018549 810.526315789474)" x="706" y="814">Gongora galeata SEP-B2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #A76900; font-weight: bold" transform="rotate( 700.915770018549 810.526315789474)" x="706" y="814">Gongora galeata SEP-B2</text>
     <polyline points="683,799 683,788 825,788" style="stroke: rgb(37,0,218); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: blue" transform="rotate( 825.052113950488 788.157894736842)" x="831" y="792">Erycina pusilla SEP-B2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #A76900; font-weight: bold" transform="rotate( 825.052113950488 788.157894736842)" x="831" y="792">* Erycina pusilla SEP-B2</text>
     <polyline points="683,866 683,877 692,877" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 692.327902745508 877.631578947368)" x="698" y="881">Cleisostoma racemiferum SEP-B2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #A76900; font-weight: bold" transform="rotate( 692.327902745508 877.631578947368)" x="698" y="881">Cleisostoma racemiferum SEP-B2</text>
     <polyline points="683,866 683,855 711,855" style="stroke: rgb(54,0,201); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 711.797367800772 855.263157894737)" x="717" y="859">Aranda deborah SEP-B2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #A76900; font-weight: bold" transform="rotate( 711.797367800772 855.263157894737)" x="717" y="859">Aranda deborah SEP-B2</text>
     <polyline points="678,849 678,866 683,866" style="stroke: rgb(246,0,9); stroke-width: 4" />
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 683.422564156799 866.447368421053)" x="689" y="870">0.80</text>
     <circle cx="683" cy="866" r="5" style="fill: green; stroke: black; stroke-width: 1" />
     <polyline points="678,849 678,832 715,832" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 715.367928986418 832.894736842105)" x="721" y="836">Phalaenopsis equestris SEP-B2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #A76900; font-weight: bold" transform="rotate( 715.367928986418 832.894736842105)" x="721" y="836">Phalaenopsis equestris SEP-B2</text>
     <polyline points="646,824 646,849 678,849" style="stroke: rgb(0,0,255); stroke-width: 4" />
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 678.424411188604 849.671052631579)" x="684" y="853">0.98</text>
     <circle cx="678" cy="849" r="5" style="fill: green; stroke: black; stroke-width: 1" />
@@ -160,12 +160,12 @@
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 646.816573190682 824.506578947368)" x="652" y="828">0.97</text>
     <circle cx="646" cy="824" r="5" style="fill: green; stroke: black; stroke-width: 1" />
     <polyline points="610,795 610,765 657,765" style="stroke: rgb(0,0,255); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 657.676401916832 765.789473684211)" x="663" y="769">Dendrobium crumenatum SEP-B2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #A76900; font-weight: bold" transform="rotate( 657.676401916832 765.789473684211)" x="663" y="769">Dendrobium crumenatum SEP-B2</text>
     <polyline points="555,769 555,795 610,795" style="stroke: rgb(117,0,138); stroke-width: 4" />
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 610.725404684821 795.148026315789)" x="616" y="799">0.99</text>
     <circle cx="610" cy="795" r="5" style="fill: green; stroke: black; stroke-width: 1" />
     <polyline points="555,769 555,743 624,743" style="stroke: rgb(108,0,147); stroke-width: 4" />
-    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 624.893511437544 743.421052631579)" x="630" y="747">Vanilla planifolia SEP-B2</text>
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic; fill: #A76900; font-weight: bold" transform="rotate( 624.893511437544 743.421052631579)" x="630" y="747">Vanilla planifolia SEP-B2</text>
     <polyline points="542,714 542,769 555,769" style="stroke: rgb(0,0,255); stroke-width: 4" />
     <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 555.32479954103 769.284539473684)" x="561" y="773">0.73</text>
     <circle cx="555" cy="769" r="5" style="fill: green; stroke: black; stroke-width: 1" />

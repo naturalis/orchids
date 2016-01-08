@@ -3,8 +3,9 @@ use strict;
 use warnings;
 use Getopt::Long;
 use Data::Dumper;
+use Color::Spectrum 'generate';
 use Scalar::Util qw'looks_like_number';
-use List::Util qw'min max';
+use List::Util qw'min max shuffle';
 use Bio::Phylo::Treedrawer;
 use Bio::Phylo::Util::Logger qw':levels';
 use Bio::Phylo::IO qw'parse parse_tree';
@@ -16,6 +17,7 @@ my $nexml;    # NeXML output from parse_datamonkey.pl
 my $genes;    # tab-separated spreadsheet of accession => gene mapping
 my $verbosity = WARN;
 my $attribute = 'hyphy:omega3';
+my $colors    = 'red,blue';
 my ( $width, $height ) = ( 1200, 1200 );
 GetOptions(
 	'phyloxml=s'  => \$phyloxml,
@@ -25,6 +27,7 @@ GetOptions(
 	'height=i'    => \$height,
 	'attribute=s' => \$attribute,
 	'genes=s'     => \$genes,
+	'colors=s'    => \$colors,
 );
 
 # instantiate helper objects
@@ -72,6 +75,7 @@ my %acc;
 
 # link SDI and BSR tips, clean up SDI node labels
 $log->info("going to link tips in SDI and BSR trees");
+my @fams;
 for my $st ( @{ $sdi_tree->get_entities } ) {
 
 	# link the tips
@@ -90,6 +94,7 @@ for my $st ( @{ $sdi_tree->get_entities } ) {
 			if ( my $gene = $anno->{'Target_Gene'} ) {
 				$log->info("seq $acc is target gene $gene");
 				$st->set_generic( 'gene' => $gene );
+				push @fams, $gene;
 			}
 		}
 	
@@ -168,7 +173,10 @@ $sdi_tree->visit(sub{
 	$node->set_font_face('Verdana');
 	$node->set_font_size(12);
 	$node->set_font_style('Italic') if $node->is_terminal;	
-	$node->set_font_colour('blue') if $node->get_name =~ /Erycina pusilla/;
+	
+	# star E. pusilla
+	my $name = $node->get_name;
+	$node->set_name("* $name") if $name =~ /Erycina pusilla/;
 	
 	# omega3
 	my $val = $node->get_meta_object($attribute) || 0;
@@ -231,6 +239,10 @@ for my $tip ( @{ $sdi_tree->get_terminals } ) {
     }
 }
 
+# apply family colors
+my @colors = shuffle(generate( scalar(@fams), split /,/, $colors ));
+my %c = map { $fams[$_] => $colors[$_] } 0 .. $#fams;
+
 # append "default" families
 for my $tip ( @{ $sdi_tree->get_terminals } ) {
 	if ( my $fam = $tip->get_generic('fam') ) {
@@ -238,6 +250,16 @@ for my $tip ( @{ $sdi_tree->get_terminals } ) {
 		$fam = "($fam)";
 		$log->info($tip->get_name . ' added to default family ' . $fam);
 		$tip->set_name( $tip->get_name . ' ' . $fam );
+	}
+	else {
+		my $name = $tip->get_name;
+		if ( $name =~ /(\S+)$/ ) {
+			my $fam = $1;
+			if ( $c{$fam} ) {
+				$tip->set_font_color( $c{$fam} );
+				$tip->set_font_weight( 'bold' );
+			}
+		}
 	}
 }
 
