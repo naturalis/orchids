@@ -25,4 +25,5 @@ for my $row ( @rows ) {
 print unparse(
 	'-format' => 'phylip',
 	'-phylo'  => $project,
+	'-relaxed'  => 1,
 );
