@@ -12,7 +12,7 @@ use Bio::Phylo::Util::CONSTANT qw':namespaces :objecttypes';
 # process command line arguments
 my $verbosity = WARN;
 my $format = 'newick';
-my ( $speciestree, $genetree, $outfile, $alignment );
+my ( $speciestree, $genetree, $outfile, $alignment, $reroot );
 GetOptions(
 	'speciestree=s' => \$speciestree,
 	'genetree=s'    => \$genetree,
@@ -20,6 +20,7 @@ GetOptions(
 	'format=s'      => \$format,
 	'verbose+'      => \$verbosity,
 	'alignment=s'   => \$alignment,
+	'reroot'        => \$reroot,
 );
 
 # instantiate helper objects
@@ -40,43 +41,48 @@ if ( $speciestree ) {
 		$log->error("need -outfile argument when processing -speciestree");
 		exit(1);
 	}
+	if ( not -e $outfile ) {
+		
+		# annotate the species tree. we do this using TNRS.
+		$log->info("going to annotate species tree $speciestree");
+		my $sp = parse(
+			'-format' => 'newick',
+			'-file'   => $speciestree,	
+			'-as_project' => 1,
+		);
+		my ($st) = @{ $sp->get_items(_TREE_) };
+		$st->set_namespaces( 'px' => _NS_PHYLOXML_ );
+		my @staxa;
+		for my $tip ( @{ $st->get_terminals } ) {
 
-	# annotate the species tree. we do this using TNRS.
-	$log->info("going to annotate species tree $speciestree");
-	my $sp = parse(
-		'-format' => 'newick',
-		'-file'   => $speciestree,	
-		'-as_project' => 1,
-	);
-	my ($st) = @{ $sp->get_items(_TREE_) };
-	$st->set_namespaces( 'px' => _NS_PHYLOXML_ );
-	my @staxa;
-	for my $tip ( @{ $st->get_terminals } ) {
-
-		# pre-process the name
-		my $name = $tip->get_name;
-		$name =~ s/_/ /g;
-		$name =~ s/-/ /g;
-		$name =~ s/'//g;
-	
-		# do a lookup
-		if ( my $id = $mts->_do_tnrs_search($name) ) {
-			$log->info("$name => $id");
-			$tip->set_name($name);
-			$seen{$id} = $name;
-			push @staxa, make_taxon($name,$tip,$id);
+			# pre-process the name
+			my $name = $tip->get_name;
+			$name =~ s/_/ /g;
+			$name =~ s/-/ /g;
+			$name =~ s/'//g;
+		
+			# do a lookup
+			if ( my $id = $mts->_do_tnrs_search($name) ) {
+				$log->info("$name => $id");
+				$tip->set_name($name);
+				$seen{$id} = $name;
+				push @staxa, make_taxon($name,$tip,$id);
+			}
+			else {
+				$log->error("Couldn't find name $name");
+			}	
 		}
-		else {
-			$log->error("Couldn't find name $name");
-		}	
-	}
 	
-	# write output
-	open my $fh, '>', $outfile or die $!;
-	print $fh unparse(
-		'-format' => 'phyloxml',
-		'-phylo'  => $sp,
-	);
+		# write output
+		open my $fh, '>', $outfile or die $!;
+		print $fh unparse(
+			'-format' => 'phyloxml',
+			'-phylo'  => $sp,
+		);
+	}
+	else {
+		$log->info("$outfile already exists, won’t make it again");
+	}
 }
 
 # annotate the gene tree. we do this by doing a lookup of the accession
@@ -87,9 +93,15 @@ my $gp = parse(
 	'-as_project' => 1,
 );
 my ($gt) = @{ $gp->get_items(_TREE_) };
+if ( UNIVERSAL::isa( $gt, 'Bio::Phylo::Forest::Tree' ) ) {
+	$log->info("tree successfully read");
+}
+else {
+	$log->info("problem reading tree from $genetree");
+}
 
 # outgroup root
-{
+if ( $reroot ) {
 
 	# map accession numbers to gene families
 	$log->info("going to read gene families from $alignment");
