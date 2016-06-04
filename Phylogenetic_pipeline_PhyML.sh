@@ -60,29 +60,29 @@ SPECIESTREE=data/speciestree/2016-6-1 #species tree
 ALIGNMENTS=data/selection/2015-12-15   #fasta and alignment files
 GENETREES=data/genetrees/2015-12-11    #gene lineage trees
 
-#for FAM in $FAMILIES; do
-#
-#/bin/bash protaln.sh $ALIGNMENTS/$FAM/
-#
-#done
+for FAM in $FAMILIES; do
+
+/bin/bash protaln.sh $ALIGNMENTS/$FAM/
+
+done
 
 # iterate over gene families
-#for FAM in $FAMILIES; do
-#
-#	# convert fasta file to relaxed phylip file
-#	perl script/fasta2phylip.pl $ALIGNMENTS/$FAM/codon.aln.fasta > $GENETREES/$FAM/codon.aln.phy
-#
-#	# nt        = nucleotide
-#	# -f e      = estimate base frequencies
-#	# --ts/tv e = estimate transition/transversion ratio
-#	# --pinv e  = estimate proportion of invariant sites
-#	# --alpha e = estimate gamma distribution shape parameter
-#	# --search BEST = best topology search result from among NNI and SPR
-#	rm $GENETREES/$FAM/codon.aln.phy_phyml_tree.txt
-#	rm $GENETREES/$FAM/codon.aln.phy_phyml_stats.txt
-#	phyml --input $GENETREES/$FAM/codon.aln.phy --pars --datatype nt --sequential --model GTR -f m --ts/tv e --pinv e --alpha e --search BEST --nclasses 6 --quiet
-#
-#done
+for FAM in $FAMILIES; do
+
+	# convert fasta file to relaxed phylip file
+	perl script/fasta2phylip.pl $ALIGNMENTS/$FAM/codon.aln.fasta > $GENETREES/$FAM/codon.aln.phy
+
+	# nt        = nucleotide
+	# -f e      = estimate base frequencies
+	# --ts/tv e = estimate transition/transversion ratio
+	# --pinv e  = estimate proportion of invariant sites
+	# --alpha e = estimate gamma distribution shape parameter
+	# --search BEST = best topology search result from among NNI and SPR
+	rm $GENETREES/$FAM/codon.aln.phy_phyml_tree.txt
+	rm $GENETREES/$FAM/codon.aln.phy_phyml_stats.txt
+	phyml --input $GENETREES/$FAM/codon.aln.phy --pars --datatype nt --sequential --model GTR -f m --ts/tv e --pinv e --alpha e --search BEST --nclasses 6 --quiet
+
+done
 
 # https://sites.google.com/site/cmzmasek/home/software/forester/gsdi
 GSDI="java -Xmx1024m -cp $JAR org.forester.application.gsdi -g"
