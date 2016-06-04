@@ -54,35 +54,35 @@ fi
 
 # first argument needs to be a folder containing FASTA files to merge and protalign
 #FAMILIES="AP3_PI A_E_AE C_D"           #Gene families (Foldernames)
-FAMILIES="Angio"
+FAMILIES="A_FUL"
 JAR=bin/forester_1038.jar              #Archeopteryx 
-SPECIESTREE=data/speciestree/cladogram #species tree
+SPECIESTREE=data/speciestree/2016-6-1 #species tree
 ALIGNMENTS=data/selection/2015-12-15   #fasta and alignment files
 GENETREES=data/genetrees/2015-12-11    #gene lineage trees
 
-for FAM in $FAMILIES; do
-
-/bin/bash protaln.sh $ALIGNMENTS/$FAM/
-
-done
+#for FAM in $FAMILIES; do
+#
+#/bin/bash protaln.sh $ALIGNMENTS/$FAM/
+#
+#done
 
 # iterate over gene families
-for FAM in $FAMILIES; do
-
-	# convert fasta file to relaxed phylip file
-	perl script/fasta2phylip.pl $ALIGNMENTS/$FAM/codon.aln.fasta > $GENETREES/$FAM/codon.aln.phy
-
-	# nt        = nucleotide
-	# -f e      = estimate base frequencies
-	# --ts/tv e = estimate transition/transversion ratio
-	# --pinv e  = estimate proportion of invariant sites
-	# --alpha e = estimate gamma distribution shape parameter
-	# --search BEST = best topology search result from among NNI and SPR
-	rm $GENETREES/$FAM/codon.aln.phy_phyml_tree.txt
-	rm $GENETREES/$FAM/codon.aln.phy_phyml_stats.txt
-	phyml --input $GENETREES/$FAM/codon.aln.phy --pars --datatype nt --sequential --model GTR -f m --ts/tv e --pinv e --alpha e --search BEST --nclasses 6 --quiet
-
-done
+#for FAM in $FAMILIES; do
+#
+#	# convert fasta file to relaxed phylip file
+#	perl script/fasta2phylip.pl $ALIGNMENTS/$FAM/codon.aln.fasta > $GENETREES/$FAM/codon.aln.phy
+#
+#	# nt        = nucleotide
+#	# -f e      = estimate base frequencies
+#	# --ts/tv e = estimate transition/transversion ratio
+#	# --pinv e  = estimate proportion of invariant sites
+#	# --alpha e = estimate gamma distribution shape parameter
+#	# --search BEST = best topology search result from among NNI and SPR
+#	rm $GENETREES/$FAM/codon.aln.phy_phyml_tree.txt
+#	rm $GENETREES/$FAM/codon.aln.phy_phyml_stats.txt
+#	phyml --input $GENETREES/$FAM/codon.aln.phy --pars --datatype nt --sequential --model GTR -f m --ts/tv e --pinv e --alpha e --search BEST --nclasses 6 --quiet
+#
+#done
 
 # https://sites.google.com/site/cmzmasek/home/software/forester/gsdi
 GSDI="java -Xmx1024m -cp $JAR org.forester.application.gsdi -g"
@@ -91,18 +91,27 @@ GSDI="java -Xmx1024m -cp $JAR org.forester.application.gsdi -g"
 # redundant because the same species tree is generated each time, but this also 
 # triggers a check to make sure all species in the gene tree are present in the 
 # species tree
-PHYLOXML="perl script/make_phyloxml.pl -f newick -s $SPECIESTREE.dnd -o $SPECIESTREE.xml"
+
 
 # iterate over families
 for FAM in $FAMILIES; do
 
-	# generate input files
+	PHYLOXML="perl script/make_phyloxml.pl -f newick -s $SPECIESTREE/$FAM/cladogram.dnd -o $SPECIESTREE/$FAM/cladogram.xml"
+
 	G=$GENETREES/$FAM/codon.aln.phy_phyml_tree
-	$PHYLOXML -g $G.txt -a $ALIGNMENTS/$FAM/codon.aln.fasta -v > $G.xml
+	
+	# convert nexus/figtree dialect to newick, 
+	# including support values as internal node labels
+	# XXX This step requires that the $FAM folder contains a simple text file that 
+	# contains the accession numbers of the outgroup taxa, one number per line.
+	perl script/make_newick.pl -o $GENETREES/$FAM/outgroups.txt -f newick -i $G.txt --verbose > $G.dnd
+	
+	# generate input files
+	$PHYLOXML -g $G.dnd -a $ALIGNMENTS/$FAM/codon.aln.fasta -v > $G.xml
 
 	# run GSDI
 	rm $G.gsdi_gsdi_log.txt $G.gsdi_species_tree_used.xml $G.gsdi.xml
-	$GSDI $G.xml $SPECIESTREE.xml $G.gsdi.xml
+	$GSDI $G.xml $SPECIESTREE/$FAM/cladogram.xml $G.gsdi.xml
 
 done
 
