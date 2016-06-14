@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd" xmlns="http://www.phyloxml.org">
+<phylogeny rooted="true" rerootable="true">
+  <clade>
+    <clade>
+      <clade>
+        <clade>
+          <clade>
+            <name>Elaeis guineensis</name>
+            <taxonomy>
+              <id provider="uniprot">51953</id>
+            </taxonomy>
+          </clade>
+          <clade>
+            <clade>
+              <name>Oryza sativa</name>
+              <taxonomy>
+                <id provider="uniprot">4530</id>
+              </taxonomy>
+            </clade>
+            <clade>
+              <name>Zea mays</name>
+              <taxonomy>
+                <id provider="uniprot">4577</id>
+              </taxonomy>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <clade>
+            <clade>
+              <clade>
+                <clade>
+                  <name>Cymbidium ensifolium</name>
+                  <taxonomy>
+                    <id provider="uniprot">78740</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <name>Cymbidium faberi</name>
+                  <taxonomy>
+                    <id provider="uniprot">112604</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+              <clade>
+                <clade>
+                  <name>Oncidium Gower Ramsey</name>
+                  <taxonomy>
+                    <id provider="uniprot">141207</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <name>Erycina pusilla</name>
+                  <taxonomy>
+                    <id provider="uniprot">154679</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <clade>
+                <name>Sedirea japonica</name>
+                <taxonomy>
+                  <id provider="uniprot">111597</id>
+                </taxonomy>
+              </clade>
+              <clade>
+                <name>Phalaenopsis amabilis</name>
+                <taxonomy>
+                  <id provider="uniprot">148545</id>
+                </taxonomy>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>Dendrobium thyrsiflorum</name>
+            <taxonomy>
+              <id provider="uniprot">117978</id>
+            </taxonomy>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <clade>
+          <clade>
+            <clade>
+              <name>Tradescantia virginiana</name>
+              <taxonomy>
+                <id provider="uniprot">59016</id>
+              </taxonomy>
+            </clade>
+            <clade>
+              <name>Alpinia oblongifolia</name>
+              <taxonomy>
+                <id provider="uniprot">359415</id>
+              </taxonomy>
+            </clade>
+          </clade>
+          <clade>
+            <clade>
+              <name>Alstroemeria ligtu subsp. ligtu</name>
+              <taxonomy>
+                <id provider="uniprot">208882</id>
+              </taxonomy>
+            </clade>
+            <clade>
+              <clade>
+                <name>Tulipa gesneriana</name>
+                <taxonomy>
+                  <id provider="uniprot">13306</id>
+                </taxonomy>
+              </clade>
+              <clade>
+                <name>Lilium longiflorum</name>
+                <taxonomy>
+                  <id provider="uniprot">4690</id>
+                </taxonomy>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <clade>
+            <name>Crocus sativus</name>
+            <taxonomy>
+              <id provider="uniprot">82528</id>
+            </taxonomy>
+          </clade>
+          <clade>
+            <clade>
+              <name>Allium sp. AL 2003</name>
+              <taxonomy>
+                <id provider="uniprot">236245</id>
+              </taxonomy>
+            </clade>
+            <clade>
+              <name>Narcissus tazetta var. chinensis</name>
+              <taxonomy>
+                <id provider="uniprot">391288</id>
+              </taxonomy>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+    </clade>
+    <clade>
+      <clade>
+        <clade>
+          <name>Magnolia praecocissima</name>
+          <taxonomy>
+            <id provider="uniprot">81865</id>
+          </taxonomy>
+        </clade>
+        <clade>
+          <name>Magnolia grandiflora</name>
+          <taxonomy>
+            <id provider="uniprot">3406</id>
+          </taxonomy>
+        </clade>
+      </clade>
+      <clade>
+        <clade>
+          <clade>
+            <name>Aristolochia salvadorensis</name>
+            <taxonomy>
+              <id provider="uniprot">158571</id>
+            </taxonomy>
+          </clade>
+          <clade>
+            <name>Aristolochia trilobata</name>
+            <taxonomy>
+              <id provider="uniprot">158576</id>
+            </taxonomy>
+          </clade>
+        </clade>
+        <clade>
+          <clade>
+            <name>Saruma henryi</name>
+            <taxonomy>
+              <id provider="uniprot">13258</id>
+            </taxonomy>
+          </clade>
+          <clade>
+            <clade>
+              <name>Asarum caudatum</name>
+              <taxonomy>
+                <id provider="uniprot">76083</id>
+              </taxonomy>
+            </clade>
+            <clade>
+              <name>Asarum europaeum</name>
+              <taxonomy>
+                <id provider="uniprot">49456</id>
+              </taxonomy>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+    </clade>
+  </clade>
+</phylogeny>
+</phyloxml>

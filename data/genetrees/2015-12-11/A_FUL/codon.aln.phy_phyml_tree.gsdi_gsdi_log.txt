@@ -1,0 +1,54 @@
+gsdi - general speciation duplication inference
+  version         : 1.001
+  date            : 130325
+  forester version: 1.038
+
+Start time                               : 20160603 15:54:07
+Gene tree file                           : /Users/janwillem/orchids/data/genetrees/2015-12-11/A_FUL/codon.aln.phy_phyml_tree.xml
+Gene tree name                           : 
+Species tree file                        : /Users/janwillem/orchids/data/speciestree/2016-6-1/A_FUL/cladogram.xml
+Species tree name                        : 
+Algorithm                                : GSDI
+Use most parsimonous duplication model   : false
+Allow stripping of gene tree nodes       : true
+Running time (excluding I/O)             : 14ms
+Mapping based on                         : taxonomy id
+Wrote resulting gene tree to             : /Users/janwillem/orchids/data/genetrees/2015-12-11/A_FUL/codon.aln.phy_phyml_tree.gsdi.xml
+Wrote (stripped) species tree to         : /Users/janwillem/orchids/data/genetrees/2015-12-11/A_FUL/codon.aln.phy_phyml_tree.gsdi_species_tree_used.xml
+Number of external nodes in gene tree    : 43
+Number of external nodes in species tree : 25
+Number of polytomies in species tree     : 0
+External nodes stripped from gene tree   : 0
+External nodes stripped from species tree: 0
+Number of speciations                    : 18
+Number of duplications                   : 24
+Number of potential duplications         : 0
+
+The following 25 species were used: 
+  Allium sp. AL 2003 [uniprot] 236245
+  Alpinia oblongifolia [uniprot] 359415
+  Alstroemeria ligtu subsp. ligtu [uniprot] 208882
+  Aristolochia salvadorensis [uniprot] 158571
+  Aristolochia trilobata [uniprot] 158576
+  Asarum caudatum [uniprot] 76083
+  Asarum europaeum [uniprot] 49456
+  Crocus sativus [uniprot] 82528
+  Cymbidium ensifolium [uniprot] 78740
+  Cymbidium faberi [uniprot] 112604
+  Dendrobium thyrsiflorum [uniprot] 117978
+  Elaeis guineensis [uniprot] 51953
+  Erycina pusilla [uniprot] 154679
+  Lilium longiflorum [uniprot] 4690
+  Magnolia grandiflora [uniprot] 3406
+  Magnolia praecocissima [uniprot] 81865
+  Narcissus tazetta var. chinensis [uniprot] 391288
+  Oncidium Gower Ramsey [uniprot] 141207
+  Oryza sativa [uniprot] 4530
+  Phalaenopsis amabilis [uniprot] 148545
+  Saruma henryi [uniprot] 13258
+  Sedirea japonica [uniprot] 111597
+  Tradescantia virginiana [uniprot] 59016
+  Tulipa gesneriana [uniprot] 13306
+  Zea mays [uniprot] 4577
+
+The following 0 nodes were stripped from the gene tree: 
