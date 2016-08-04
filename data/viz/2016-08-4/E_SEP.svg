@@ -1,0 +1,299 @@
+<svg height="1450" width="1200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css"><![CDATA[
+	polyline { fill: none; stroke: black; stroke-width: 1 }
+	path { fill: none; stroke: black; stroke-width: 1 }
+	line { fill: none; stroke: black; stroke-width: 1 }
+	circle.node_circle  {}
+	circle.taxon_circle {}
+	text.node_text      {}
+	text.taxon_text     {}
+	line.scale_bar      {}
+	text.scale_label    {}
+	line.scale_major    {}
+	line.scale_minor    {}
+]]></style>
+    <polyline points="402,61 402,73 645,73" style="stroke: rgb(-4,0,259); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 645.003572326224 73.2758620689655)" x="651" y="77">Houttuynia cordata (HcAP1)</text>
+    <polyline points="402,61 402,50 569,50" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 569.190082663862 50)" x="575" y="54">Asarum caudigerum (mads600)</text>
+    <polyline points="678,131 678,143 722,143" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 722.775906928684 143.103448275862)" x="728" y="147">Houttuynia cordata (HcSEP3)</text>
+    <polyline points="678,131 678,119 695,119" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 695.67376167115 119.827586206897)" x="701" y="123">Houttuynia cordata (HcSEP2)</text>
+    <polyline points="484,114 484,131 678,131" style="stroke: rgb(7,0,248); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 678.693052232762 131.465517241379)" x="684" y="135">1.00</text>
+    <circle cx="678" cy="131" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="484,114 484,96 722,96" style="stroke: rgb(138,0,117); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 722.94282881692 96.551724137931)" x="728" y="100">Amborella trichopoda (AMtrAGL2)</text>
+    <polyline points="866,224 866,236 900,236" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 900.203925137075 236.206896551724)" x="906" y="240">Zea mays (zmm31)</text>
+    <polyline points="866,224 866,212 875,212" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 875.661985794476 212.931034482759)" x="881" y="216">Zea mays (zmm24)</text>
+    <polyline points="747,294 747,306 902,306" style="stroke: rgb(162,0,93); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 902.471188665369 306.034482758621)" x="908" y="310">Zea mays (ZMM8)</text>
+    <polyline points="747,294 747,282 862,282" style="stroke: rgb(67,0,188); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 862.47073485194 282.758620689655)" x="868" y="286">Zea mays (ZMM3)</text>
+    <polyline points="643,276 643,294 747,294" style="stroke: rgb(255,0,0); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 747.903731044562 294.396551724138)" x="753" y="298">0.44</text>
+    <circle cx="747" cy="294" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="643,276 643,259 659,259" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 659.4373411653 259.48275862069)" x="665" y="263">Oryza sativa (OsMADS1)</text>
+    <polyline points="605,250 605,276 643,276" style="stroke: rgb(85,0,170); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 643.792006832801 276.939655172414)" x="649" y="280">0.68</text>
+    <circle cx="643" cy="276" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="605,250 605,224 866,224" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <circle cx="866" cy="224" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="534,220 534,250 605,250" style="stroke: rgb(-7,0,262); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 605.432030384554 250.754310344828)" x="611" y="254">1.00</text>
+    <circle cx="605" cy="250" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="534,220 534,189 643,189" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 643.159693454847 189.655172413793)" x="649" y="193">Elaeis guineensis (EgAGL2.4)</text>
+    <polyline points="785,387 785,399 829,399" style="stroke: rgb(26,0,229); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 829.838058423243 399.137931034483)" x="835" y="403">Phalaenopsis equestris (PeSEP2)</text>
+    <polyline points="785,387 785,375 945,375" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 945.151236234326 375.862068965517)" x="951" y="379">Erycina pusilla (EpMADS6)</text>
+    <polyline points="815,457 815,468 819,468" style="stroke: rgb(255,0,0); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 819.539751729146 468.965517241379)" x="825" y="472">Oncidium Gower-Ramsey (OMADS11)</text>
+    <polyline points="815,457 815,445 882,445" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 882.691497630861 445.689655172414)" x="888" y="449">Erycina pusilla (EpMADS7)</text>
+    <polyline points="767,439 767,457 815,457" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 815.514833881012 457.327586206897)" x="821" y="461">0.97</text>
+    <circle cx="815" cy="457" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="767,439 767,422 851,422" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 851.870642227456 422.413793103448)" x="857" y="426">Phalaenopsis equestris (PeSEP4)</text>
+    <polyline points="684,413 684,439 767,439" style="stroke: rgb(-79,0,334); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 767.195921729983 439.870689655172)" x="773" y="443">0.99</text>
+    <circle cx="767" cy="439" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="684,413 684,387 785,387" style="stroke: rgb(75,0,180); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 785.869064353072 387.5)" x="791" y="391">0.99</text>
+    <circle cx="785" cy="387" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="649,383 649,413 684,413" style="stroke: rgb(144,0,111); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 684.673498692086 413.685344827586)" x="690" y="417">0.68</text>
+    <circle cx="684" cy="413" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="649,383 649,352 749,352" style="stroke: rgb(13,0,242); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 749.069973376279 352.586206896552)" x="755" y="356">Paphiopedilum concolor (SEP1)</text>
+    <polyline points="562,356 562,383 649,383" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 649.388864582073 383.135775862069)" x="655" y="387">0.99</text>
+    <circle cx="649" cy="383" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="562,356 562,329 631,329" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 631.014191560466 329.310344827586)" x="637" y="333">Alstroemeria ligtu (AlsSEPd)</text>
+    <polyline points="516,288 516,356 562,356" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 562.099771464211 356.223060344828)" x="568" y="360">0.96</text>
+    <circle cx="562" cy="356" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="516,288 516,220 534,220" style="stroke: rgb(44,0,211); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 534.13206436238 220.20474137931)" x="540" y="224">0.96</text>
+    <circle cx="534" cy="220" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="462,227 462,288 516,288" style="stroke: rgb(87,0,168); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 516.609687869451 288.213900862069)" x="522" y="292">0.75</text>
+    <circle cx="516" cy="288" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="462,227 462,166 631,166" style="stroke: rgb(-16,0,271); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 631.458579633784 166.379310344828)" x="637" y="170">Acorus americanus (ACamAGL2)</text>
+    <polyline points="429,170 429,227 462,227" style="stroke: rgb(73,0,182); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 462.576741014494 227.296605603448)" x="468" y="231">0.95</text>
+    <circle cx="462" cy="227" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="429,170 429,114 484,114" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 484.177096618043 114.008620689655)" x="490" y="118">0.85</text>
+    <circle cx="484" cy="114" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="631,503 631,515 669,515" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 669.20503523454 515.51724137931)" x="675" y="519">Persea americana (PEamAGL9.2)</text>
+    <polyline points="631,503 631,492 755,492" style="stroke: rgb(86,0,169); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 755.482648036268 492.241379310345)" x="761" y="496">Persea americana (PEamAGL9.1)</text>
+    <polyline points="721,573 721,585 724,585" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 724.272676707968 585.344827586207)" x="730" y="589">Magnolia praecocissima (MpMADS13)</text>
+    <polyline points="721,573 721,562 728,562" style="stroke: rgb(5,0,250); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 728.650230863037 562.068965517241)" x="734" y="566">Magnolia grandiflora (Ma.gr.AGL9)</text>
+    <polyline points="573,556 573,573 721,573" style="stroke: rgb(3,0,252); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 721.591977509472 573.706896551724)" x="727" y="577">1.00</text>
+    <circle cx="721" cy="573" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="573,556 573,538 692,538" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 692.713385401636 538.793103448276)" x="698" y="542">Liriodendron tulipifera (LItuAGL9)</text>
+    <polyline points="562,530 562,556 573,556" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 573.71797706264 556.25)" x="579" y="560">0.22</text>
+    <circle cx="573" cy="556" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="562,530 562,503 631,503" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 631.396674827551 503.879310344828)" x="637" y="507">0.97</text>
+    <circle cx="631" cy="503" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="845,643 845,655 845,655" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 845.752015397075 655.172413793103)" x="851" y="659">Zea mays (zmm27)</text>
+    <polyline points="845,643 845,631 861,631" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 861.652707055286 631.896551724138)" x="867" y="635">Zea mays (ZMM7)</text>
+    <polyline points="843,690 843,701 897,701" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 897.266763169898 701.724137931034)" x="903" y="705">Zea mays (ZmM6)</text>
+    <polyline points="843,690 843,678 960,678" style="stroke: rgb(2,0,253); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 960.575481973134 678.448275862069)" x="966" y="682">Oryza sativa (OsMADS7)</text>
+    <polyline points="762,666 762,690 843,690" style="stroke: rgb(56,0,199); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 843.919190955382 690.086206896552)" x="849" y="694">0.98</text>
+    <circle cx="843" cy="690" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="762,666 762,643 845,643" style="stroke: rgb(16,0,239); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 845.752015397075 643.534482758621)" x="851" y="647">0.99</text>
+    <circle cx="845" cy="643" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="564,637 564,666 762,666" style="stroke: rgb(13,0,242); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 762.126360276663 666.810344827586)" x="768" y="670">1.00</text>
+    <circle cx="762" cy="666" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="564,637 564,608 653,608" style="stroke: rgb(12,0,243); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 653.50332331065 608.620689655172)" x="659" y="612">Hypoxis villosa (E.1S)</text>
+    <polyline points="609,736 609,748 642,748" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 642.262073764464 748.275862068965)" x="648" y="752">Lycoris longituba (LITFMADS15)</text>
+    <polyline points="609,736 609,725 645,725" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 645.987416568147 725)" x="651" y="729">Lycoris longituba (LITF.MADS.9)</text>
+    <polyline points="581,783 581,794 660,794" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 660.876627910224 794.827586206897)" x="666" y="798">Asparagus officinalis (AOMADS2)</text>
+    <polyline points="581,783 581,771 636,771" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 636.827716131555 771.551724137931)" x="642" y="775">Asparagus officinalis (AOM1)</text>
+    <polyline points="660,853 660,864 688,864" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 688.355729219999 864.655172413793)" x="694" y="868">Crocus sativus (CsatSEP3b)</text>
+    <polyline points="660,853 660,841 680,841" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 680.111335561286 841.379310344828)" x="686" y="845">Crocus sativus (CsatSEP3a)</text>
+    <polyline points="602,835 602,853 660,853" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 660.198991370563 853.01724137931)" x="666" y="857">0.98</text>
+    <circle cx="660" cy="853" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="602,835 602,818 730,818" style="stroke: rgb(174,0,81); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 730.664347951556 818.103448275862)" x="736" y="822">Crocus sativus (CsatSEP3c)</text>
+    <polyline points="562,809 562,835 602,835" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 602.998950410992 835.560344827586)" x="608" y="839">0.94</text>
+    <circle cx="602" cy="835" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="562,809 562,783 581,783" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 581.793237947181 783.189655172414)" x="587" y="787">0.79</text>
+    <circle cx="581" cy="783" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="540,773 540,809 562,809" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 562.834891038232 809.375)" x="568" y="813">0.59</text>
+    <circle cx="562" cy="809" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="540,773 540,736 609,736" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 609.904652634911 736.637931034483)" x="615" y="740">1.00</text>
+    <circle cx="609" cy="736" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="534,705 534,773 540,773" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 540.691762937174 773.006465517241)" x="546" y="777">0.59</text>
+    <circle cx="540" cy="773" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="534,705 534,637 564,637" style="stroke: rgb(59,0,196); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 564.27859955503 637.715517241379)" x="570" y="641">0.82</text>
+    <circle cx="564" cy="637" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="633,922 633,934 693,934" style="stroke: rgb(201,0,54); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 693.122399299964 934.48275862069)" x="699" y="938">Musa acuminata (MaMADS4)</text>
+    <polyline points="633,922 633,911 736,911" style="stroke: rgb(-109,0,364); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 736.974216415479 911.206896551724)" x="742" y="915">Musa acuminata (MaMADS2)</text>
+    <polyline points="648,1015 648,1027 650,1027" style="stroke: rgb(201,0,54); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 650.541841598168 1027.58620689655)" x="656" y="1031">Elaeis guineensis (mads8)</text>
+    <polyline points="648,1015 648,1004 648,1004" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 648.409442112024 1004.31034482759)" x="654" y="1008">Elaeis guineensis (EgAGL2.1)</text>
+    <polyline points="638,998 638,1015 648,1015" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 648.409442112024 1015.94827586207)" x="654" y="1019">0.89</text>
+    <circle cx="648" cy="1015" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="638,998 638,981 656,981" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 656.710213362129 981.034482758621)" x="662" y="985">Elaeis guineensis (EgAGL2.2)</text>
+    <polyline points="606,978 606,998 638,998" style="stroke: rgb(30,0,225); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 638.18741098275 998.491379310345)" x="644" y="1002">0.97</text>
+    <circle cx="638" cy="998" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="606,978 606,957 666,957" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 666.991938411699 957.758620689655)" x="672" y="961">Elaeis guineensis (EgAGL2.3)</text>
+    <polyline points="574,950 574,978 606,978" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 606.971912439608 978.125)" x="612" y="982">0.92</text>
+    <circle cx="606" cy="978" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="574,950 574,922 633,922" style="stroke: rgb(-90,0,345); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 633.274822430951 922.844827586207)" x="639" y="926">0.98</text>
+    <circle cx="633" cy="922" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="628,1062 628,1074 755,1074" style="stroke: rgb(176,0,79); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 755.818702698677 1074.13793103448)" x="761" y="1078">Alstroemeria ligtu (AlsSEPb)</text>
+    <polyline points="628,1062 628,1050 685,1050" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 685.408618266107 1050.86206896552)" x="691" y="1054">Alstroemeria ligtu (AlsSEPa)</text>
+    <polyline points="843,1155 843,1167 860,1167" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 860.562740288393 1167.24137931034)" x="866" y="1171">Gongora galeata (MADS.box)</text>
+    <polyline points="843,1155 843,1143 1000,1143" style="stroke: rgb(37,0,218); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 1000 1143.96551724138)" x="1006" y="1147">Erycina pusilla (EpMADS9)</text>
+    <polyline points="843,1225 843,1237 852,1237" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 852.928551148264 1237.06896551724)" x="858" y="1241">Cleisostoma racemiferum (CraOM1)</text>
+    <polyline points="843,1225 843,1213 874,1213" style="stroke: rgb(57,0,198); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 874.094467665211 1213.79310344828)" x="880" y="1217">Aranda deborah (SEP)</text>
+    <polyline points="837,1207 837,1225 843,1225" style="stroke: rgb(201,0,54); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 843.469275667222 1225.43103448276)" x="849" y="1229">0.77</text>
+    <circle cx="843" cy="1225" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="837,1207 837,1190 877,1190" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 877.860711858727 1190.51724137931)" x="883" y="1194">Phalaenopsis equestris (PeSEP3)</text>
+    <polyline points="802,1181 802,1207 837,1207" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 837.974118671048 1207.97413793103)" x="843" y="1211">0.98</text>
+    <circle cx="837" cy="1207" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="802,1181 802,1155 843,1155" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 843.517915157834 1155.60344827586)" x="849" y="1159">0.96</text>
+    <circle cx="843" cy="1155" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="760,1151 760,1181 802,1181" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 802.833192146933 1181.78879310345)" x="808" y="1185">0.97</text>
+    <circle cx="802" cy="1181" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="760,1151 760,1120 808,1120" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 808.268655222811 1120.68965517241)" x="814" y="1124">Dendrobium crumenatum (DcOSEP1)</text>
+    <polyline points="847,1318 847,1330 847,1330" style="stroke: rgb(52,0,203); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 847.842408050417 1330.1724137931)" x="853" y="1334">Cymbidium goeringii (SEP3)</text>
+    <polyline points="847,1318 847,1306 852,1306" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 852.121577781294 1306.89655172414)" x="858" y="1310">Cymbidium ensifolium (SEP)</text>
+    <polyline points="839,1365 839,1376 853,1376" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 853.448109343436 1376.72413793103)" x="859" y="1380">Oncidium Gower-Ramsey (OMADS6)</text>
+    <polyline points="839,1365 839,1353 901,1353" style="stroke: rgb(-121,0,376); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 901.959368570976 1353.44827586207)" x="907" y="1357">Erycina pusilla (EpMADS8)</text>
+    <polyline points="803,1341 803,1365 839,1365" style="stroke: rgb(56,0,199); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 839.680922614338 1365.08620689655)" x="845" y="1369">0.98</text>
+    <circle cx="839" cy="1365" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="803,1341 803,1318 847,1318" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 847.842408050417 1318.53448275862)" x="853" y="1322">0.99</text>
+    <circle cx="847" cy="1318" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="763,1312 763,1341 803,1341" style="stroke: rgb(63,0,192); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 803.91320992711 1341.81034482759)" x="809" y="1345">0.98</text>
+    <circle cx="803" cy="1341" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="763,1312 763,1283 803,1283" style="stroke: rgb(34,0,221); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 803.001219478138 1283.62068965517)" x="809" y="1287">Phalaenopsis equestris (PeSEP1)</text>
+    <polyline points="710,1286 710,1312 763,1312" style="stroke: rgb(58,0,197); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 763.628657270789 1312.71551724138)" x="769" y="1316">0.99</text>
+    <circle cx="763" cy="1312" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="710,1286 710,1260 778,1260" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 778.252562300438 1260.34482758621)" x="784" y="1264">Vanilla planifolia (MADS.box)</text>
+    <polyline points="699,1218 699,1286 710,1286" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 710.113057725068 1286.53017241379)" x="716" y="1290">0.00</text>
+    <circle cx="710" cy="1286" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="699,1218 699,1151 760,1151" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 760.95790705901 1151.23922413793)" x="766" y="1155">0.99</text>
+    <circle cx="760" cy="1151" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="673,1158 673,1218 699,1218" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 699.610244081807 1218.88469827586)" x="705" y="1222">0.77</text>
+    <circle cx="699" cy="1218" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="673,1158 673,1097 921,1097" style="stroke: rgb(183,0,72); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 921.205130651723 1097.41379310345)" x="927" y="1101">Dendrobium nobile (SEP3)</text>
+    <polyline points="587,1110 587,1158 673,1158" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 673.191262578777 1158.14924568966)" x="679" y="1162">0.98</text>
+    <circle cx="673" cy="1158" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="587,1110 587,1062 628,1062" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 628.176519460451 1062.5)" x="634" y="1066">0.92</text>
+    <circle cx="628" cy="1062" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="555,1030 555,1110 587,1110" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 587.429891643317 1110.32462284483)" x="593" y="1114">0.84</text>
+    <circle cx="587" cy="1110" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="555,1030 555,950 574,950" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 574.607858652244 950.484913793103)" x="580" y="954">0.21</text>
+    <circle cx="574" cy="950" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="539,959 539,1030 555,1030" style="stroke: rgb(57,0,198); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 555.980039190862 1030.40476831897)" x="561" y="1034">0.79</text>
+    <circle cx="555" cy="1030" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="539,959 539,887 645,887" style="stroke: rgb(165,0,90); stroke-width: 4" />
+    <text class="taxon_text" style="font-family: Verdana; font-size: 12; font-style: Italic" transform="rotate( 645.327467115981 887.931034482759)" x="651" y="891">Hypoxis villosa (E.3S3)</text>
+    <polyline points="494,832 494,959 539,959" style="stroke: rgb(48,0,207); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 539.076710760265 959.167901400862)" x="545" y="963">0.95</text>
+    <circle cx="539" cy="959" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="494,832 494,705 534,705" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 534.107744617075 705.36099137931)" x="540" y="709">0.92</text>
+    <circle cx="534" cy="705" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="470,681 470,832 494,832" style="stroke: rgb(0,0,255); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 494.254314718449 832.264446390086)" x="500" y="836">0.29</text>
+    <circle cx="494" cy="832" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="470,681 470,530 562,530" style="stroke: rgb(42,0,213); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 562.11524766577 530.064655172414)" x="568" y="534">0.99</text>
+    <circle cx="562" cy="530" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="402,425 402,681 470,681" style="stroke: rgb(70,0,185); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 470.263991417108 681.16455078125)" x="476" y="685">0.90</text>
+    <circle cx="470" cy="681" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <polyline points="402,425 402,170 429,170" style="stroke: rgb(140,0,115); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 429.326121966432 170.652613146552)" x="435" y="174">0.90</text>
+    <circle cx="429" cy="170" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="50,243 50,425 402,425" style="stroke: rgb(140,0,115); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 402.96572894073 425.908581963901)" x="408" y="429">0.77</text>
+    <circle cx="402" cy="425" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+    <polyline points="50,243 50,61 402,61" style="stroke: rgb(79,0,176); stroke-width: 4" />
+    <text class="node_text" style="font-family: Verdana; font-size: 12" transform="rotate( 402.96572894073 61.6379310344828)" x="408" y="65">1.00</text>
+    <circle cx="402" cy="61" r="5" style="fill: green; stroke: black; stroke-width: 1" />
+    <circle cx="50" cy="243" r="5" style="fill: red; stroke: black; stroke-width: 1" />
+</svg>
