@@ -2,7 +2,7 @@
 
 HYPHYDIR=data/HyPhy
 GSDIDIR=data/genetrees/2015-12-11
-OUTDIR=data/viz/2016-01-06
+OUTDIR=data/viz/2016-08-4
 GENES=genes.tsv
 SCRIPT='perl script'
 
