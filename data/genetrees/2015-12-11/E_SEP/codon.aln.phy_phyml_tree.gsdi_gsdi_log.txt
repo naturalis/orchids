@@ -1,0 +1,59 @@
+gsdi - general speciation duplication inference
+  version         : 1.001
+  date            : 130325
+  forester version: 1.038
+
+Start time                               : 20160718 11:21:15
+Gene tree file                           : /Users/janwillem/orchids/data/genetrees/2015-12-11/E_SEP/codon.aln.phy_phyml_tree.xml
+Gene tree name                           : 
+Species tree file                        : /Users/janwillem/orchids/data/speciestree/2016-6-1/E_SEP/cladogram.xml
+Species tree name                        : 
+Algorithm                                : GSDI
+Use most parsimonous duplication model   : false
+Allow stripping of gene tree nodes       : true
+Running time (excluding I/O)             : 19ms
+Mapping based on                         : taxonomy id
+Wrote resulting gene tree to             : /Users/janwillem/orchids/data/genetrees/2015-12-11/E_SEP/codon.aln.phy_phyml_tree.gsdi.xml
+Wrote (stripped) species tree to         : /Users/janwillem/orchids/data/genetrees/2015-12-11/E_SEP/codon.aln.phy_phyml_tree.gsdi_species_tree_used.xml
+Number of external nodes in gene tree    : 58
+Number of external nodes in species tree : 30
+Number of polytomies in species tree     : 0
+External nodes stripped from gene tree   : 0
+External nodes stripped from species tree: 0
+Number of speciations                    : 29
+Number of duplications                   : 28
+Number of potential duplications         : 0
+
+The following 30 species were used: 
+  Acorus americanus [uniprot] 263995
+  Alstroemeria ligtu subsp. ligtu [uniprot] 208882
+  Amborella trichopoda [uniprot] 13333
+  Aranda deborah [uniprot] 29714
+  Asarum caudigerum [uniprot] 76084
+  Asparagus officinalis [uniprot] 4686
+  Cleisostoma racemiferum [uniprot] 173080
+  Crocus sativus [uniprot] 82528
+  Cymbidium ensifolium [uniprot] 78740
+  Cymbidium goeringii [uniprot] 112607
+  Dendrobium crumenatum [uniprot] 51096
+  Dendrobium nobile [uniprot] 94219
+  Elaeis guineensis [uniprot] 51953
+  Erycina pusilla [uniprot] 154679
+  Gongora galeata [uniprot] 426901
+  Houttuynia cordata [uniprot] 16752
+  Hypoxis villosa [uniprot] 28482
+  Liriodendron tulipifera [uniprot] 3415
+  Lycoris longituba [uniprot] 272140
+  Magnolia grandiflora [uniprot] 3406
+  Magnolia praecocissima [uniprot] 81865
+  Musa acuminata AAA Group [uniprot] 214697
+  Oncidium Gower Ramsey [uniprot] 141207
+  Oryza sativa Indica Group [uniprot] 39946
+  Oryza sativa Japonica Group [uniprot] 39947
+  Paphiopedilum concolor [uniprot] 53078
+  Persea americana [uniprot] 3435
+  Phalaenopsis equestris [uniprot] 78828
+  Vanilla planifolia [uniprot] 51239
+  Zea mays [uniprot] 4577
+
+The following 0 nodes were stripped from the gene tree: 

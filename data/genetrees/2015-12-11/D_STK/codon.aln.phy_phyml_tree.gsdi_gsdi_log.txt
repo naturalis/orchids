@@ -1,0 +1,52 @@
+gsdi - general speciation duplication inference
+  version         : 1.001
+  date            : 130325
+  forester version: 1.038
+
+Start time                               : 20160624 15:45:11
+Gene tree file                           : /Users/janwillem/orchids/data/genetrees/2015-12-11/D_STK/codon.aln.phy_phyml_tree.xml
+Gene tree name                           : 
+Species tree file                        : /Users/janwillem/orchids/data/speciestree/2016-6-1/D_STK/cladogram.xml
+Species tree name                        : 
+Algorithm                                : GSDI
+Use most parsimonous duplication model   : false
+Allow stripping of gene tree nodes       : true
+Running time (excluding I/O)             : 44ms
+Mapping based on                         : taxonomy id
+Wrote resulting gene tree to             : /Users/janwillem/orchids/data/genetrees/2015-12-11/D_STK/codon.aln.phy_phyml_tree.gsdi.xml
+Wrote (stripped) species tree to         : /Users/janwillem/orchids/data/genetrees/2015-12-11/D_STK/codon.aln.phy_phyml_tree.gsdi_species_tree_used.xml
+Number of external nodes in gene tree    : 25
+Number of external nodes in species tree : 23
+Number of polytomies in species tree     : 0
+External nodes stripped from gene tree   : 0
+External nodes stripped from species tree: 12
+Number of speciations                    : 17
+Number of duplications                   : 7
+Number of potential duplications         : 0
+
+The following 23 species were used: 
+  Agapanthus praecox [uniprot] 186128
+  Asparagus virgatus [uniprot] 253809
+  Cycas edentata [uniprot] 179041
+  Cymbidium ensifolium [uniprot] 78740
+  Dendrobium crumenatum [uniprot] 51096
+  Dendrobium nobile [uniprot] 94219
+  Dendrobium thyrsiflorum [uniprot] 117978
+  Erycina pusilla [uniprot] 154679
+  Ginkgo biloba [uniprot] 3311
+  Gnetum gnemon [uniprot] 3382
+  Gongora galeata [uniprot] 426901
+  Hyacinthus orientalis [uniprot] 82025
+  Hypoxis villosa [uniprot] 28482
+  Lacandonia schismatica [uniprot] 244034
+  Lilium longiflorum [uniprot] 4690
+  Musa acuminata AAA Group [uniprot] 214697
+  Oncidium Gower Ramsey [uniprot] 141207
+  Orchis italica [uniprot] 59334
+  Oryza sativa Japonica Group [uniprot] 39947
+  Oryza sativa [uniprot] 4530
+  Phalaenopsis equestris [uniprot] 78828
+  Picea abies [uniprot] 3329
+  Zea mays [uniprot] 4577
+
+The following 0 nodes were stripped from the gene tree: 

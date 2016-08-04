@@ -1,0 +1,70 @@
+gsdi - general speciation duplication inference
+  version         : 1.001
+  date            : 130325
+  forester version: 1.038
+
+Start time                               : 20160701 14:13:09
+Gene tree file                           : /Users/janwillem/orchids/data/genetrees/2015-12-11/B_AP3/codon.aln.phy_phyml_tree.xml
+Gene tree name                           : 
+Species tree file                        : /Users/janwillem/orchids/data/speciestree/2016-6-1/B_AP3/cladogram.xml
+Species tree name                        : 
+Algorithm                                : GSDI
+Use most parsimonous duplication model   : false
+Allow stripping of gene tree nodes       : true
+Running time (excluding I/O)             : 13ms
+Mapping based on                         : taxonomy id
+Wrote resulting gene tree to             : /Users/janwillem/orchids/data/genetrees/2015-12-11/B_AP3/codon.aln.phy_phyml_tree.gsdi.xml
+Wrote (stripped) species tree to         : /Users/janwillem/orchids/data/genetrees/2015-12-11/B_AP3/codon.aln.phy_phyml_tree.gsdi_species_tree_used.xml
+Number of external nodes in gene tree    : 71
+Number of external nodes in species tree : 41
+Number of polytomies in species tree     : 0
+External nodes stripped from gene tree   : 0
+External nodes stripped from species tree: 5
+Number of speciations                    : 50
+Number of duplications                   : 20
+Number of potential duplications         : 0
+
+The following 41 species were used: 
+  Agapanthus praecox [uniprot] 186128
+  Alpinia hainanensis [uniprot] 125259
+  Amborella trichopoda [uniprot] 13333
+  Asparagus officinalis [uniprot] 4686
+  Brasenia schreberi [uniprot] 4424
+  Commelina communis [uniprot] 4744
+  Cymbidium ensifolium [uniprot] 78740
+  Cymbidium faberi [uniprot] 112604
+  Cymbidium goeringii [uniprot] 112607
+  Dendrobium crumenatum [uniprot] 51096
+  Dendrobium devonianum [uniprot] 142612
+  Dendrobium moniliforme [uniprot] 142614
+  Elaeis guineensis [uniprot] 51953
+  Elegia elephantina [uniprot] 311263
+  Erycina pusilla [uniprot] 154679
+  Euryale ferox [uniprot] 4414
+  Galeola falconeri [uniprot] 518736
+  Gongora galeata [uniprot] 426901
+  Habenaria radiata [uniprot] 342001
+  Hordeum vulgare subsp. vulgare [uniprot] 112509
+  Hypoxis villosa [uniprot] 28482
+  Illicium floridanum [uniprot] 13098
+  Illicium henryi [uniprot] 114516
+  Joinvillea ascendens [uniprot] 38723
+  Kadsura japonica [uniprot] 105750
+  Magnolia grandiflora [uniprot] 3406
+  Muscari armeniacum [uniprot] 156613
+  Nuphar japonica [uniprot] 54801
+  Nuphar variegata [uniprot] 4416
+  Nymphaea tetragona [uniprot] 126639
+  Oncidium Gower Ramsey [uniprot] 141207
+  Orchis italica [uniprot] 59334
+  Phalaenopsis equestris [uniprot] 78828
+  Phragmipedium longifolium [uniprot] 53134
+  Spiranthes odorata [uniprot] 38215
+  Streptochaeta angustifolia [uniprot] 38733
+  Tacca chantrieri [uniprot] 85283
+  Tradescantia reflexa [uniprot] 77340
+  Triticum aestivum [uniprot] 4565
+  Vanilla planifolia [uniprot] 51239
+  Zea mays [uniprot] 4577
+
+The following 0 nodes were stripped from the gene tree: 

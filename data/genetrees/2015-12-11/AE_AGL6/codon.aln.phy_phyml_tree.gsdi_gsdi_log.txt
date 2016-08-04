@@ -1,0 +1,52 @@
+gsdi - general speciation duplication inference
+  version         : 1.001
+  date            : 130325
+  forester version: 1.038
+
+Start time                               : 20160718 11:18:21
+Gene tree file                           : /Users/janwillem/orchids/data/genetrees/2015-12-11/AE_AGL6/codon.aln.phy_phyml_tree.xml
+Gene tree name                           : 
+Species tree file                        : /Users/janwillem/orchids/data/speciestree/2016-6-1/AE_AGL6/cladogram.xml
+Species tree name                        : 
+Algorithm                                : GSDI
+Use most parsimonous duplication model   : false
+Allow stripping of gene tree nodes       : true
+Running time (excluding I/O)             : 14ms
+Mapping based on                         : taxonomy id
+Wrote resulting gene tree to             : /Users/janwillem/orchids/data/genetrees/2015-12-11/AE_AGL6/codon.aln.phy_phyml_tree.gsdi.xml
+Wrote (stripped) species tree to         : /Users/janwillem/orchids/data/genetrees/2015-12-11/AE_AGL6/codon.aln.phy_phyml_tree.gsdi_species_tree_used.xml
+Number of external nodes in gene tree    : 34
+Number of external nodes in species tree : 23
+Number of polytomies in species tree     : 0
+External nodes stripped from gene tree   : 0
+External nodes stripped from species tree: 0
+Number of speciations                    : 21
+Number of duplications                   : 12
+Number of potential duplications         : 0
+
+The following 23 species were used: 
+  Alstroemeria ligtu subsp. ligtu [uniprot] 208882
+  Ananas comosus [uniprot] 4615
+  Asparagus officinalis [uniprot] 4686
+  Bambusa oldhamii [uniprot] 58923
+  Brachypodium distachyon [uniprot] 15368
+  Cymbidium ensifolium [uniprot] 78740
+  Cymbidium faberi [uniprot] 112604
+  Cymbidium goeringii [uniprot] 112607
+  Elaeis guineensis [uniprot] 51953
+  Erycina pusilla [uniprot] 154679
+  Ginkgo biloba [uniprot] 3311
+  Gnetum gnemon [uniprot] 3382
+  Hordeum vulgare subsp. vulgare [uniprot] 112509
+  Joinvillea ascendens [uniprot] 38723
+  Narcissus tazetta var. chinensis [uniprot] 391288
+  Oncidium Gower Ramsey [uniprot] 141207
+  Oryza sativa Japonica Group [uniprot] 39947
+  Oryza sativa [uniprot] 4530
+  Phyllostachys edulis [uniprot] 38705
+  Picea abies [uniprot] 3329
+  Pinus radiata [uniprot] 3347
+  Setaria italica [uniprot] 4555
+  Zea Mays [uniprot] 4577
+
+The following 0 nodes were stripped from the gene tree: 

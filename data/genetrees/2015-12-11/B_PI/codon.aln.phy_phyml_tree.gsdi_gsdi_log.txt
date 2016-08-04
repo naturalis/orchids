@@ -1,0 +1,83 @@
+gsdi - general speciation duplication inference
+  version         : 1.001
+  date            : 130325
+  forester version: 1.038
+
+Start time                               : 20160701 14:09:37
+Gene tree file                           : /Users/janwillem/orchids/data/genetrees/2015-12-11/B_PI/codon.aln.phy_phyml_tree.xml
+Gene tree name                           : 
+Species tree file                        : /Users/janwillem/orchids/data/speciestree/2016-6-1/B_PI/cladogram.xml
+Species tree name                        : 
+Algorithm                                : GSDI
+Use most parsimonous duplication model   : false
+Allow stripping of gene tree nodes       : true
+Running time (excluding I/O)             : 19ms
+Mapping based on                         : taxonomy id
+Wrote resulting gene tree to             : /Users/janwillem/orchids/data/genetrees/2015-12-11/B_PI/codon.aln.phy_phyml_tree.gsdi.xml
+Wrote (stripped) species tree to         : /Users/janwillem/orchids/data/genetrees/2015-12-11/B_PI/codon.aln.phy_phyml_tree.gsdi_species_tree_used.xml
+Number of external nodes in gene tree    : 71
+Number of external nodes in species tree : 54
+Number of polytomies in species tree     : 0
+External nodes stripped from gene tree   : 0
+External nodes stripped from species tree: 12
+Number of speciations                    : 51
+Number of duplications                   : 19
+Number of potential duplications         : 0
+
+The following 54 species were used: 
+  Agapanthus praecox [uniprot] 186128
+  Allium ursinum [uniprot] 4684
+  Alpinia hainanensis [uniprot] 125259
+  Alpinia oblongifolia [uniprot] 359415
+  Amborella trichopoda [uniprot] 13333
+  Anoectochilus formosanus [uniprot] 173437
+  Asparagus officinalis [uniprot] 4686
+  Brasenia schreberi [uniprot] 4424
+  Cabomba caroliniana [uniprot] 4426
+  Caryota mitis [uniprot] 4714
+  Commelina communis [uniprot] 4744
+  Cortaderia selloana [uniprot] 58286
+  Crocus sativus [uniprot] 82528
+  Cymbidium faberi [uniprot] 112604
+  Cymbidium goeringii [uniprot] 112607
+  Dendrobium moniliforme [uniprot] 142614
+  Dendrobium thyrsiflorum [uniprot] 117978
+  Elaeis guineensis [uniprot] 51953
+  Elegia elephantina [uniprot] 311263
+  Epipactis palustris [uniprot] 210730
+  Erycina pusilla [uniprot] 154679
+  Euryale ferox [uniprot] 4414
+  Globba marantina [uniprot] 138155
+  Gongora galeata [uniprot] 426901
+  Habenaria petelotii [uniprot] 518737
+  Habenaria radiata [uniprot] 342001
+  Hordeum vulgare subsp. vulgare [uniprot] 112509
+  Hypoxis villosa [uniprot] 28482
+  Illicium floridanum [uniprot] 13098
+  Illicium henryi [uniprot] 114516
+  Joinvillea ascendens [uniprot] 38723
+  Kadsura japonica [uniprot] 105750
+  Ludisia discolor [uniprot] 60011
+  Musa acuminata [uniprot] 4641
+  Musa ornata [uniprot] 160690
+  Muscari botryoides [uniprot] 81769
+  Narcissus cyclamineus [uniprot] 253461
+  Nuphar japonica [uniprot] 54801
+  Nymphaea tetragona [uniprot] 126639
+  Oncidium Gower Ramsey [uniprot] 141207
+  Orchis italica [uniprot] 59334
+  Oryza sativa [uniprot] 4530
+  Paphiopedilum concolor [uniprot] 53078
+  Phalaenopsis equestris [uniprot] 78828
+  Pharus virescens [uniprot] 302921
+  Phragmipedium longifolium [uniprot] 53134
+  Sedirea japonica [uniprot] 111597
+  Speirantha convallarioides [uniprot] 330488
+  Spiranthes odorata [uniprot] 38215
+  Streptochaeta angustifolia [uniprot] 38733
+  Tacca chantrieri [uniprot] 85283
+  Triticum aestivum [uniprot] 4565
+  Vanilla planifolia [uniprot] 51239
+  Zea mays [uniprot] 4577
+
+The following 0 nodes were stripped from the gene tree: 

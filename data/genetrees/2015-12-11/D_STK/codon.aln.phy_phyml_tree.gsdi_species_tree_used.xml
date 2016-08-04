@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd" xmlns="http://www.phyloxml.org">
+<phylogeny rooted="true" rerootable="true">
+  <clade>
+    <clade>
+      <clade>
+        <clade>
+          <clade>
+            <clade>
+              <clade>
+                <name>Oryza sativa</name>
+                <taxonomy>
+                  <id provider="uniprot">4530</id>
+                </taxonomy>
+              </clade>
+              <clade>
+                <name>Oryza sativa Japonica Group</name>
+                <taxonomy>
+                  <id provider="uniprot">39947</id>
+                </taxonomy>
+              </clade>
+            </clade>
+            <clade>
+              <name>Zea mays</name>
+              <taxonomy>
+                <id provider="uniprot">4577</id>
+              </taxonomy>
+            </clade>
+          </clade>
+          <clade>
+            <name>Musa acuminata AAA Group</name>
+            <taxonomy>
+              <id provider="uniprot">214697</id>
+            </taxonomy>
+          </clade>
+        </clade>
+        <clade>
+          <clade>
+            <clade>
+              <clade>
+                <clade>
+                  <clade>
+                    <clade>
+                      <name>Gongora galeata</name>
+                      <taxonomy>
+                        <id provider="uniprot">426901</id>
+                      </taxonomy>
+                    </clade>
+                    <clade>
+                      <clade>
+                        <name>Erycina pusilla</name>
+                        <taxonomy>
+                          <id provider="uniprot">154679</id>
+                        </taxonomy>
+                      </clade>
+                      <clade>
+                        <name>Oncidium Gower Ramsey</name>
+                        <taxonomy>
+                          <id provider="uniprot">141207</id>
+                        </taxonomy>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Cymbidium ensifolium</name>
+                    <taxonomy>
+                      <id provider="uniprot">78740</id>
+                    </taxonomy>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Phalaenopsis equestris</name>
+                  <taxonomy>
+                    <id provider="uniprot">78828</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+              <clade>
+                <clade>
+                  <clade>
+                    <name>Dendrobium nobile</name>
+                    <taxonomy>
+                      <id provider="uniprot">94219</id>
+                    </taxonomy>
+                  </clade>
+                  <clade>
+                    <name>Dendrobium thyrsiflorum</name>
+                    <taxonomy>
+                      <id provider="uniprot">117978</id>
+                    </taxonomy>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Dendrobium crumenatum</name>
+                  <taxonomy>
+                    <id provider="uniprot">51096</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>Orchis italica</name>
+              <taxonomy>
+                <id provider="uniprot">59334</id>
+              </taxonomy>
+            </clade>
+          </clade>
+          <clade>
+            <clade>
+              <clade>
+                <clade>
+                  <name>Asparagus virgatus</name>
+                  <taxonomy>
+                    <id provider="uniprot">253809</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <name>Hyacinthus orientalis</name>
+                  <taxonomy>
+                    <id provider="uniprot">82025</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+              <clade>
+                <name>Agapanthus praecox</name>
+                <taxonomy>
+                  <id provider="uniprot">186128</id>
+                </taxonomy>
+              </clade>
+            </clade>
+            <clade>
+              <name>Hypoxis villosa</name>
+              <taxonomy>
+                <id provider="uniprot">28482</id>
+              </taxonomy>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <clade>
+          <name>Lilium longiflorum</name>
+          <taxonomy>
+            <id provider="uniprot">4690</id>
+          </taxonomy>
+        </clade>
+        <clade>
+          <name>Lacandonia schismatica</name>
+          <taxonomy>
+            <id provider="uniprot">244034</id>
+          </taxonomy>
+        </clade>
+      </clade>
+    </clade>
+    <clade>
+      <clade>
+        <clade>
+          <name>Gnetum gnemon</name>
+          <taxonomy>
+            <id provider="uniprot">3382</id>
+          </taxonomy>
+        </clade>
+        <clade>
+          <name>Picea abies</name>
+          <taxonomy>
+            <id provider="uniprot">3329</id>
+          </taxonomy>
+        </clade>
+      </clade>
+      <clade>
+        <clade>
+          <name>Cycas edentata</name>
+          <taxonomy>
+            <id provider="uniprot">179041</id>
+          </taxonomy>
+        </clade>
+        <clade>
+          <name>Ginkgo biloba</name>
+          <taxonomy>
+            <id provider="uniprot">3311</id>
+          </taxonomy>
+        </clade>
+      </clade>
+    </clade>
+  </clade>
+</phylogeny>
+</phyloxml>

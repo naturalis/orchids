@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd" xmlns="http://www.phyloxml.org">
+<phylogeny rooted="true" rerootable="true">
+  <clade>
+    <clade>
+      <clade>
+        <clade>
+          <clade>
+            <clade>
+              <name>Tacca chantrieri</name>
+              <taxonomy>
+                <id provider="uniprot">85283</id>
+              </taxonomy>
+            </clade>
+            <clade>
+              <clade>
+                <clade>
+                  <clade>
+                    <clade>
+                      <clade>
+                        <name>Epipactis palustris</name>
+                        <taxonomy>
+                          <id provider="uniprot">210730</id>
+                        </taxonomy>
+                      </clade>
+                      <clade>
+                        <clade>
+                          <clade>
+                            <name>Dendrobium thyrsiflorum</name>
+                            <taxonomy>
+                              <id provider="uniprot">117978</id>
+                            </taxonomy>
+                          </clade>
+                          <clade>
+                            <name>Dendrobium moniliforme</name>
+                            <taxonomy>
+                              <id provider="uniprot">142614</id>
+                            </taxonomy>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <clade>
+                            <clade>
+                              <name>Sedirea japonica</name>
+                              <taxonomy>
+                                <id provider="uniprot">111597</id>
+                              </taxonomy>
+                            </clade>
+                            <clade>
+                              <name>Phalaenopsis equestris</name>
+                              <taxonomy>
+                                <id provider="uniprot">78828</id>
+                              </taxonomy>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <clade>
+                              <clade>
+                                <name>Cymbidium faberi</name>
+                                <taxonomy>
+                                  <id provider="uniprot">112604</id>
+                                </taxonomy>
+                              </clade>
+                              <clade>
+                                <name>Cymbidium goeringii</name>
+                                <taxonomy>
+                                  <id provider="uniprot">112607</id>
+                                </taxonomy>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <clade>
+                                <name>Gongora galeata</name>
+                                <taxonomy>
+                                  <id provider="uniprot">426901</id>
+                                </taxonomy>
+                              </clade>
+                              <clade>
+                                <clade>
+                                  <name>Oncidium Gower Ramsey</name>
+                                  <taxonomy>
+                                    <id provider="uniprot">141207</id>
+                                  </taxonomy>
+                                </clade>
+                                <clade>
+                                  <name>Erycina pusilla</name>
+                                  <taxonomy>
+                                    <id provider="uniprot">154679</id>
+                                  </taxonomy>
+                                </clade>
+                              </clade>
+                            </clade>
+                          </clade>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <clade>
+                        <name>Paphiopedilum concolor</name>
+                        <taxonomy>
+                          <id provider="uniprot">53078</id>
+                        </taxonomy>
+                      </clade>
+                      <clade>
+                        <clade>
+                          <clade>
+                            <name>Orchis italica</name>
+                            <taxonomy>
+                              <id provider="uniprot">59334</id>
+                            </taxonomy>
+                          </clade>
+                          <clade>
+                            <clade>
+                              <name>Habenaria petelotii</name>
+                              <taxonomy>
+                                <id provider="uniprot">518737</id>
+                              </taxonomy>
+                            </clade>
+                            <clade>
+                              <name>Habenaria radiata</name>
+                              <taxonomy>
+                                <id provider="uniprot">342001</id>
+                              </taxonomy>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <clade>
+                            <name>Spiranthes odorata</name>
+                            <taxonomy>
+                              <id provider="uniprot">38215</id>
+                            </taxonomy>
+                          </clade>
+                          <clade>
+                            <clade>
+                              <name>Ludisia discolor</name>
+                              <taxonomy>
+                                <id provider="uniprot">60011</id>
+                              </taxonomy>
+                            </clade>
+                            <clade>
+                              <name>Anoectochilus formosanus</name>
+                              <taxonomy>
+                                <id provider="uniprot">173437</id>
+                              </taxonomy>
+                            </clade>
+                          </clade>
+                        </clade>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Phragmipedium longifolium</name>
+                    <taxonomy>
+                      <id provider="uniprot">53134</id>
+                    </taxonomy>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Vanilla planifolia</name>
+                  <taxonomy>
+                    <id provider="uniprot">51239</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+              <clade>
+                <clade>
+                  <clade>
+                    <name>Crocus sativus</name>
+                    <taxonomy>
+                      <id provider="uniprot">82528</id>
+                    </taxonomy>
+                  </clade>
+                  <clade>
+                    <clade>
+                      <clade>
+                        <name>Muscari botryoides</name>
+                        <taxonomy>
+                          <id provider="uniprot">81769</id>
+                        </taxonomy>
+                      </clade>
+                      <clade>
+                        <clade>
+                          <name>Speirantha convallarioides</name>
+                          <taxonomy>
+                            <id provider="uniprot">330488</id>
+                          </taxonomy>
+                        </clade>
+                        <clade>
+                          <name>Asparagus officinalis</name>
+                          <taxonomy>
+                            <id provider="uniprot">4686</id>
+                          </taxonomy>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <clade>
+                        <name>Agapanthus praecox</name>
+                        <taxonomy>
+                          <id provider="uniprot">186128</id>
+                        </taxonomy>
+                      </clade>
+                      <clade>
+                        <clade>
+                          <name>Allium ursinum</name>
+                          <taxonomy>
+                            <id provider="uniprot">4684</id>
+                          </taxonomy>
+                        </clade>
+                        <clade>
+                          <name>Narcissus cyclamineus</name>
+                          <taxonomy>
+                            <id provider="uniprot">253461</id>
+                          </taxonomy>
+                        </clade>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Hypoxis villosa</name>
+                  <taxonomy>
+                    <id provider="uniprot">28482</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <clade>
+              <clade>
+                <clade>
+                  <name>Elegia elephantina</name>
+                  <taxonomy>
+                    <id provider="uniprot">311263</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <clade>
+                    <name>Joinvillea ascendens</name>
+                    <taxonomy>
+                      <id provider="uniprot">38723</id>
+                    </taxonomy>
+                  </clade>
+                  <clade>
+                    <clade>
+                      <name>Streptochaeta angustifolia</name>
+                      <taxonomy>
+                        <id provider="uniprot">38733</id>
+                      </taxonomy>
+                    </clade>
+                    <clade>
+                      <clade>
+                        <clade>
+                          <clade>
+                            <clade>
+                              <name>Triticum aestivum</name>
+                              <taxonomy>
+                                <id provider="uniprot">4565</id>
+                              </taxonomy>
+                            </clade>
+                            <clade>
+                              <name>Hordeum vulgare subsp. vulgare</name>
+                              <taxonomy>
+                                <id provider="uniprot">112509</id>
+                              </taxonomy>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>Oryza sativa</name>
+                            <taxonomy>
+                              <id provider="uniprot">4530</id>
+                            </taxonomy>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <clade>
+                            <name>Zea mays</name>
+                            <taxonomy>
+                              <id provider="uniprot">4577</id>
+                            </taxonomy>
+                          </clade>
+                          <clade>
+                            <name>Cortaderia selloana</name>
+                            <taxonomy>
+                              <id provider="uniprot">58286</id>
+                            </taxonomy>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Pharus virescens</name>
+                        <taxonomy>
+                          <id provider="uniprot">302921</id>
+                        </taxonomy>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <clade>
+                  <name>Caryota mitis</name>
+                  <taxonomy>
+                    <id provider="uniprot">4714</id>
+                  </taxonomy>
+                </clade>
+                <clade>
+                  <name>Elaeis guineensis</name>
+                  <taxonomy>
+                    <id provider="uniprot">51953</id>
+                  </taxonomy>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <clade>
+                <clade>
+                  <clade>
+                    <name>Musa ornata</name>
+                    <taxonomy>
+                      <id provider="uniprot">160690</id>
+                    </taxonomy>
+                  </clade>
+                  <clade>
+                    <name>Musa acuminata</name>
+                    <taxonomy>
+                      <id provider="uniprot">4641</id>
+                    </taxonomy>
+                  </clade>
+                </clade>
+                <clade>
+                  <clade>
+                    <name>Globba marantina</name>
+                    <taxonomy>
+                      <id provider="uniprot">138155</id>
+                    </taxonomy>
+                  </clade>
+                  <clade>
+                    <clade>
+                      <name>Alpinia hainanensis</name>
+                      <taxonomy>
+                        <id provider="uniprot">125259</id>
+                      </taxonomy>
+                    </clade>
+                    <clade>
+                      <name>Alpinia oblongifolia</name>
+                      <taxonomy>
+                        <id provider="uniprot">359415</id>
+                      </taxonomy>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>Commelina communis</name>
+                <taxonomy>
+                  <id provider="uniprot">4744</id>
+                </taxonomy>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <clade>
+            <name>Kadsura japonica</name>
+            <taxonomy>
+              <id provider="uniprot">105750</id>
+            </taxonomy>
+          </clade>
+          <clade>
+            <clade>
+              <name>Illicium floridanum</name>
+              <taxonomy>
+                <id provider="uniprot">13098</id>
+              </taxonomy>
+            </clade>
+            <clade>
+              <name>Illicium henryi</name>
+              <taxonomy>
+                <id provider="uniprot">114516</id>
+              </taxonomy>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <clade>
+          <clade>
+            <clade>
+              <name>Euryale ferox</name>
+              <taxonomy>
+                <id provider="uniprot">4414</id>
+              </taxonomy>
+            </clade>
+            <clade>
+              <name>Nymphaea tetragona</name>
+              <taxonomy>
+                <id provider="uniprot">126639</id>
+              </taxonomy>
+            </clade>
+          </clade>
+          <clade>
+            <name>Nuphar japonica</name>
+            <taxonomy>
+              <id provider="uniprot">54801</id>
+            </taxonomy>
+          </clade>
+        </clade>
+        <clade>
+          <clade>
+            <name>Cabomba caroliniana</name>
+            <taxonomy>
+              <id provider="uniprot">4426</id>
+            </taxonomy>
+          </clade>
+          <clade>
+            <name>Brasenia schreberi</name>
+            <taxonomy>
+              <id provider="uniprot">4424</id>
+            </taxonomy>
+          </clade>
+        </clade>
+      </clade>
+    </clade>
+    <clade>
+      <name>Amborella trichopoda</name>
+      <taxonomy>
+        <id provider="uniprot">13333</id>
+      </taxonomy>
+    </clade>
+  </clade>
+</phylogeny>
+</phyloxml>

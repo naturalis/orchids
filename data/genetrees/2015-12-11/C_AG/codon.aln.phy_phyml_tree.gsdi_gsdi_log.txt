@@ -1,0 +1,58 @@
+gsdi - general speciation duplication inference
+  version         : 1.001
+  date            : 130325
+  forester version: 1.038
+
+Start time                               : 20160627 12:47:14
+Gene tree file                           : /Users/janwillem/orchids/data/genetrees/2015-12-11/C_AG/codon.aln.phy_phyml_tree.xml
+Gene tree name                           : 
+Species tree file                        : /Users/janwillem/orchids/data/speciestree/2016-6-1/C_AG/cladogram.xml
+Species tree name                        : 
+Algorithm                                : GSDI
+Use most parsimonous duplication model   : false
+Allow stripping of gene tree nodes       : true
+Running time (excluding I/O)             : 14ms
+Mapping based on                         : taxonomy id
+Wrote resulting gene tree to             : /Users/janwillem/orchids/data/genetrees/2015-12-11/C_AG/codon.aln.phy_phyml_tree.gsdi.xml
+Wrote (stripped) species tree to         : /Users/janwillem/orchids/data/genetrees/2015-12-11/C_AG/codon.aln.phy_phyml_tree.gsdi_species_tree_used.xml
+Number of external nodes in gene tree    : 36
+Number of external nodes in species tree : 29
+Number of polytomies in species tree     : 0
+External nodes stripped from gene tree   : 0
+External nodes stripped from species tree: 6
+Number of speciations                    : 20
+Number of duplications                   : 15
+Number of potential duplications         : 0
+
+The following 29 species were used: 
+  Allium cepa [uniprot] 4679
+  Alpinia hainanensis [uniprot] 125259
+  Asparagus virgatus [uniprot] 253809
+  Crocus sativus [uniprot] 82528
+  Cycas edentata [uniprot] 179041
+  Cymbidium ensifolium [uniprot] 78740
+  Cymbidium faberi [uniprot] 112604
+  Dendrobium crumenatum [uniprot] 51096
+  Dendrobium moniliforme [uniprot] 142614
+  Dendrobium thyrsiflorum [uniprot] 117978
+  Elaeis guineensis [uniprot] 51953
+  Erycina pusilla [uniprot] 154679
+  Ginkgo biloba [uniprot] 3311
+  Gnetum gnemon [uniprot] 3382
+  Gongora galeata [uniprot] 426901
+  Hosta plantaginea [uniprot] 470571
+  Hyacinthus orientalis [uniprot] 82025
+  Hypoxis villosa [uniprot] 28482
+  Lilium formosanum [uniprot] 63788
+  Lilium longiflorum [uniprot] 4690
+  Narcissus tazetta var. chinensis [uniprot] 391288
+  Oncidium Gower Ramsey [uniprot] 141207
+  Orchis italica [uniprot] 59334
+  Oryza sativa [uniprot] 4530
+  Phalaenopsis equestris [uniprot] 78828
+  Phragmipedium longifolium [uniprot] 53134
+  Picea abies [uniprot] 3329
+  Vanilla planifolia [uniprot] 51239
+  Zea mays [uniprot] 4577
+
+The following 0 nodes were stripped from the gene tree: 
